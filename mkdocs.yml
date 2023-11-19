@@ -1,0 +1,23 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+
+  # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: lightanelia
+        toggle:
+          icon: material/weather-night
+          name: Switch to dark mode
+
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: darkanelia
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+    
+   
