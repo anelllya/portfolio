@@ -5,15 +5,14 @@ docs_dir: docs
 
 copyright: © 2023 | Anelia Stoyanova
 
+extra_css:
+  - stylesheets/extra.css
+
 # Material Configuration
 theme:
   name: material
   custom_dir: overrides # Contains custom 'home.html' coverpage (and 'main.html')
 
-  extra_css:
-  - stylesheets/extra.css
-  - stylesheets/home.css
-  
   features:
     - navigation.indexes          # Implied section 'index.md' files
     - navigation.tabs             # Static upper section tabs (exist)
@@ -29,8 +28,6 @@ theme:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple # deep orange
-      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to Dark Mode
@@ -38,8 +35,6 @@ theme:
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple # deep orange
-      accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to Light Mode    
