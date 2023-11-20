@@ -27,14 +27,14 @@ theme:
   palette:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: lightanelia
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to Dark Mode
 
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: darkanelia
       toggle:
         icon: material/toggle-switch
         name: Switch to Light Mode    

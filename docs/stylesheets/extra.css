@@ -1,5 +1,59 @@
-[data-md-color-scheme="youtube"] {
-    --md-primary-fg-color:        #EE0F0F;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
+[data-md-color-scheme="lightanelia"] {
+    --md-primary-fg-color:               #EE0F0F;
+    --md-primary-fg-color--light:        #ECB7B7;
+    --md-primary-fg-color--dark:         #90030C;
+
+    --md-accent-color:                  #ff0;
+  
+    --md-default-fg-color:               #212121;
+    --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
+    --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.32);
+    --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+    --md-default-bg-color:               hsla(0, 0%, 100%, 1);
+    --md-default-bg-color--light:        hsla(0, 0%, 100%, 0.7);
+    --md-default-bg-color--lighter:      hsla(0, 0%, 100%, 0.3);
+    --md-default-bg-color--lightest:     hsla(0, 0%, 100%, 0.12);
+
+    --md-typeset-color:                  var(--md-default-fg-color);
+    --md-typeset-a-color:                var(--md-primary-fg-color);
+
   }
+
+  [data-md-color-scheme="darkanelia"] {
+    --md-primary-fg-color:               #EE0F0F;
+    --md-primary-fg-color--light:        #ECB7B7;
+    --md-primary-fg-color--dark:         #90030C;
+    
+    --md-default-fg-color:               #fafafa;
+    --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.7);
+    --md-default-fg-color--lighter:      hsla(0, 0%, 100%, 0.3);
+    --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.12); 
+    --md-default-bg-color:               #212121;
+    --md-default-bg-color--light:        hsla(0, 0%, 0%, 0.54);
+    --md-default-bg-color--lighter:      hsla(0, 0%, 0%, 0.32);
+    --md-default-bg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+
+    --md-typeset-color:                  var(--md-default-fg-color);
+    --md-typeset-a-color:                var(--md-primary-fg-color);
+
+  }
+
+  @font-face {
+    font-family: 'Playfair Display';
+    src: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap";
+  }
+
+  .md-typeset h1 {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--md-typeset-color);
+  }
+
+  .md-typeset {
+    font-size: .9rem;
+  }
+
+  .md-header--shadow {
+    box-shadow: none;
+}
