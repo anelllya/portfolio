@@ -4,12 +4,9 @@
 {% block tabs %}
 {{ super() }}
 
-
-<!-- Stole this styling from the "up42-py" project (link: https://sdk.up42.com/) -->
-<!-- .tx-container Original Green Gradient: hsla(160deg,47%,55%,1) -->
 <style>
 
-    .md-main {
+.md-main {
         flex-grow: 0
     }
 
@@ -54,7 +51,7 @@
     }
 
     .tx-hero .md-button--primary {
-        background-color: var(--md-primary-bg-color);
+        background-color: #333;
         color: hsla(280deg, 37%, 48%, 1);
         border-color: var(--md-primary-bg-color)
     }
@@ -78,12 +75,10 @@
     }
 
     .feature-item {
-	border-radius: 20px;
-	margin-top: .5rem;
+	      border-radius: 20px;
+	      margin-top: .5rem;
         margin-right: .5rem;
-	background-color: var(--md-primary-bg-color);
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
+	      background-color: var(--md-default-fg-color--lightest);
         box-sizing: border-box;
         padding: 0 15px;
         word-break: break-word
@@ -130,6 +125,7 @@
         }
 
         .tx-hero__content {
+            color: var(--md-default-fg-color);
             max-width: 22rem;
             margin-top: 3.5rem;
             margin-bottom: 3.5rem;
@@ -225,7 +221,6 @@
     }
 </style>
 
-
 <!-- Main site entry button descriptions -->
 <section class="tx-container">
     <div class="md-grid md-typeset">
@@ -233,7 +228,7 @@
       
         <!-- Custom Image -->
         <div class="tx-hero__image">
-	  <img src="{{ config.home_cover_image }}" draggable="false">
+	        <img src="{{ config.home_cover_image }}" draggable="false">
         </div>
 	
 	<!-- Main Tagline -->
