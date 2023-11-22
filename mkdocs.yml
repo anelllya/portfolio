@@ -77,14 +77,13 @@ markdown_extensions:
 
 # Custom Homepage Elements
 home_cover_image: img/flowers.png # This path starts at your root mkdocs directory.
-home_tagline: Unleash Your Design Potential
-home_description: Transform your digital product with a seamless infusion of creativity, innovation, and a personal touch. Every project is meticulously crafted, ensuring no compromise on style or sophistication
-
+home_tagline: Designing with Heart ♥
+home_description: Enhance your organization's digital product with a genuine blend of creativity, innovation, and a personal touch.
 # Gradient Color
 
 
 # Custom Homepage Button(s)
-home_button1_name: Start now                        # Comment this parameter out to remove the button.
+home_button1_name: Start now                     # Comment this parameter out to remove the button.
 home_button1_url: section/                       # This path starts at your root mkdocs directory.
 home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
 home_button1_icon: people                        # Options: "people", "gear", "image"
