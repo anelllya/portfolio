@@ -1,5 +1,5 @@
 # Site Settings
-site_name: Anelia Stoyanova
+site_name: Anelia
 site_author: Anelia Stoyanova
 docs_dir: docs 
 
@@ -10,8 +10,14 @@ extra_css:
 
 # Material Configuration
 theme:
+  font:
+    text: Manrope
   name: material
   custom_dir: overrides # Contains custom 'home.html' coverpage (and 'main.html')
+  
+  icon:
+    logo: myicons/anelia-logo
+  favicon: img/favicon.png  
 
   features:
     - navigation.indexes          # Implied section 'index.md' files
@@ -29,14 +35,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: lightanelia
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to Dark Mode
 
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
       scheme: darkanelia
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to Light Mode    
 # nav:
 #  - Section:
@@ -45,44 +51,58 @@ theme:
 
 plugins:
   - search
-  - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
+#  - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
   - blog
   - glightbox
+
+# extra:
+#  consent:
+#    title: Cookie consent
+#    description: >- 
+#      We use cookies to recognize your repeated visits and preferences, as well
+#      as to measure the effectiveness of our documentation and whether users
+#      find what they're searching for. With your consent, you're helping us to
+#      make our documentation better.
 
 markdown_extensions:
   - attr_list
   - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 
 
 # Custom Homepage Elements
 home_cover_image: img/flowers.png # This path starts at your root mkdocs directory.
-home_tagline: Shadow Wizards Only
-home_description: |
-  This site is an example showcase for my "mkdocs-coverpage" repository.
+home_tagline: Unleash Your Design Potential
+home_description: Transform your digital product with a seamless infusion of creativity, innovation, and a personal touch. Every project is meticulously crafted, ensuring no compromise on style or sophistication
 
 # Gradient Color
 
 
 # Custom Homepage Button(s)
-home_button1_name: Section                        # Comment this parameter out to remove the button.
+home_button1_name: Start now                        # Comment this parameter out to remove the button.
 home_button1_url: section/                       # This path starts at your root mkdocs directory.
 home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
 home_button1_icon: people                        # Options: "people", "gear", "image"
 home_button1_blurb: |                            # Short description of this button / section.
   This joker navigates to the shadow wizard armory located in "/Folder1/index.md"
 
-home_button2_name: Blog   # Comment this parameter out to remove the button.
-home_button2_url: blog/    # This path starts at your root mkdocs directory.
-home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
-home_button2_icon: gear       # Options: "people", "gear", "image"
-home_button2_blurb: |         # Short description of this button / section.
+home_button2_name: Blog                             # Comment this parameter out to remove the button.
+home_button2_url: blog/                             # This path starts at your root mkdocs directory.
+home_button2_theme: md-button md-button--secondary  # Options: "md-button", "md-button md-button--primary"
+home_button2_icon: gear                             # Options: "people", "gear", "image"
+home_button2_blurb: |                               # Short description of this button / section.
   This goober navigates to some important thingies located in "/Folder2/index.md"
 
-home_button3_name: Clicky 3   # Comment this parameter out to remove the button.
-home_button3_url: Folder3/    # This path starts at your root mkdocs directory.
-home_button3_theme: md-button # Options: "md-button", "md-button md-button--primary"
-home_button3_icon: image      # Options: "people", "gear", "image"
-home_button3_blurb: |         # Short description of this button / section.
+home_button3_name: Clicky 3                         # Comment this parameter out to remove the button.
+home_button3_url: Folder3/                          # This path starts at your root mkdocs directory.
+home_button3_theme: md-button md-button--tertiary   # Options: "md-button", "md-button md-button--primary"
+home_button3_icon: image                            # Options: "people", "gear", "image"
+home_button3_blurb: |                               # Short description of this button / section.
   This psycho navigates to an interesting table of stuff located in "/Folder3/index.md"
 
 # Homepage Code Execution

@@ -1,51 +1,114 @@
-[data-md-color-scheme="lightanelia"] {
-    --md-primary-fg-color:               #EE0F0F;
-    --md-primary-fg-color--light:        #ECB7B7;
-    --md-primary-fg-color--dark:         #90030C;
+/*Colors and main styling*/
 
-    --md-accent-color:                  #ff0;
+[data-md-color-scheme="darkanelia"] {
+  --md-primary-fg-color:               #0d9488;
+  --md-primary-fg-color--light:        #f9a8d4;
+  --md-primary-fg-color--dark:         #500724;
+
+  --md-accent-fg-color:                #0ea5e9;
   
-    --md-default-fg-color:               #212121;
+  --md-default-fg-color:               #fafafa;
+  --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.7);
+  --md-default-fg-color--lighter:      hsla(0, 0%, 100%, 0.3);
+  --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.12); 
+  --md-default-bg-color:               #191922;
+  --md-default-bg-color--light:        hsla(0, 0%, 0%, 0.54);
+  --md-default-bg-color--lighter:      hsla(0, 0%, 0%, 0.32);
+  --md-default-bg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+
+  --md-typeset-color:                  var(--md-default-fg-color);
+  --md-typeset-a-color:                var(--md-primary-fg-color);
+
+  --header-background:                 var(--md-default-bg-color); 
+
+}
+
+[data-md-color-scheme="lightanelia"] {
+    --md-primary-fg-color:               #be185d;
+    --md-primary-fg-color--light:        #f472b6;
+    --md-primary-fg-color--dark:         #831843;
+
+    --md-accent-fg-color:                #fb923c;
+  
+    --md-default-fg-color:               #191922;
     --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
     --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.32);
     --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
     --md-default-bg-color:               hsla(0, 0%, 100%, 1);
     --md-default-bg-color--light:        hsla(0, 0%, 100%, 0.7);
     --md-default-bg-color--lighter:      hsla(0, 0%, 100%, 0.3);
-    --md-default-bg-color--lightest:     hsla(0, 0%, 100%, 0.12);
+    --md-default-bg-color--lightest:     hsla(0, 19%, 13%, 0.12);
 
     --md-typeset-color:                  var(--md-default-fg-color);
     --md-typeset-a-color:                var(--md-primary-fg-color);
 
-  }
-
-  [data-md-color-scheme="darkanelia"] {
-    --md-primary-fg-color:               #EE0F0F;
-    --md-primary-fg-color--light:        #ECB7B7;
-    --md-primary-fg-color--dark:         #90030C;
-    
-    --md-default-fg-color:               #fafafa;
-    --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.7);
-    --md-default-fg-color--lighter:      hsla(0, 0%, 100%, 0.3);
-    --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.12); 
-    --md-default-bg-color:               #212121;
-    --md-default-bg-color--light:        hsla(0, 0%, 0%, 0.54);
-    --md-default-bg-color--lighter:      hsla(0, 0%, 0%, 0.32);
-    --md-default-bg-color--lightest:     hsla(0, 0%, 0%, 0.07);
-
-    --md-typeset-color:                  var(--md-default-fg-color);
-    --md-typeset-a-color:                var(--md-primary-fg-color);
+    --header-background:                 var(--md-default-bg-color); 
 
   }
 
-  @font-face {
-    font-family: 'Playfair Display';
-    src: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap";
-  }
+#anelialogo path {
+  fill:var(--md-default-fg-color);
+}
+
+/*Buttons*/
+
+.md-typeset .md-button--primary {
+  border-radius: 2rem;
+  border: 0.1rem solid;
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-default-bg-color); 
+  border-style: revert; /*Important*/
+  padding: 0.625em 2em;
+  margin-top: .5rem;
+  margin-right: .5rem;
+}
+
+.md-typeset .md-button--primary:focus,
+.md-typeset .md-button--primary:hover {
+    background-color: var(--md-primary-fg-color);
+    background-image: linear-gradient(to right, var(--md-default-fg-color--light),var(--md-primary-fg-color));
+    color: var(--md-default-bg-color);
+    border-color: var(--md-default-bg-color);
+}
+
+
+.md-typeset .md-button--secondary {
+  border-radius: 2rem;
+  border: 0.1rem solid;
+  padding: 0.625em 2em;
+  margin-top: .5rem;
+  margin-right: .5rem;
+}
+
+.md-typeset .md-button--secondary:focus,
+.md-typeset .md-button--secondary:hover {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-accent-fg-color);
+    border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .md-button--tertiary {
+  border-radius: 0;
+  border: none;
+  padding: 0.625em 1rem;
+  margin-top: .5rem;
+  margin-right: .5rem;
+}
+
+.md-typeset .md-button--tertiary:focus,
+.md-typeset .md-button--tertiary:hover {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-accent-fg-color);
+    border-bottom: 0.1rem solid var(--md-accent-fg-color);
+}
+
+
+
+
 
   .md-typeset h1 {
-    font-family: 'Playfair Display';
-    font-weight: 800;
+    font-weight: bold;
     font-size: 2rem;
     color: var(--md-typeset-color);
   }
@@ -56,4 +119,31 @@
 
   .md-header--shadow {
     box-shadow: none;
+}
+
+.md-header__button.md-logo svg{
+  fill: red;
+}
+
+.md-header, .md-tabs {
+  background-color: var(--header-background);
+  color: var(--md-default-fg-color);
+}
+
+.md-search__input+.md-search__icon{
+  color: var(--md-default-fg-color);
+}
+
+.md-search__form{
+  background-color: var(--md-default-bg-color);
+
+}
+.md-search__input {
+  border: 1px solid var(--md-default-fg-color);
+  border-radius: 2rem;
+  color: var(--md-typeset-color);
+}
+
+.md-search__input::placeholder{
+  color: var(--md-typeset-color);
 }
