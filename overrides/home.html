@@ -26,75 +26,31 @@ body {
     }
 
     .tx-hero {
-        margin: 32px 2.8rem;
         color: var(--md-primary-bg-color);
         justify-content: center;
-    }
-
-    .tx-hero h1 {
-        margin-bottom: 1rem;
-        font-weight: 700
     }
 
     .tx-hero__content {
         padding-bottom: 1rem;
         margin: 0 auto;
+        width: 100%;
     }
 
+        .tx-hero__content h1 {
+            margin-bottom: 1rem;
+            font-weight: 700
+        }
+        .tx-hero__content p{
+            font-weight: 300;
+        }
+
     .tx-hero__image{
-        width:80%;
-        order:1;
-        padding-right: 2.5rem;
+        width:100%;
+        order: 1;
+        margin-left: 10%;
     }
 
     
-
-
-
-    .feature-item h2 svg {
-        height: 30px;
-        float: left;
-        margin-right: 10px;
-        transform: translateY(10%);
-    }
-
-    .top-hr {
-        margin-top: 42px;
-    }
-
-    .feature-item {
-	      border-radius: 20px;
-	      margin-top: .5rem;
-        margin-right: .5rem;
-	      background-color: var(--md-default-fg-color--lightest);
-        box-sizing: border-box;
-        padding: 0 15px;
-        word-break: break-word
-    }
-
-    .feature-item h2 {
-        color: #333;
-        font-weight: 300;
-        font-size: 25px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        line-height: normal;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        font-family: inherit;
-    }
-
-    .feature-item p {
-        font-size: 16px;
-        line-height: 1.8em;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        color: #111;
-        margin: 0 0 10px;
-        display: block;
-    }
-
     @media screen and (max-width:30em) {
         .tx-hero h1 {
             font-size: 1.4rem
@@ -114,7 +70,6 @@ body {
 
         .tx-hero__content {
             color: var(--md-default-fg-color);
-            max-width: 22rem;
             margin-top: 3.5rem;
             margin-bottom: 3.5rem;
             margin-left: 1.0rem;
@@ -123,90 +78,8 @@ body {
         }
     }
 
-    @media screen and (min-width:76.25em) {
-        .md-sidebar--primary {
-            display: none
-        }
 
-        .top-hr {
-            width: 100%;
-            display: flex;
-            max-width: 61rem;
-            margin-right: auto;
-            margin-left: auto;
-            padding: 0 .2rem;
-        }
 
-        .bottom-hr {
-            margin-top: 10px;
-            width: 100%;
-            display: flex;
-            max-width: 61rem;
-            margin-right: auto;
-            margin-left: auto;
-            padding: 0 .2rem;
-        }
-
-        .feature-item {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .feature-item:hover {
-            background-color: #526cfe47;
-            border-radius: 3px;
-        }
-    }
-
-    .hr {
-        border-bottom: 1px solid #eee;
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .text-center {
-        text-align: center;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 15px;
-        font-family: 'Lato', sans-serif;
-        font-size: 23px;
-        font-weight: 300;
-        padding-bottom: 10px;
-    }
-
-    .logos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-flow: row wrap;
-        margin: 0 auto;
-    }
-
-    .logos img {
-        flex: 1 1 auto;
-        padding: 25px;
-        max-height: 130px;
-        vertical-align: middle;
-    }
-
-    .hr-logos {
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-
-    .md-footer-meta__inner {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 1.0rem;
-    }
-
-    .md-footer-social {
-        padding-top: 20px;
-    }
 
 /*Toolbox styles*/
 
@@ -222,31 +95,31 @@ body {
   display: inline-flex;
 }
 
-.toolsList {
-  width: 100%;
-  align-self: stretch;
-  justify-content: space-between;
-  align-items: flex-start;
-  display: inline-flex;
-}
+    .toolsList {
+        width: 100%;
+        align-self: stretch;
+        justify-content: space-between;
+        align-items: flex-start;
+        display: inline-flex;
+    }
 
-.toolsListUl {
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 32px;
-  display: flex;
-  list-style-type: none;
-}
+        .toolsListUl {
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 32px;
+            display: flex;
+            list-style-type: none;
+        }
 
-.itemLogo {
-  height: 36px;
-  position: relative;
-  background: none;
-}
+            .itemLogo {
+                height: 36px;
+                position: relative;
+                background: none;
+            }
 
-.itemLogo .svg-icon svg path {
-  fill: var(--md-typeset-color); /* Change this to your desired color */
-}
+                .itemLogo .svg-icon svg path {
+                    fill: var(--md-typeset-color);
+                }
 
 </style>
 
@@ -303,12 +176,6 @@ body {
             {% endfor %}
         </ul>
         {% endfor %}    
-    </div>
-</div>
-
-
-<div class="top-hr">
-    <div class="hr">
     </div>
 </div>
 
