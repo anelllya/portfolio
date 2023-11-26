@@ -83,8 +83,8 @@ extra:
 
 # Custom Homepage Elements
 home_cover_image: img/glitch-landing.png # This path starts at your root mkdocs directory.
-home_tagline: Creative Digital Crafting
-home_description: Let’s elevate your digital presence together using a unique fusion of creativity, innovation, and a tailored approach. <br /><br /> Ready to transform your digital landscape? 
+home_tagline: Creating Digital Experiences
+home_description: Let’s elevate your digital presence together using unique fusion of creativity, innovation, and tailored approach. <br /><br /> Ready to transform your digital landscape? 
  
 # Custom Homepage Button(s)
 home_button1_name: Let's connect                     # Comment this parameter out to remove the button.

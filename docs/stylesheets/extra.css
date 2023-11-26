@@ -96,6 +96,10 @@
 
   }
 
+.md-grid {
+  max-width: 56rem;
+}
+
 #anelialogo path {
   fill:var(--md-default-fg-color);
 }
