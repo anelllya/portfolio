@@ -10,8 +10,7 @@ extra_css:
 
 # Material Configuration
 theme:
-  font:
-    text: Manrope
+  font: false
   name: material
   custom_dir: overrides # Contains custom 'home.html' coverpage (and 'main.html')
   

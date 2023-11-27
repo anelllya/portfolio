@@ -109,6 +109,19 @@
   background-color: var(--md-primary-fg-color);
 }
 
+@font-face {
+  font-family: "Manrope";
+  src: url("../manrope/Manrope-VariableFont_wght.ttf");
+}
+
+:root {
+  --md-text-font: 'Manrope', Arial, Helvetica, sans-serif; 
+}
+
+.md-typeset{
+  font-family: var(--md-text-font);
+}
+
 /*Buttons*/
 
 .md-typeset .md-button--primary {
