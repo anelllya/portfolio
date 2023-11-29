@@ -79,6 +79,17 @@ extra:
     - ['figma-logo.svg', 'affinity-logo.svg', 'miro-logo.svg', 'adobexd-logo.svg']
     - ['visual-studio-code-logo.svg', 'git-icon.svg', 'html5-logo.svg', 'css3-logo.svg', 'markdown-icon.svg']
     - ['google-workspace-logo.svg','jira-logo.svg', 'confluence-logo.svg', 'basecamp-logo.svg']
+  cards:
+    - image: 'img/digital-products.svg'
+      title: 'Digital products'
+      url: '/card1'
+    - image: 'img/branding.svg'
+      title: 'Branding'
+      url: '/card2'
+    - image: 'img/blog.svg'
+      title: 'Blog'
+      url: '/card3'
+
 
 # Custom Homepage Elements
 home_cover_image: img/glitch-landing.png # This path starts at your root mkdocs directory.
@@ -86,6 +97,6 @@ home_tagline: Creating Digital Experiences
 home_description: Let’s elevate your digital presence together using unique fusion of creativity, innovation, and tailored approach. <br /><br /> Ready to transform your digital landscape? 
  
 # Custom Homepage Button(s)
-home_button1_name: Let's connect                     # Comment this parameter out to remove the button.
+home_button1_name: Let's talk                     # Comment this parameter out to remove the button.
 home_button1_url: section/                       # This path starts at your root mkdocs directory.
 home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"

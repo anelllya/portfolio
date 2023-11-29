@@ -1,3 +1,5 @@
+@import url('home.css');
+
 /*Colors and main styling*/
 
 * {
@@ -42,8 +44,10 @@
   --grayscale-gray-920: #1C1D24;
   --grayscale-gray-950: #030712;
   --grayscale-gray-99-black: #000000;
-  --primary-dark: var(--color-shades-pink-700);
+  --gray-50-004: rgba(249,250,251,0.04);
+  --gray-920-008: rgba(28,29,36,0.08);
   --primary-light-008: rgba(217,137,164,0.08);
+  --primary-dark: var(--color-shades-pink-700);
   --primary-light: var(--color-shades-pink-200);
   --primary: var(--color-shades-pink-400);
   --secondary: var(--color-shades-yellow-300);
@@ -69,7 +73,8 @@
   --md-typeset-color:                  var(--md-default-fg-color);
   --md-typeset-a-color:                var(--md-primary-fg-color);
 
-  --header-background:                 var(--md-default-bg-color); 
+  --header-background:                 var(--md-default-bg-color);
+  --section-bg-color:                  var(--gray-50-004); 
 
 }
 
@@ -92,7 +97,8 @@
     --md-typeset-color:                var(--md-default-fg-color);
     --md-typeset-a-color:              var(--md-primary-fg-color);
 
-    --header-background:               var(--md-default-bg-color); 
+    --header-background:               var(--md-default-bg-color);
+    --section-bg-color:                var(--gray-920-008);  
 
   }
 
@@ -125,7 +131,7 @@
 /*Buttons*/
 
 .md-typeset .md-button--primary {
-  border-radius: 2rem;
+  border-radius: 2px;
   border: 0.1rem solid;
   background-color: var(--md-typeset-color);
   border-color: var(--md-typeset-color);

@@ -11,155 +11,24 @@ body {
     background-repeat: no-repeat;
     background-position:top center;
 }
-
-.md-main {
-        flex-grow: 0
-    }
-
-    .md-main__inner {
-        display: flex;
-        height: 100%;
-    }
-
-    .tx-container {
-        padding-top: .0rem;
-    }
-
-    .tx-hero {
-        color: var(--md-primary-bg-color);
-        justify-content: center;
-    }
-
-    .tx-hero__content {
-        padding-bottom: 1rem;
-        margin: 0 auto;
-        width: 100%;
-    }
-
-        .tx-hero__content h1 {
-            margin-bottom: 1rem;
-            font-weight: 800
-        }
-        .tx-hero__content p{
-            font-weight: 200;
-        }
-
-    .tx-hero__image{
-        width:100%;
-        order: 1;
-        margin-left: 10%;
-    }
-
-    
-    @media screen and (max-width:30em) {
-        .tx-hero h1 {
-            font-size: 1.4rem;
-            margin: 0 2rem;
-        }
-    }
-
-    @media screen and (min-width:60em) {
-        .md-sidebar--secondary {
-            display: none
-        }
-
-        .tx-hero {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .tx-hero__content {
-            color: var(--md-default-fg-color);
-            margin-top: 3.5rem;
-            margin-bottom: 3.5rem;
-            margin-left: 1.0rem;
-            margin-right: 4.0rem;
-            align-items: center;
-        }
-    }
-
-
-
-
-/*Toolbox styles*/
-
-.toolbox {
-  width: 100%;
-  height: 100%;
-  padding: 16px 0 28px 0;
-  background: rgba(217, 137, 164, 0.06);
-  backdrop-filter: blur(4px);
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  display: inline-flex;
-}
-
-#toolboxtitle {
-    font-weight: 300;
-    font-size: 1.25rem; 
-    margin: 8px 0;
-}
-    .toolsList {
-        width: 100%;
-        align-self: stretch;
-        justify-content: space-between;
-        align-items: flex-start;
-        display: inline-flex;
-    }
-
-        .toolsListUl {
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 32px;
-            display: flex;
-            list-style-type: none;
-        }
-
-            .itemLogo {
-                height: 36px;
-                position: relative;
-                background: none;
-            }
-
-                .itemLogo .svg-icon svg path {
-                    fill: var(--md-typeset-color);
-                }
-
 </style>
 
 <!-- Main site entry button descriptions -->
 <section class="tx-container">
     <div class="md-grid md-typeset">
       <div class="tx-hero">
-      
-        <!-- Custom Image -->
+
         <div class="tx-hero__image">
 	       <img src="{{ config.home_cover_image }}" draggable="false">
         </div>
 	
-	<!-- Main Tagline -->
         <div class="tx-hero__content">
           <h1>{{ config.home_tagline }}</h1>
           <p>{{ config.home_description }}</p>
 	  
-	  <!-- Added Buttons (up to 3) -->
         {%- if config.home_button1_name -%}
-          <a href="{{ config.home_button1_url }}" title="Material | MkDocs" class="{{ config.home_button1_theme }}">
+          <a href="{{ config.home_button1_url }}" title="Let's talk" class="{{ config.home_button1_theme }}">
             {{ config.home_button1_name }}
-          </a>
-	    {%- endif -%}
-	  
-        {%- if config.home_button2_name -%}
-          <a href="{{ config.home_button2_url }}" title="Material | MkDocs" class="{{ config.home_button2_theme }}">
-            {{ config.home_button2_name }}
-          </a>
-	    {%- endif -%}
-	  
-	    {%- if config.home_button3_name -%}
-          <a href="{{ config.home_button3_url }}" title="Material | MkDocs" class="{{ config.home_button3_theme }}">
-            {{ config.home_button3_name }}
           </a>
 	    {%- endif -%}
         </div>
@@ -172,7 +41,7 @@ body {
 {% import 'macros.html' as macros %}
 
 <div class="toolbox">
-    <h2 id="toolboxtitle">My toolbox</h2>
+    <h2 class="section-title">My toolbox</h2>
     <div class="toolsList md-grid">
         {% for list in config.extra.lists %}
         <ul class="toolsListUl">
@@ -186,6 +55,21 @@ body {
     </div>
 </div>
 
+<div class="cards-container md-grid">
+    <h2 class="section-title">Latest Work</h2>
+    <div class="card-grid">
+        {% for card in config.extra.cards %}
+        <div class="card">
+            <div class="card-image">
+                <img src="{{ card.image }}" alt="{{ card.title }}">
+            </div>
+            <div class="card-content">
+                <h3><a href="{{ card.url }}">{{ card.title }}</a></h3>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
 <!-- Toggleable JavaScript execution -->
 {%- if config.home_execute_js -%}
