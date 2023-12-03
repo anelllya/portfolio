@@ -46,9 +46,11 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to Light Mode    
+
 nav:
   - Home: index.md
-  - Work:
+  - Work: 
+    - All: 'work/index.md'
     - Digital Products: 
       - System73: 'work/digital-products/system73.md'
     - Branding: 
