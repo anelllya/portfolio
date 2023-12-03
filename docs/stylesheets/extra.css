@@ -207,8 +207,8 @@
 
 
   .md-typeset h1 {
-    font-weight: bold;
-    font-size: 2rem;
+    font-weight: 800;
+    font-size: 1.8rem;
     color: var(--md-typeset-color);
   }
 

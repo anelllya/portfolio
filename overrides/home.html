@@ -27,9 +27,9 @@ body {
           <p>{{ config.home_description }}</p>
 	  
         {%- if config.home_button1_name -%}
-          <a href="{{ config.home_button1_url }}" title="Let's talk" class="{{ config.home_button1_theme }}">
-            {{ config.home_button1_name }}
-          </a>
+          <p><a href="{{ config.home_button1_url }}" title="Let's talk" class="{{ config.home_button1_theme }}">
+            {{ config.home_button1_name }}</a>
+          </p>
 	    {%- endif -%}
         </div>
       </div>
@@ -60,26 +60,20 @@ body {
     <div class="card-grid">
         {% for card in config.extra.cards %}
         <div class="card">
+          <a href="{{ card.url }}">
             <div class="card-image">
                 <img src="{{ card.image }}" alt="{{ card.title }}">
             </div>
             <div class="card-content">
-                <h3><a href="{{ card.url }}">{{ card.title }}</a></h3>
+                <h3>{{ card.title }}</h3>
             </div>
+          </a>
         </div>
         {% endfor %}
     </div>
 </div>
 
-<!-- Toggleable JavaScript execution -->
-{%- if config.home_execute_js -%}
-<script>
-document$.subscribe(function() {
-  console.log("'home_execute_js' is enabled:");
-  {{ config.home_execute_js }}
-}).unsubscribe();
-</script>
-{%- endif -%}
+
 
 
 {% endblock %}

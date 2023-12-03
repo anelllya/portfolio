@@ -1,0 +1,1 @@
+document.getElementById("span-year").textContent=`Copyright © 2020 - ${/\d{4}/.exec(Date())[0]} - Anelia Stoyanova`

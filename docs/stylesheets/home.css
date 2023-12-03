@@ -26,6 +26,7 @@
     }
     .tx-hero__content p{
         font-weight: 200;
+        color: var(--md-typeset-color);
     }
   
   .tx-hero__image{
@@ -36,18 +37,23 @@
   
   
   @media screen and (max-width:30em) {
-    .tx-hero h1 {
-        font-size: 1.4rem;
-        margin: 0 2rem;
+    .tx-hero__content h1 {
+        font-size: 1.4rem !important;
+        margin: 1rem 2rem;
+    }
+    .tx-hero p {
+      margin: 0 2rem;
+      font-size: .8rem;
+    }
+    .tx-hero__image{
+      width:60%;
+      order: 1;
+      margin: 2% auto;
     }
   }
   
   @media screen and (min-width:60em) {
-    .md-sidebar--secondary {
-        display: none
-    }
-  
-    .tx-hero {
+   .tx-hero {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -55,20 +61,41 @@
   
     .tx-hero__content {
         color: var(--md-default-fg-color);
-        margin-top: 3.5rem;
-        margin-bottom: 3.5rem;
-        margin-left: 1.0rem;
-        margin-right: 4.0rem;
+        margin: 3.5rem 4.0rem 3.5rem 1.0rem;
         align-items: center;
     }
+
+    .toolbox{
+      padding: 1rem 0 1.75rem 0;
+    }
   }
+
+@media screen and (min-width: 31em) and (max-width: 59em) {
+  .tx-hero__image{
+    width:40%;
+    order: 1;
+    margin: 2% auto;
+  }
+  .tx-hero__content {
+    margin: 3.5rem auto;
+    width: 80%;
+  }
+
+  .toolbox{
+   padding: 1rem;
+  }
+
+  .toolsList > *{
+    gap: .8rem;
+  }
+
+}
   
   /*Toolbox styles*/
   
   .toolbox {
     width: 100%;
     height: 100%;
-    padding: 16px 0 28px 0;
     background: var(--section-bg-color);
     backdrop-filter: blur(6px);
     flex-direction: column;
@@ -82,33 +109,58 @@
     font-size: 1.25rem; 
     margin: .5rem 0;
   }
-    .toolsList {
-        display: flex;
-        width: 100%;
-        align-self: stretch;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        
+
+ .toolsList {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
     }
   
-        .toolsListUl {
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 32px;
-            display: flex;
-            list-style-type: none;
+    .toolsList > * {
+      align-items: center;
+      gap: .8rem;
+      display: flex;
+      list-style-type: none;
+      margin: .8rem 0;
+      padding: 0;
+    }
+  
+       .itemLogo {
+          position: relative;
+          background: none;
+       }
+
+       .itemLogo .svg-icon svg {
+          height: 24px;
         }
   
-            .itemLogo {
-                height: 36px;
-                position: relative;
-                background: none;
-            }
-  
-                .itemLogo .svg-icon svg path {
-                    fill: var(--md-typeset-color);
-                }
+          .itemLogo .svg-icon svg path {
+              fill: var(--md-typeset-color);
+          }
+
+@media screen and (max-width: 30rem) {
+  .toolsList {
+      flex-direction: column;
+      align-items: center;
+      gap: 0 ;
+      padding: 0.5rem;
+   }
+   .toolslist > * {
+      margin: 0.4rem 0;
+   }
+}
+
+@media screen and (min-width: 60rem) {
+  .toolsList > * {
+     gap: 2rem;
+  }
+  .itemLogo .svg-icon svg {
+    height: 36px; 
+  }
+}
   
   .cards-container {
     width: 100%;
@@ -124,7 +176,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
-    margin: 1rem 0;
+    margin: 1rem;
   }
   .card { 
     border: 2px solid var(--grayscale-gray-99-black);
@@ -144,11 +196,21 @@
   .card-content h3{
     text-align: center;
     text-transform: uppercase;
-  }
-  
-  .card-content h3 a{
     color: var(--md-typeset-color);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 300;
+    margin: .5rem 0;
+  }
+
+  @media screen and (max-width: 30rem) {
+    .card {
+      margin: 0.2rem 2rem;
+    }
+  }
+
+  @media screen and (min-width: 60rem) {
+    .card-grid {
+      margin: 1rem 0;
+    }
   }
