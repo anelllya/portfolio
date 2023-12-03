@@ -11,6 +11,14 @@ body {
     background-repeat: no-repeat;
     background-position:top center;
 }
+
+.md-main {
+  display: none;
+}
+
+.md-footer__inner {
+  display: none !important;
+}
 </style>
 
 <!-- Main site entry button descriptions -->
@@ -36,27 +44,27 @@ body {
     </div>
 </section>
 
-<!-- The toolbox place -->
+
 
 {% import 'macros.html' as macros %}
 
-<div class="toolbox">
-    <h2 class="section-title">My toolbox</h2>
-    <div class="toolsList md-grid">
-        {% for list in config.extra.lists %}
-        <ul class="toolsListUl">
-            {% for item in list %}
-            <li class="itemLogo">
-                {{ macros.svg_icon( item ) }}
-            </li>
-            {% endfor %}
-        </ul>
-        {% endfor %}    
-    </div>
+<div class="full-width-home-section">
+  <h2 class="home-section-title">Experience Highlights</h2>
+  <div class="companysList md-grid">
+      {% for list in config.extra.companies %}
+      <ul class="companiesListUl">
+          {% for item in list %}
+          <li class="itemLogo">
+              {{ macros.svg_icon( item ) }}
+          </li>
+          {% endfor %}
+      </ul>
+      {% endfor %}    
+  </div>
 </div>
 
 <div class="cards-container md-grid">
-    <h2 class="section-title">Latest Work</h2>
+    <h2 class="home-section-title">Latest Work</h2>
     <div class="card-grid">
         {% for card in config.extra.cards %}
         <div class="card">
@@ -73,10 +81,36 @@ body {
     </div>
 </div>
 
+<!-- The toolbox place -->
 
-
+<div class="full-width-home-section">
+  <h2 class="home-section-title">My toolbox</h2>
+  <div class="toolsList md-grid">
+      {% for list in config.extra.toolbox %}
+      <ul class="toolsListUl">
+          {% for item in list %}
+          <li class="itemLogo">
+              {{ macros.svg_icon( item ) }}
+          </li>
+          {% endfor %}
+      </ul>
+      {% endfor %}    
+  </div>
+</div>
 
 {% endblock %}
 
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+<!-- Toggleable JavaScript execution -->
+{%- if config.home_execute_js -%}
+<script>
+document$.subscribe(function() {
+  console.log("'home_execute_js' is enabled:");
+  {{ config.home_execute_js }}
+}).unsubscribe();
+</script>
+{%- endif -%}
+
+<!-- Application footer -->
+{% block footer %}
+{% include "partials/footer.html" %}
+{% endblock %}

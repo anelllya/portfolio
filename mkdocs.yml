@@ -3,7 +3,7 @@ site_name: Anelia
 site_author: Anelia Stoyanova
 docs_dir: docs 
 
-copyright: "<span id=\"span-year\"></span>"
+copyright: "Copyright © 2020 - <span id='currentYear'></span> Anelia Stoyanova"
 
 extra_css:
   - stylesheets/extra.css
@@ -18,6 +18,7 @@ theme:
   
   icon:
     logo: myicons/anelia-logo
+  
   favicon: img/favicon.png  
 
   features:
@@ -68,10 +69,23 @@ markdown_extensions:
 
 
 extra:
-  lists:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/anelia-stoyanova/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/anelllya/
+    - icon: fontawesome/brands/codepen
+      link: https://codepen.io/anelllya
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/anelllya
+
+  toolbox:
     - ['figma-logo.svg', 'affinity-logo.svg', 'miro-logo.svg', 'adobexd-logo.svg']
     - ['visual-studio-code-logo.svg', 'git-icon.svg', 'html5-logo.svg', 'css3-logo.svg', 'markdown-icon.svg']
     - ['google-workspace-logo.svg','jira-logo.svg', 'confluence-logo.svg', 'basecamp-logo.svg']
+  companies: 
+    - ['iter.svg', 'pecas.svg', 'ull.svg', 'system73.svg']
+    
   cards:
     - image: 'img/digital-products.svg'
       title: 'Digital products'
