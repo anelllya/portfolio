@@ -49,9 +49,9 @@
   --primary-light-008: rgba(217,137,164,0.08);
   --primary-dark: var(--color-shades-pink-700);
   --primary-light: var(--color-shades-pink-200);
-  --primary: var(--color-shades-pink-400);
+  --primary: var(--color-shades-pink-300);
   --secondary: var(--color-shades-yellow-300);
-  --tertiary: var(--color-shades-blue-500);
+  --tertiary: var(--color-shades-blue-400);
 }
 
 [data-md-color-scheme="darkanelia"] {
@@ -145,7 +145,7 @@
 .md-typeset .md-button--primary:focus,
 .md-typeset .md-button--primary:hover {
     background-color: var(--md-primary-fg-color);
-    background-image: linear-gradient(to right, var(--primary),var(--tertiary));
+    background-image: linear-gradient(to right, var(--color-shades-pink-400),var(--color-shades-blue-500));
     color: var(--md-default-bg-color);
     border-color: var(--md-default-bg-color);
 }
@@ -218,10 +218,6 @@
 
   .md-header--shadow {
     box-shadow: none;
-}
-
-.md-header__button.md-logo svg{
-  fill: red;
 }
 
 .md-header, .md-tabs {
