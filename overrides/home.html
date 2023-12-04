@@ -15,6 +15,13 @@ body {
 .md-main {
   display: none;
 }
+.md-social {
+  margin: 0;
+}
+
+.md-social a {
+  color: var(--color-shades-blue-700);
+}
 
 .md-footer__inner {
   display: none !important;
@@ -37,6 +44,15 @@ body {
         {%- if config.home_button1_name -%}
           <p><a href="mailto:anelia.em.stoyanova@gmail.com" title="Let's talk" class="{{ config.home_button1_theme }}" target="_blank">
             {{ config.home_button1_name }}</a>
+          </p>
+
+          <p class="md-social">
+            <!-- render social media links with icons from config.extra-->
+            {% for item in config.extra.social %}
+            <a href="{{ item.link }}" title="{{ item.icon.split('/')[-1] }}" class="md-social__link" target="_blank">
+              <span class="twemoji">{% include ".icons/" + item.icon + ".svg" %}</span> 
+            </a>
+            {% endfor %}
           </p>
 	    {%- endif -%}
         </div>
