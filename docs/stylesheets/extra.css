@@ -183,6 +183,9 @@
     border-bottom: 0.1rem solid var(--md-accent-fg-color);
 }
 
+.md-typeset ul li {
+  margin-bottom: 0;
+}
 
 .md-card {
   box-shadow: 0 2px 10px 0 rgba(0,0,0,0.16);

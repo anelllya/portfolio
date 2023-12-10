@@ -10,3 +10,6 @@
 .cache/plugin/social/Roboto-Regular.ttf
 .cache/plugin/social/Roboto-Thin.ttf
 .cache/plugin/social/Roboto-ThinItalic.ttf
+.env
+/site
+.DS_Store

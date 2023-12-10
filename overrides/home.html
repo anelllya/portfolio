@@ -1,20 +1,19 @@
 <!-- Elements added to "home.html" will only be displayed on the home page -->
 
 {% extends "main.html" %}
+{% block content %}
+{% endblock %}
 {% block tabs %}
 {{ super() }}
 
 <style>
 /*HOME PAGE*/
 body {
-    background-image: url(/img/BW-lines.png);
+    background-image: url(img/BW-lines.png);
     background-repeat: no-repeat;
     background-position:top center;
 }
 
-.md-main {
-  display: none;
-}
 .md-social {
   margin: 0;
 }
@@ -34,16 +33,16 @@ body {
       <div class="tx-hero">
 
         <div class="tx-hero__image">
-	       <img src="{{ config.home_cover_image }}" draggable="false">
+	       <img src="{{ config.extra.home_cover_image }}" draggable="false">
         </div>
 	
         <div class="tx-hero__content">
-          <h1>{{ config.home_tagline }}</h1>
-          <p>{{ config.home_description }}</p>
+          <h1>{{ config.extra.home_tagline }}</h1>
+          <p>{{ config.extra.home_description }}</p>
 	  
-        {%- if config.home_button1_name -%}
-          <p><a href="mailto:anelia.em.stoyanova@gmail.com" title="Let's talk" class="{{ config.home_button1_theme }}" target="_blank">
-            {{ config.home_button1_name }}</a>
+        {%- if config.extra.home_button1_name -%}
+          <p><a href="mailto:anelia.em.stoyanova@gmail.com" title="Let's talk" class="{{ config.extra.home_button1_theme }}" target="_blank">
+            {{ config.extra.home_button1_name }}</a>
           </p>
 
           <p class="md-social">
