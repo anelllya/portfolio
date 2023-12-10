@@ -107,13 +107,13 @@ extra:
   cards:
     - image: 'img/digital-products.svg'
       title: 'Digital products'
-      url: '/work/digital-products/'
+      url: 'work/digital-products/'
     - image: 'img/branding.svg'
       title: 'Branding'
-      url: '/work/branding/'
+      url: 'work/branding/'
     - image: 'img/blog.svg'
       title: 'Blog'
-      url: '/blog/' 
+      url: 'blog/' 
 # consent:
 #     title: Cookie consent
 #     description: >- 
