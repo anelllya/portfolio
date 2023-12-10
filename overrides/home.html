@@ -1,6 +1,8 @@
 <!-- Elements added to "home.html" will only be displayed on the home page -->
 
 {% extends "main.html" %}
+{% block content %}
+{% endblock %}
 {% block tabs %}
 {{ super() }}
 
@@ -12,9 +14,6 @@ body {
     background-position:top center;
 }
 
-.md-main {
-  display: none;
-}
 
 .md-footer__inner {
   display: none !important;
