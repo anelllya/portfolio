@@ -57,7 +57,8 @@ nav:
     - Digital Products:
       - work/digital-products/index.md 
       - System73: work/digital-products/system73.md
-    - Branding: 
+    - Branding:
+      - work/branding/index.md 
       - HornetsHockey: work/branding/hornets-hockey.md
       - Cosmo Bots: work/branding/cosmo-bots.md
     - Design System: 
@@ -106,13 +107,13 @@ extra:
   cards:
     - image: 'img/digital-products.svg'
       title: 'Digital products'
-      url: '/work/digital-products'
+      url: '/work/digital-products/'
     - image: 'img/branding.svg'
       title: 'Branding'
-      url: '/work/branding'
+      url: '/work/branding/'
     - image: 'img/blog.svg'
       title: 'Blog'
-      url: '/blog' 
+      url: '/blog/' 
 # consent:
 #     title: Cookie consent
 #     description: >- 
