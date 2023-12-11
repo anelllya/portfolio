@@ -9,9 +9,11 @@ title: About
 
 ![Hello, Nice to meet you](img/hello-anelia.webp){ align=left . width="200"}
 
-My name is **Anelia Stoyanova** (She/Her), a digital product designer since 2009.
+I am **Anelia Stoyanova** (She/Her) | Digital product designer since 2009
 
-I have extensive experience in UX and UI design. Specializing in identifying software and interface problems, I dedicate my career to discovering innovative solutions to those problems. I strongly believe that nothing is impossible. <br><br>
+I focus on crafting digital products that fulfill your customers’ wildest dreams.
+
+With my extensive experience in UX and UI design, I specialize in identifying software and interface problems. I've dedicated my career to discovering innovative solutions to those problems. I believe that nothing is impossible. <br>
 
 ![remote work](img/remote-working-from-kitchen.webp){ align=right . width="400"}
 
@@ -33,9 +35,7 @@ I find that maintaining this lifestyle not only keeps me energized but also enha
 
 --- 
 
-So, if you’re looking for a senior product designer who not only possesses extensive expertise but also brings a quirky and geeky passion for problem-solving, then I’m your ideal collaborator.
-
-Feel free to reach me out and discuss your design needs or simply to talk about the latest tech trends.
+Feel free to reach out and discuss your design needs or simply to talk about the latest tech trends.
 
 I’m always up for an exciting conversation and the opportunity to explore new frontiers of problem-solving.
 

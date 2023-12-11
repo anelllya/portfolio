@@ -3,7 +3,7 @@ site_name: Anelia - Digital Designer
 site_author: Anelia Stoyanova
 docs_dir: docs 
 
-copyright: "Copyright © 2020 - <span id='currentYear'></span> Anelia Stoyanova"
+copyright: "Copyright © 2019 - <span id='currentYear'></span> Anelia Stoyanova"
 
 extra_css:
   - stylesheets/extra.css
@@ -57,21 +57,31 @@ nav:
     - Digital Products:
       - work/digital-products/index.md 
       - System73: work/digital-products/system73.md
+    - Content Design: 
+      - work/content-design/pecas.md
     - Branding:
       - work/branding/index.md 
       - HornetsHockey: work/branding/hornets-hockey.md
       - Cosmo Bots: work/branding/cosmo-bots.md
-    - Design System: 
-      - Open Source: work/design-system/osds.md
-  - Blog: blog/index.md
+
+  - Blog: 
+      - blog/index.md
   - About: about.md
   
 
 plugins:
   - search
 #  - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
-  - blog
   - glightbox
+  - blog:
+      blog_toc: true
+      post_url_date_format: yyyy/MM
+      post_excerpt: required
+      blog_toc: true
+      archive: true
+      archive_toc: true
+      categories: true
+  
 
 markdown_extensions:
   - attr_list
