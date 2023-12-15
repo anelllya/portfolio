@@ -18,7 +18,7 @@ This November Adobe Xd provided a huge update during the annual conference Adobe
 
 ## Prototype that is constantly growing
 
-At work, our team is developing a complicated platform, it includes more than a hundred screens and interactions between them. We used to have it all in only one file because it’s what you would expect. As the number of artboards and interactions grew, we needed to do something about it because the software was getting slow. This is how the first file separation in major sections happened. And here is the feature I am missing – **External Links** to link our other files and simulate navigation through the whole platform.
+At work, our team is deeveloping a complicated platform, it includes more than a hundred screens and interactions between them. We used to have it all in only one file because it’s what you would expect. As the number of artboards and interactions grew, we needed to do something about it because the software was getting slow. This is how the first file separation in major sections happened. And here is the feature I am missing – **External Links** to link our other files and simulate navigation through the whole platform.
 
 Then, we realised that working in agile and continuous development cannot go on overwriting the prototype as we go. It provokes conflict with stakeholders and the development team. We needed to close a prototype version with the same pace as our releases. Each one of those files needed to be available for search, allowing us to consult changes and when were they applied. This is exactly how it gets a little bit tricky. We could have the files in Creative Cloud but uploading and updating those big files also got slow.
 
