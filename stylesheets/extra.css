@@ -111,7 +111,7 @@
 }
 
 ::selection {
-  color: var(--md-default-bg-color);
+  color: var(--grayscale-gray-00-white);
   background-color: var(--md-primary-fg-color);
 }
 
@@ -121,7 +121,7 @@
 }
 
 :root {
-  --md-text-font: 'Manrope', Arial, Helvetica, sans-serif; 
+  --md-text-font: "Manrope", sans-serif; 
 }
 
 .md-typeset{
