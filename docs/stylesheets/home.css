@@ -96,16 +96,18 @@
 
 .companysList {
   display: flex;
+  width: 100%;
 }
 
 .companysList > * {
-  align-items: center;
-  gap: 2rem;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
+  row-gap: 1rem;
   list-style-type: none;
-  margin: 1rem 0;
+  margin: 1rem;
   padding: 0;
+  width: 100%;
 }
 
 
@@ -162,7 +164,6 @@
        .itemLogo {
           position: relative;
           background: none;
-          flex: 1;
        }
 
        .itemLogo .svg-icon svg {

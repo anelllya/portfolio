@@ -52,16 +52,17 @@
   --primary: var(--color-shades-pink-300);
   --secondary: var(--color-shades-yellow-300);
   --tertiary: var(--color-shades-blue-400);
+
 }
 
-[data-md-color-scheme="darkanelia"] {
+[data-md-color-scheme="dark"] {
   --md-primary-fg-color:               var(--primary);
   --md-primary-fg-color--light:        var(--primary-light);
   --md-primary-fg-color--dark:         var(--primary-dark);
 
   --md-accent-fg-color:                var(--tertiary);
   
-  --md-default-fg-color:               var(--grayscale-gray-50);
+  --md-default-fg-color:               var(--grayscale-gray-300);
   --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.7);
   --md-default-fg-color--lighter:      hsla(0, 0%, 100%, 0.3);
   --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.12); 
@@ -73,12 +74,16 @@
   --md-typeset-color:                  var(--md-default-fg-color);
   --md-typeset-a-color:                var(--md-primary-fg-color);
 
+  --md-code-bg-color:                  var(--grayscale-gray-800);
+
   --header-background:                 var(--md-default-bg-color);
   --section-bg-color:                  var(--gray-50-004); 
 
+  --outline:                          var(--md-default-fg-color--lightest); 
+
 }
 
-[data-md-color-scheme="lightanelia"] {
+[data-md-color-scheme="light"] {
   --md-primary-fg-color:               var(--primary);
   --md-primary-fg-color--light:        var(--primary-light);
   --md-primary-fg-color--dark:         var(--primary-dark);
@@ -97,14 +102,15 @@
     --md-typeset-color:                var(--md-default-fg-color);
     --md-typeset-a-color:              var(--md-primary-fg-color);
 
+    --md-code-bg-color:                var(--grayscale-gray-200);
+
     --header-background:               var(--md-default-bg-color);
-    --section-bg-color:                var(--gray-920-008);  
+    --section-bg-color:                var(--gray-920-008); 
+    
+    --outline:                         var(--md-default-fg-color--lightest); 
 
   }
 
-.md-grid {
-  max-width: 56rem;
-}
 
 #anelialogo path {
   fill:var(--md-default-fg-color);
@@ -126,6 +132,12 @@
 
 .md-typeset{
   font-family: var(--md-text-font);
+}
+
+.newLine {
+  display: block;
+  width: 100%;
+  overflow: hidden;
 }
 
 /*Buttons*/
@@ -244,4 +256,27 @@
 
 .md-search__input::placeholder{
   color: var(--md-typeset-color);
+}
+
+.md-nav__item--section {
+  border-top: 1px solid var(--outline);
+}
+
+.md-post__content h2 {
+  font-weight: 600;
+}
+
+  .md-post__content h2 > a {
+    color: var(--md-typeset-color);
+  }
+  .md-post__content h3 > a {
+    color: var(--md-typeset-color);
+  }
+
+.md-post__meta > .md-nav__item--section {
+  border-top: none;
+}
+
+.md-nav__item .md-nav__link--active {
+  text-transform: uppercase;
 }

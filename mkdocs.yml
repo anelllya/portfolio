@@ -2,6 +2,8 @@
 site_name: Anelia - Digital Designer
 site_author: Anelia Stoyanova
 docs_dir: docs 
+repo_url: https://github.com/anelllya/portfolio
+repo_name: anelllya/portfolio
 
 copyright: "Copyright © 2019 - <span id='currentYear'></span> Anelia Stoyanova"
 
@@ -18,6 +20,7 @@ theme:
   
   icon:
     logo: myicons/anelia-logo
+    repo: fontawesome/brands/github
   
   favicon: img/favicon.png  
 
@@ -29,7 +32,7 @@ theme:
     - navigation.instant          # Keep navigation from reloading
     - navigation.instant.progress # Display page loading progress-bar ( > 400ms)
     - navigation.top
-    - navigation.expand
+    - navigation.sections
     - search.highlight            # Highlight all occurrences of queried string
     - search.share                # Search Query can be copied to Clipboard
     - search.suggest              # Display likeliest completion for the last queried word
@@ -38,14 +41,14 @@ theme:
   palette:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
-      scheme: lightanelia
+      scheme: light
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
 
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: darkanelia
+      scheme: dark
       toggle:
         icon: material/weather-sunny
         name: Switch to Light Mode    
@@ -54,15 +57,15 @@ nav:
   - Home: index.md
   - Work: 
     - work/index.md
-    - Digital Products:
-      - work/digital-products/index.md 
-      - System73: work/digital-products/system73.md
-    - Content Design: 
-      - work/content-design/pecas.md
-    - Branding:
-      - work/branding/index.md 
-      - HornetsHockey: work/branding/hornets-hockey.md
-      - Cosmo Bots: work/branding/cosmo-bots.md
+    - Digital:
+      - work/digital/index.md 
+      - KUNO: work/digital/kuno.md
+    - Content: 
+      - work/content/pecas.md
+    - Brands:
+      - work/brands/index.md 
+      - HornetsHockey: work/brands/hornets-hockey.md
+      - Cosmo Bots: work/brands/cosmo-bots.md
 
   - Blog: 
       - blog/index.md
@@ -74,13 +77,15 @@ plugins:
 #  - roamlinks # Obsidian Style Image Support ![[<attachment_name>]]
   - glightbox
   - blog:
-      blog_toc: true
       post_url_date_format: yyyy/MM
       post_excerpt: required
       blog_toc: true
       archive: true
       archive_toc: true
       categories: true
+# - git-revision-date-localized:
+#      enable_creation_date: true
+#      type: timeago 
   
 
 markdown_extensions:
@@ -121,11 +126,11 @@ extra:
 
   cards:
     - image: 'img/digital-products.svg'
-      title: 'Digital products'
-      url: 'work/digital-products/'
+      title: 'Digital'
+      url: 'work/digital/'
     - image: 'img/branding.svg'
-      title: 'Branding'
-      url: 'work/branding/'
+      title: 'Brands'
+      url: 'work/brands/'
     - image: 'img/blog.svg'
       title: 'Blog'
       url: 'blog/' 

@@ -7,21 +7,35 @@ title: About
 
 ## Welcome
 
+### I am **Anelia**
+
 ![Hello, Nice to meet you](img/hello-anelia.webp){ align=left . width="200"}
 
-I am **Anelia Stoyanova** (She/Her) | Digital product designer since 2009
+Digital product designer since 2009 - (She/Her)
 
 I focus on crafting digital products that fulfill your customers’ wildest dreams.
 
-With my extensive experience in UX and UI design, I specialize in identifying software and interface problems. I've dedicated my career to discovering innovative solutions to those problems. I believe that nothing is impossible. <br>
+With my extensive experience in UX and UI design, I specialize in identifying software and interface problems. I've dedicated my career to discovering innovative solutions to those problems. 
+
+<p class="newLine"></p>
+
+> I truly believe that nothing is impossible.
 
 ![remote work](img/remote-working-from-kitchen.webp){ align=right . width="400"}
 
-Beyond Interface Design, I am driven by a strong desire to solve problems. I am constantly seeking new approaches in everything that comes my way, not only interface design. The thrill of unraveling complex issues and finding creative solutions fuels my life as a designer. <br><br><br><br>
+### Behind the scenes
+
+Beyond Interface Design, I am driven by a strong desire to solve problems. I am constantly seeking new approaches in everything that comes my way, not only interface design. The thrill of unraveling complex issues and finding creative solutions fuels my life as a designer. 
+
+<p class="newLine"></p>
 
 ![christmas decoration printed circuit board](img/christmas-pcb.webp){ align=left . width="250"}
 
-My geeky nature and stubborness enhance my problem-solving skills, bringing a unique perspective and insatiable curiosity to each project. This drive to explore and invent enables me to address software and interface challenges and play with different solutions, until  I find the most suitable one for the situation.<br><br><br><br>
+### Fun stuff
+
+My geeky nature and stubborness enhance my problem-solving skills, bringing a unique perspective and insatiable curiosity to each project. This drive to explore and invent enables me to address software and interface challenges and play with different solutions, until  I find the most suitable one for the situation.
+
+<p class="newLine"></p>
 
 ## Hobbies
 
