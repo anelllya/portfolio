@@ -3,7 +3,7 @@ title: PECA'S Tenerife
 date: 2018-12-10
 ---
 
-![Pecas portada](img/pecas/outside-jonisand.webp){ .filterGray }
+![Pecas portada](https://anelllya.github.io/portfolio/img/pecas/outside-jonisand.webp){ .filterGray }
 
 ## Project Summary
 
@@ -48,22 +48,22 @@ date: 2018-12-10
 
 <div class="galleryItems">
     <div>
-        <img src="img/pecas/studio-sand.webp" alt="three pink tones in gradient" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/studio-sand.webp" alt="three pink tones in gradient" />
     </div>
     <div>
-        <img src="img/pecas/studio-lodi.webp" alt="Lodi autumn gradients" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/studio-lodi.webp" alt="Lodi autumn gradients" />
     </div>
     <div>
-        <img src="img/pecas/studio-dansi.webp" alt="dansi pink boots" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/studio-dansi.webp" alt="dansi pink boots" />
     </div>
     <div>
-        <img src="img/pecas/studio-wond.webp" alt="wonders loafers" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/studio-wond.webp" alt="wonders loafers" />
     </div>
     <div>
-        <img src="img/pecas/studio-lodi-marino.webp" alt="lodi blue velvet" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/studio-lodi-marino.webp" alt="lodi blue velvet" />
     </div>    
     <div>
-        <img src="img/pecas/studio-angari.webp" alt="angari nude and black pumps" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/studio-angari.webp" alt="angari nude and black pumps" />
     </div>    
 </div>
 
@@ -86,28 +86,28 @@ After that period, we were able to secure a model for the shoes, and naturally, 
 
 <div class="galleryItems">
     <div>
-        <img src="img/pecas/outside-angari-botin.webp" alt="Angari boots" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-angari-botin.webp" alt="Angari boots" />
     </div>
     <div>
-        <img src="img/pecas/outside-botinpedro.webp" alt="PedroMiralles boots" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-botinpedro.webp" alt="PedroMiralles boots" />
     </div>
     <div>
-        <img src="img/pecas/outside-falda.webp" alt="Lodi leopard pumps" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-falda.webp" alt="Lodi leopard pumps" />
     </div>
     <div>
-        <img src="img/pecas/outside-Sandalia-de-tira-exe.webp" alt="summer sandal Exe" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-Sandalia-de-tira-exe.webp" alt="summer sandal Exe" />
     </div>
     <div>
-        <img src="img/pecas/outside-Sandalias.webp" alt="Summer sandal big platform" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-Sandalias.webp" alt="Summer sandal big platform" />
     </div>    
     <div>
-        <img src="img/pecas/outside-lodi.webp" alt="white boots" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-lodi.webp" alt="white boots" />
     </div>
     <div>
-        <img src="img/pecas/outside-Sandalia-plana.webp" alt="flat silver sandals" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-Sandalia-plana.webp" alt="flat silver sandals" />
     </div>  
     <div>
-        <img src="img/pecas/outside-Sandalia de tira.webp" alt="flat sandals on the beach" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/outside-Sandalia de tira.webp" alt="flat sandals on the beach" />
     </div>   
 </div>
 
@@ -121,13 +121,13 @@ Some of the unique angles in the produced images were reposted by the brands and
 
 <div class="galGridItem">
     <div>
-        <img src="img/pecas/Dansi-shoes-repost-2.webp" alt=" Dansi repost 1" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/Dansi-shoes-repost-2.webp" alt=" Dansi repost 1" />
     </div>
     <div>
-        <img src="img/pecas/Lodi-shoes-captura.webp" alt=" Lodi repost" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/Lodi-shoes-captura.webp" alt=" Lodi repost" />
     </div>
     <div>
-        <img src="img/pecas/Dansi-shoes-repost.webp" alt="Dansi repost 2" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/Dansi-shoes-repost.webp" alt="Dansi repost 2" />
     </div>    
 </div>
 
@@ -139,16 +139,16 @@ Some of the unique angles in the produced images were reposted by the brands and
 
 <div class="galleryItems">
     <div>
-        <img src="img/pecas/instore-lodi-sandals.webp" alt="instore sandals" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/instore-lodi-sandals.webp" alt="instore sandals" />
     </div>
     <div>
-        <img src="img/pecas/instore-panamajacks.webp" alt="instore boots" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/instore-panamajacks.webp" alt="instore boots" />
     </div>
     <div>
-        <img src="img/pecas/instore-wereopen.webp" alt="instore pineapple" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/instore-wereopen.webp" alt="instore pineapple" />
     </div>
     <div>
-        <img src="img/pecas/instore-christmas.webp" alt="instore christmas stand" />
+        <img src="https://anelllya.github.io/portfolio/img/pecas/instore-christmas.webp" alt="instore christmas stand" />
     </div>
  
 </div>
