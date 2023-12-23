@@ -41,14 +41,14 @@ theme:
   palette:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
-      scheme: light
+      scheme: lightanelia
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
 
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: dark
+      scheme: darkanelia
       toggle:
         icon: material/weather-sunny
         name: Switch to Light Mode    
