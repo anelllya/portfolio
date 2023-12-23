@@ -55,15 +55,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Work: 
-    - work/index.md
+  - Work:
+    - work/index.md 
     - Digital:
-      - work/digital/index.md 
+      - work/digital/index.md
       - KUNO: work/digital/kuno.md
     - Content: 
-      - work/content/pecas.md
+      - PECA'S Tenerife: work/content/pecas.md
     - Brands:
-      - work/brands/index.md 
+      - work/brands/index.md
       - HornetsHockey: work/brands/hornets-hockey.md
       - Cosmo Bots: work/brands/cosmo-bots.md
 
