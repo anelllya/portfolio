@@ -55,7 +55,7 @@
 
 }
 
-[data-md-color-scheme="dark"] {
+[data-md-color-scheme="darkanelia"] {
   --md-primary-fg-color:               var(--primary);
   --md-primary-fg-color--light:        var(--primary-light);
   --md-primary-fg-color--dark:         var(--primary-dark);
@@ -83,7 +83,7 @@
 
 }
 
-[data-md-color-scheme="light"] {
+[data-md-color-scheme="lightanelia"] {
   --md-primary-fg-color:               var(--primary);
   --md-primary-fg-color--light:        var(--primary-light);
   --md-primary-fg-color--dark:         var(--primary-dark);
