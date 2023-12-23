@@ -35,6 +35,7 @@
   --grayscale-gray-100: #F3F4F6;
   --grayscale-gray-200: #E5E7EB;
   --grayscale-gray-300: #D1D5DB;
+  --grayscale-gray-350: #c4c9d1;
   --grayscale-gray-400: #9CA3AF;
   --grayscale-gray-500: #6B7280;
   --grayscale-gray-600: #4B5563;
@@ -52,6 +53,10 @@
   --primary: var(--color-shades-pink-300);
   --secondary: var(--color-shades-yellow-300);
   --tertiary: var(--color-shades-blue-400);
+  --success: #22C55E;
+  --information: #3DB4D3;
+  --warning: #F6C721;
+  --error: #BF3A68;
 
 }
 
@@ -60,9 +65,11 @@
   --md-primary-fg-color--light:        var(--primary-light);
   --md-primary-fg-color--dark:         var(--primary-dark);
 
+  --md-secondary:                      var(--secondary);
+
   --md-accent-fg-color:                var(--tertiary);
   
-  --md-default-fg-color:               var(--grayscale-gray-300);
+  --md-default-fg-color:               var(--grayscale-gray-350);
   --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.7);
   --md-default-fg-color--lighter:      hsla(0, 0%, 100%, 0.3);
   --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.12); 
@@ -79,7 +86,7 @@
   --header-background:                 var(--md-default-bg-color);
   --section-bg-color:                  var(--gray-50-004); 
 
-  --outline:                          var(--md-default-fg-color--lightest); 
+  --outline:                           var(--md-default-fg-color--lightest); 
 
 }
 
@@ -88,26 +95,28 @@
   --md-primary-fg-color--light:        var(--primary-light);
   --md-primary-fg-color--dark:         var(--primary-dark);
 
-    --md-accent-fg-color:                var(--tertiary);
+  --md-secondary:                      var(--color-shades-yellow-400);
+
+  --md-accent-fg-color:                var(--tertiary);
   
-    --md-default-fg-color:             var(--grayscale-gray-950);
-    --md-default-fg-color--light:      hsla(0, 0%, 0%, 0.54);
-    --md-default-fg-color--lighter:    hsla(0, 0%, 0%, 0.32);
-    --md-default-fg-color--lightest:   hsla(0, 0%, 0%, 0.07);
-    --md-default-bg-color:             var(--grayscale-gray-00-white);
-    --md-default-bg-color--light:      hsla(0, 0%, 100%, 0.7);
-    --md-default-bg-color--lighter:    hsla(0, 0%, 100%, 0.3);
-    --md-default-bg-color--lightest:   hsla(0, 19%, 13%, 0.12);
+  --md-default-fg-color:               var(--grayscale-gray-900);
+  --md-default-fg-color--light:       hsla(0, 0%, 0%, 0.54);
+  --md-default-fg-color--lighter:     hsla(0, 0%, 0%, 0.32);
+  --md-default-fg-color--lightest:    hsla(0, 0%, 0%, 0.07);
+  --md-default-bg-color:               var(--grayscale-gray-100);
+  --md-default-bg-color--light:       hsla(0, 0%, 100%, 0.7);
+  --md-default-bg-color--lighter:     hsla(0, 0%, 100%, 0.3);
+  --md-default-bg-color--lightest:    hsla(0, 19%, 13%, 0.12);
 
-    --md-typeset-color:                var(--md-default-fg-color);
-    --md-typeset-a-color:              var(--md-primary-fg-color);
+  --md-typeset-color:                 var(--md-default-fg-color);
+  --md-typeset-a-color:               var(--md-primary-fg-color);
 
-    --md-code-bg-color:                var(--grayscale-gray-200);
+  --md-code-bg-color:                 var(--grayscale-gray-200);
 
-    --header-background:               var(--md-default-bg-color);
-    --section-bg-color:                var(--gray-920-008); 
+  --header-background:                var(--md-default-bg-color);
+  --section-bg-color:                 var(--gray-920-008); 
     
-    --outline:                         var(--md-default-fg-color--lightest); 
+  --outline:                          var(--md-default-fg-color--lightest); 
 
   }
 
@@ -279,4 +288,45 @@
 
 .md-nav__item .md-nav__link--active {
   text-transform: uppercase;
+}
+
+.iconSummary {
+  color: var(--md-secondary);
+}
+
+/* gallery */
+.galleryFlex {
+  width:100%;
+}
+
+.galleryItems{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .05rem;
+}
+
+.galleryItems > * {
+  flex: 1 1 10em;
+  height: 10rem;
+} 
+
+.galleryItems img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(30%);
+}
+
+.galGridItem {
+  display: flex;
+  gap: .05rem;
+}
+
+.galGridItem > * {
+  flex: 1 1 15rem;
+  filter: grayscale(30%);
+}
+
+.filterGray {
+  filter: grayscale(30%);
 }
