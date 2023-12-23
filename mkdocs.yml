@@ -103,6 +103,8 @@ extra:
   analytics:
       provider: google
       property: G-C5G4W8PNB8
+      provider: hotjar
+      property: 3796880
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/anelia-stoyanova/
