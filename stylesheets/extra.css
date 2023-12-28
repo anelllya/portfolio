@@ -151,13 +151,16 @@
 
 /*Buttons*/
 
+.md-button{
+  border: none;
+  border-image-slice: 1;
+}
+
 .md-typeset .md-button--primary {
   border-radius: 2px;
-  border: 0.1rem solid;
+  border: 0.1rem solid var(--md-typeset-color);
   background-color: var(--md-typeset-color);
-  border-color: var(--md-typeset-color);
   color: var(--md-default-bg-color); 
-  border-style: revert; /*Important*/
   padding: 0.625em 2em;
   margin-top: .5rem;
   margin-right: .5rem;
@@ -168,13 +171,14 @@
     background-color: var(--md-primary-fg-color);
     background-image: linear-gradient(to right, var(--color-shades-pink-400),var(--color-shades-blue-500));
     color: var(--md-default-bg-color);
-    border-color: var(--md-default-bg-color);
+    border: 0.1rem solid var(--color-shades-blue-500);
+    
 }
 
 
 .md-typeset .md-button--secondary {
   color: var(--md-typeset-color);
-  border-radius: 2rem;
+  border-radius: 2px;
   border: 0.1rem solid var(--md-typeset-color);
   padding: 0.625em 2em;
   margin-top: .5rem;
