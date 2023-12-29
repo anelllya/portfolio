@@ -44,19 +44,31 @@
   --grayscale-gray-900: #111827;
   --grayscale-gray-920: #1C1D24;
   --grayscale-gray-950: #030712;
-  --grayscale-gray-99-black: #000000;
-  --gray-50-004: rgba(249,250,251,0.04);
-  --gray-920-008: rgba(28,29,36,0.08);
-  --primary-light-008: rgba(217,137,164,0.08);
+  --grayscale-gray-99-black: #080606;
+
+  --gray-50-004: rgba(249, 250, 251, 0.04);
+  --gray-920-008: rgba(28, 29, 36, 0.08);
+
+  --primary-light-008: rgba(217, 137, 164, 0.08);
+  --primary-light-016: rgba(217, 137, 164, 0.16);
   --primary-dark: var(--color-shades-pink-700);
   --primary-light: var(--color-shades-pink-200);
   --primary: var(--color-shades-pink-300);
+
   --secondary: var(--color-shades-yellow-300);
+  --secondary-016: rgba(248, 211, 77, 0.16);
+
   --tertiary: var(--color-shades-blue-400);
+  --tertiary-016: rgba(100, 195, 220, 0.16);
+  
   --success: #22C55E;
   --information: #3DB4D3;
   --warning: #F6C721;
   --error: #BF3A68;
+
+  --grayscale-filter: grayscale(40%);
+
+  --tag-padding: .2rem 0.9rem .3rem 0.7rem;
 
 }
 
@@ -70,13 +82,13 @@
   --md-accent-fg-color:                var(--tertiary);
   
   --md-default-fg-color:               var(--grayscale-gray-350);
-  --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.7);
-  --md-default-fg-color--lighter:      hsla(0, 0%, 100%, 0.3);
-  --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.12); 
+  --md-default-fg-color--light:        rgba(255, 255, 255, 0.7);
+  --md-default-fg-color--lighter:      rgba(255, 255, 255, 0.3);
+  --md-default-fg-color--lightest:     rgba(255, 255, 255, 0.12); 
   --md-default-bg-color:               var(--grayscale-gray-920);
-  --md-default-bg-color--light:        hsla(0, 0%, 0%, 0.54);
-  --md-default-bg-color--lighter:      hsla(0, 0%, 0%, 0.32);
-  --md-default-bg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+  --md-default-bg-color--light:        rgba(0, 0, 0, 0.54);
+  --md-default-bg-color--lighter:      rgba(0, 0, 0, 0.32);
+  --md-default-bg-color--lightest:     rgba(0, 0, 0, 0.07);
 
   --md-typeset-color:                  var(--md-default-fg-color);
   --md-typeset-a-color:                var(--md-primary-fg-color);
@@ -87,7 +99,7 @@
   --section-bg-color:                  var(--gray-50-004); 
 
   --outline:                           var(--md-default-fg-color--lightest); 
-
+  --tags:                              var(--grayscale-gray-500);
 }
 
 [data-md-color-scheme="lightanelia"] {
@@ -100,13 +112,13 @@
   --md-accent-fg-color:                var(--tertiary);
   
   --md-default-fg-color:               var(--grayscale-gray-900);
-  --md-default-fg-color--light:       hsla(0, 0%, 0%, 0.54);
-  --md-default-fg-color--lighter:     hsla(0, 0%, 0%, 0.32);
-  --md-default-fg-color--lightest:    hsla(0, 0%, 0%, 0.07);
+  --md-default-fg-color--light:       rgba(0, 0, 0, 0.54);
+  --md-default-fg-color--lighter:     rgba(0, 0, 0, 0.32);
+  --md-default-fg-color--lightest:    rgba(0, 0, 0, 0.07);
   --md-default-bg-color:               var(--grayscale-gray-100);
-  --md-default-bg-color--light:       hsla(0, 0%, 100%, 0.7);
-  --md-default-bg-color--lighter:     hsla(0, 0%, 100%, 0.3);
-  --md-default-bg-color--lightest:    hsla(0, 19%, 13%, 0.12);
+  --md-default-bg-color--light:       rgba(255, 255, 255, 0.7);
+  --md-default-bg-color--lighter:     rgba(255, 255, 255, 0.3);
+  --md-default-bg-color--lightest:    rgba(39, 27, 27, 0.12);
 
   --md-typeset-color:                 var(--md-default-fg-color);
   --md-typeset-a-color:               var(--md-primary-fg-color);
@@ -116,9 +128,10 @@
   --header-background:                var(--md-default-bg-color);
   --section-bg-color:                 var(--gray-920-008); 
     
-  --outline:                          var(--md-default-fg-color--lightest); 
-
+  --outline:                          var(--md-default-fg-color--lightest);
+  --tags:                             var(--grayscale-gray-500); 
   }
+
 
 
 #anelialogo path {
@@ -318,7 +331,11 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  filter: grayscale(30%);
+  filter: var(--grayscale-filter);
+}
+
+.galleryItems img:hover {
+  filter: grayscale(0%);
 }
 
 .galGridItem {
@@ -328,9 +345,36 @@
 
 .galGridItem > * {
   flex: 1 1 15rem;
-  filter: grayscale(30%);
+  filter: var(--grayscale-filter);
+}
+
+.galGridItem > *:hover{
+  filter: grayscale(0%);
 }
 
 .filterGray {
-  filter: grayscale(30%);
+  filter: var(--grayscale-filter);
+}
+
+.filterGray:hover {
+  filter: grayscale(0%);
+}
+
+
+/*Category Tags*/
+
+
+.tagBase {
+  padding: var(--tag-padding);
+  font-size: .8rem;
+  border: 0.05rem solid var(--tags);
+  border-radius: .25rem;
+  color: var(--tags) !important;
+  text-decoration: none;
+}
+
+.tagBase:hover {
+  background: var(--primary-light-016);
+  color: var(--primary) !important;
+  border-color: var(--primary);
 }
