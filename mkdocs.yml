@@ -141,13 +141,13 @@ extra:
         make this portfolio better.
   
   work:
-    - image: '/img/featured-images/kuno.webp'
+    - image: 'https://anelllya.github.io/portfolio/img/featured-images/kuno.webp'
       title: 'Kuno'
       url: 'digital/kuno/'
-    - image: '/img/featured-images/pecas.webp'
+    - image: 'https://anelllya.github.io/portfolio/img/featured-images/pecas.webp'
       title: 'PECA’S Tenerife'
       url: 'content/pecas/'
-    - image: '/img/featured-images/cosmobots.webp'
+    - image: 'https://anelllya.github.io/portfolio/img/featured-images/cosmobots.webp'
       title: 'Cosmobots'
       url: 'brands/cosmo-bots/'
     
