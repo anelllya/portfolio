@@ -9,21 +9,21 @@ date: 2018-12-10
 
 <div class="grid cards" markdown>
 
--   :material-badge-account:{ .lg .middle .iconSummary }  __Client__
+-   :material-badge-account:{ .middle .iconSummary }  __Client__
 
     ---
 
     **Calzados PECA’S** <br>
     (local shoe stores chain)
 
--   :material-calendar-expand-horizontal:{ .lg .middle .iconSummary }  __Timeline__
+-   :material-calendar-expand-horizontal:{ .middle .iconSummary }  __Timeline__
 
     ---
 
-    - **From**: July 2017 
-    - **To**: December 2018
+    Jul-2017 <--> Dec 2018 <br>
+    (18 months)
 
--   :material-face-woman-shimmer:{ .lg .middle .iconSummary }  __Role__
+-   :material-face-woman-shimmer:{ .middle .iconSummary }  __Role__
 
     ---
 
@@ -31,7 +31,7 @@ date: 2018-12-10
     - Online Sales
     - Product Photographer
 
--   :material-bullseye-arrow:{ .lg .middle .iconSummary }  __Achievements__
+-   :material-bullseye-arrow:{ .middle .iconSummary }  __Achievements__
 
     ---
 
@@ -115,7 +115,12 @@ After that period, we were able to secure a model for the shoes, and naturally, 
 
 ### My Unique Contribution to the Project
 
-Some of the unique angles in the produced images were reposted by the brands and gained significant interest on their social media profiles.
+- Creation of the Content Calendar
+- Inventing a post style for each social media channel
+- Programming for the release of each posts
+- Building and maintaining relashionships with our clients
+
+Some of the shoe compositions from our images were reposted by the brands manufacturers and gained significant interest on their social media profiles.
 
 <div class="galGrid">
 
