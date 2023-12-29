@@ -83,9 +83,9 @@ plugins:
       archive: true
       archive_toc: true
       categories: true
-  - git-revision-date-localized:
-       enable_creation_date: true
-       type: timeago 
+# - git-revision-date-localized:
+#      enable_creation_date: true
+#      type: timeago 
   
 
 markdown_extensions:
@@ -138,9 +138,9 @@ extra:
       title: Cookie consent
       description: >- 
         We use cookies to recognize your repeated visits and preferences, as well
-        as to measure the effectiveness of our documentation and whether users
+        as to measure the effectiveness of  this portfolio and whether users
         find what they're searching for. With your consent, you're helping us to
-        make our documentation better.
+        make this portfolio better.
 
 
   # Custom Homepage Elements
