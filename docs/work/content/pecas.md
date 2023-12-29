@@ -1,6 +1,7 @@
 ---
 title: PECA'S Tenerife
 date: 2018-12-10
+icon: myicons/vectorlists/pecas-icon
 ---
 
 ![Pecas portada](https://anelllya.github.io/portfolio/img/pecas/outside-jonisand.webp){ .filterGray }

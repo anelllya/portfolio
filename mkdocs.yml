@@ -58,12 +58,10 @@ nav:
   - Work:
     - work/index.md 
     - Digital:
-      - work/digital/index.md
       - KUNO: work/digital/kuno.md
     - Content: 
       - PECA'S Tenerife: work/content/pecas.md
     - Brands:
-      - work/brands/index.md
       - HornetsHockey: work/brands/hornets-hockey.md
       - Cosmo Bots: work/brands/cosmo-bots.md
 
@@ -141,6 +139,18 @@ extra:
         as to measure the effectiveness of  this portfolio and whether users
         find what they're searching for. With your consent, you're helping us to
         make this portfolio better.
+  
+  work:
+    - image: '/img/featured-images/kuno.webp'
+      title: 'Kuno'
+      url: 'digital/kuno/'
+    - image: '/img/featured-images/pecas.webp'
+      title: 'PECA’S Tenerife'
+      url: 'content/pecas/'
+    - image: '/img/featured-images/cosmobots.webp'
+      title: 'Cosmobots'
+      url: 'brands/cosmo-bots/'
+    
 
 
   # Custom Homepage Elements

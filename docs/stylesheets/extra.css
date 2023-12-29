@@ -378,3 +378,15 @@
   color: var(--primary) !important;
   border-color: var(--primary);
 }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 
+    repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: .1rem;
+  margin: 0;
+}
+
+.project-image img {
+  width: 100%;
+}
