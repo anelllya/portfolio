@@ -393,14 +393,27 @@
   margin: 0;
 }
 
+.project-image {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  padding-top: 70%;
+}
+
 .project-image img {
   filter: var(--grayscale-filter);
-  opacity: 0.9;
-  -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transition: transform 250ms ease-in-out 0s,-webkit-transform 250ms ease-in-out 0s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  aspect-ratio: 16/9;
 }
 
 .project-image:hover img {
   filter: grayscale(0%);
-  opacity: 1;
+  transform: scale(1.1) rotate(2deg);
+  position: absolute;
 }
