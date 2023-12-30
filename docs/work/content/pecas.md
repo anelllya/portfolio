@@ -23,7 +23,7 @@ icon: myicons/vectorlists/pecas-icon
     ---
 
     Jul-2017 <--> Dec 2018 <br>
-    (18 months)
+    (1 yr 6 mos)
 
 -   :material-face-woman-shimmer:{ .middle .iconSummary }  __Role__
 
