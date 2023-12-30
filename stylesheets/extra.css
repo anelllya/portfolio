@@ -332,6 +332,8 @@
   width: 100%;
   object-fit: cover;
   filter: var(--grayscale-filter);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .galleryItems img:hover {
@@ -346,6 +348,8 @@
 .galGridItem > * {
   flex: 1 1 15rem;
   filter: var(--grayscale-filter);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .galGridItem > *:hover{
@@ -354,6 +358,8 @@
 
 .filterGray {
   filter: var(--grayscale-filter);
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .filterGray:hover {
@@ -388,5 +394,13 @@
 }
 
 .project-image img {
-  width: 100%;
+  filter: var(--grayscale-filter);
+  opacity: 0.9;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.project-image:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
 }
