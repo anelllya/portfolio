@@ -95,6 +95,14 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 
 extra:
@@ -125,10 +133,10 @@ extra:
   cards:
     - image: 'img/digital-products.svg'
       title: 'Digital'
-      url: 'work/digital/'
+      url: 'work/digital/kuno/'
     - image: 'img/branding.svg'
       title: 'Brands'
-      url: 'work/brands/'
+      url: 'work/brands/hornets-hockey/'
     - image: 'img/blog.svg'
       title: 'Blog'
       url: 'blog/' 

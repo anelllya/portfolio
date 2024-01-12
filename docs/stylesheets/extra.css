@@ -100,6 +100,8 @@
 
   --outline:                           var(--md-default-fg-color--lightest); 
   --tags:                              var(--grayscale-gray-500);
+
+  --md-mermaid-label-fg-color:        var(--grayscale-gray-400);
 }
 
 [data-md-color-scheme="lightanelia"] {
@@ -416,4 +418,8 @@
   filter: grayscale(0%);
   transform: scale(1.1) rotate(2deg);
   position: absolute;
+}
+
+.mermaid {
+  text-align: center;
 }
