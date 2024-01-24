@@ -107,9 +107,9 @@ markdown_extensions:
 
 extra:
   analytics:
-      provider: google
+    - provider: google
       property: G-KZNTX81S1W
-      provider: hotjar
+    - provider: hotjar
       property: 3796880
   social:
     - icon: fontawesome/brands/linkedin 
