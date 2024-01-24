@@ -6,15 +6,15 @@
     .md-sidebar--secondary {
         display: none !important;
     }
+
 </style>
 
 <h1>Work</h1>
 
 <div class="work-reference">
-
     <div class="projects-grid">
         {% for work in config.extra.work %}
-        <div class="project-link">
+        <div class="project-link item {{ work.category }}">
           <a href="{{ work.url }}">
             <div class="project-image">
                 <img src="{{ work.image }}" alt="{{ work.title }}">

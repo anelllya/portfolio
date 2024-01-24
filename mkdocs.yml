@@ -108,7 +108,7 @@ markdown_extensions:
 extra:
   analytics:
       provider: google
-      property: G-C5G4W8PNB8
+      property: G-KZNTX81S1W
       provider: hotjar
       property: 3796880
   social:
@@ -152,12 +152,16 @@ extra:
     - image: '../img/featured-images/kuno.webp'
       title: 'Kuno'
       url: 'digital/kuno/'
+      category: 'digital'
     - image: '../img/featured-images/pecas.webp'
       title: 'PECA’S Tenerife'
       url: 'content/pecas/'
+      category: 'content'
     - image: '../img/featured-images/cosmobots.webp'
       title: 'Cosmobots'
       url: 'brands/cosmo-bots/'
+      category: 'brands'
+
     
 
 
