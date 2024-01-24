@@ -107,8 +107,10 @@ markdown_extensions:
 
 extra:
   analytics:
-      provider: hotjar
-      property: 3796880
+      # provider: hotjar
+      # property: 3796880
+      provider: google
+      property: G-KZNTX81S1W
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/anelia-stoyanova/
