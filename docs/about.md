@@ -5,9 +5,7 @@ title: About
 
 # About me
 
-## Welcome
-
-### I am **Anelia**
+## Welcome, I am **Anelia**
 
 ![Hello, Nice to meet you](img/hello-anelia.webp){ align=left . width="200"}
 

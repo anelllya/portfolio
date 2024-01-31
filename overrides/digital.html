@@ -1,4 +1,3 @@
-<!-- Elements added to "work.html" will only be displayed on the work page -->
 
 {% extends "main.html" %}
 {% block content %}
@@ -9,18 +8,20 @@
 
 </style>
 
-<h1>Work</h1>
+<h1>Digital products</h1>
 
 <div class="work-reference">
     <div class="projects-grid">
         {% for work in config.extra.work %}
-        <div class="project-link">
+        {% if work.category == 'digital' %}
+        <div class="project-link digital">
           <a href="{{ work.url }}">
             <div class="project-image">
-                <img src="{{ work.image }}" alt="{{ work.title }}">
+                <img src="../{{ work.image }}" alt="{{ work.title }}">
             </div>
           </a>
         </div>
+        {% endif %}
         {% endfor %}
     </div>
 </div>
