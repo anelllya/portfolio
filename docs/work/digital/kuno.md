@@ -85,7 +85,7 @@ One effective approach is to create a concise, one-page Product Requirements Doc
 
 Once the definition meeting concludes, and all participants have endorsed the pre-requirements and commitments, there is no room for "You said" or "I said" discussions – everything is documented and accessible to everyone.
 
-This serves as a robust guide that can be flexibly adapted to meet the specific needs of the team --> [:material-open-in-new:{.middle} Atlassian PRD](https://www.atlassian.com/agile/product-management/requirements){ target="_blank"}
+This serves as a robust guide that can be flexibly adapted to meet the specific needs of the team --> [:material-open-in-new:{.middle} Atlassian PRD](https://www.atlassian.com/agile/product-management/requirements){ target="_blank" .content-link}
 
 
 ### Wireframing
@@ -105,9 +105,11 @@ With the emergence of Sketch, other alternatives like Adobe XD surfaced. Adobe X
 
 Prototypes are essential for problem-solving, showcasing new features, and communicating designs to developers. An interactive prototype goes beyond a static image, offering a more immersive experience. During this stage, ideas can be explored, tested, and validated, allowing for the identification and resolution of potential issues before actual development.
 
-Here, a single-screen prototype is embedded using Figma. :material-arrow-down:
+Here, you can see a single-screen prototype in Figma. :material-arrow-down:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FalDXlktB2GDEDV66ajWORQ%2FSystem73%3Fpage-id%3D1%253A328%26type%3Ddesign%26node-id%3D50-10206%26viewport%3D-2770%252C3691%252C0.56%26t%3DjgzEouMvOmsbgy97-1%26scaling%3Dscale-down%26starting-point-node-id%3D50%253A10206%26mode%3Ddesign" allowfullscreen></iframe>
+[:material-open-in-new:{.middle}View Figma Reduced Prototype](https://www.figma.com/file/alDXlktB2GDEDV66ajWORQ/System73?type=design&node-id=50%3A10206&mode=design&t=t5F1wc1RMnn5v2kh-1){ target="_blank" .content-link}
+
+![Kuno Prototype Image](../../img/kuno/kuno-prototype.webp)
 
 ### Test
 
@@ -117,15 +119,13 @@ Regardless of one's confidence in design skills, users seldom interact with prod
 
 If you doubt this, consider the impact of this viral video: 
 
-??? note "♬ The Square Hole"
-
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tired_actor/video/6912855387788102918" data-video-id="6912855387788102918" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tired_actor" href="https://www.tiktok.com/@tired_actor?refer=embed">@tired_actor</a> <a title="duet" target="_blank" href="https://www.tiktok.com/tag/duet?refer=embed">#duet</a> with @brock1137 no please no <a title="funny" target="_blank" href="https://www.tiktok.com/tag/funny?refer=embed">#funny</a> <a title="welcome2021" target="_blank" href="https://www.tiktok.com/tag/welcome2021?refer=embed">#Welcome2021</a> <a title="2021" target="_blank" href="https://www.tiktok.com/tag/2021?refer=embed">#2021</a> <a title="newyear" target="_blank" href="https://www.tiktok.com/tag/newyear?refer=embed">#newyear</a> <a title="firstpost" target="_blank" href="https://www.tiktok.com/tag/firstpost?refer=embed">#firstpost</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="comedy" target="_blank" href="https://www.tiktok.com/tag/comedy?refer=embed">#comedy</a> <a title="crying" target="_blank" href="https://www.tiktok.com/tag/crying?refer=embed">#crying</a> <a title="2020" target="_blank" href="https://www.tiktok.com/tag/2020?refer=embed">#2020</a> <a title="rareaesthetic" target="_blank" href="https://www.tiktok.com/tag/rareaesthetic?refer=embed">#RareAesthetic</a> <a target="_blank" title="♬ The Square Hole - brock1137" href="https://www.tiktok.com/music/The-Square-Hole-6912243937592068869?refer=embed">♬ The Square Hole - brock1137</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+[:material-open-in-new:{.middle} The original Square Hole video](https://www.youtube.com/shorts/7haqnQvrYfI){ target="_blank" .content-link }
 
 I had a similar experience with the Online Video Platform. After conducting tests, a substantial list of flaws began accumulating, and we had to address them in the subsequent *sprints*
 
 Here is one of the Affinity boards that we generated: 
 
-![Kuno's Affinity Board](../../img/kuno/affinity-diagram.webp)
+![Kuno's Affinity Board](../../img/kuno/affinity-diagram.webp){ "target=_blank" .content-link}
 
 ### Developers Handover
 

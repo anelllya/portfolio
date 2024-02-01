@@ -16,10 +16,11 @@ body {
 
 .md-social {
   margin: 0;
+  font-size: 0.7rem;
 }
 
 .md-social a {
-  color: var(--color-shades-purple-300);
+  color: var(--primary-dark);
 }
 
 .md-footer__inner {
@@ -57,8 +58,8 @@ body {
         </div>
       </div>
     </div>
+    <img src="assets/img/stars.svg" class="md-grid stars" alt="stars"/>
 </section>
-
 
 
 {% import 'macros.html' as macros %}
@@ -78,24 +79,74 @@ body {
   </div>
 </div>
 
-<div class="cards-container md-grid">
-    <h2 class="home-section-title">Latest Work</h2>
-    <div class="card-grid">
-        {% for card in config.extra.cards %}
-        <div class="card">
-          <a href="{{ card.url }}">
-            <div class="card-image">
-                <img src="{{ card.image }}" alt="{{ card.title }}">
-            </div>
-            <div class="card-content">
-                <h3>{{ card.title }}</h3>
-            </div>
-          </a>
-        </div>
-        {% endfor %}
-    </div>
-</div>
+<section class="bento md-grid">
+  <div class="bentobox">
+      
+      <article class="cell salut tertiary-border">
+          <div class="cell-inner tertiary-bg">     
+              <h2 class="speach-bubble">Hello</h2>
+              <div id="img-box">
+                  <img src="assets/img/myphoto.webp" alt="anelia-photo">
+              </div>
+          </div>
+      </article>
+      
+      <article class="cell digital-design">
+          <div class="cell-inner primary-color">     
+              <h2>Digital Design for Modern Software</h2>
+              <p>Through the strategic use of graphic elements, typography, colours, and user experience principles, we will enhance the emotion for any person that visits your website/Saas application.</p>
+          </div> 
+      </article>
+      
+      <article class="cell workethic">
+          <div class="cell-inner primary-color">     
+              <h2>My principles</h2>
+              <ul>
+                  <li>Integrity</li>
+                  <li>Adaptability</li>
+                  <li>Respect</li>
+                  <li>Cpmmunication</li>
+                  <li>Coninuous improvement</li>
+                  <li>Teamwork</li>
+                  <li>Reliability</li>
+                  <li>Punctuality</li>
+                  <li>Diligence</li>
+                  <li>Time Management</li>
+                  <li>Initiative</li>
+              </ul>
+          </div>
+      </article>
+      
+      <article class="cell ai">
+           <div class="cell-inner primary-color">   
+              <div class="ai-brain">
+                  <img src="assets/img/AI-brain.svg" alt="AI">
+              </div>
+              <div>
+                  <h2>Artificial Intelligence</h2>
+                  <p>One thing that AI may never capture is emotion and what people feel when they engage with your software to address  their issues. Otherwise, it helps a lot with.</p>
+                  <ul>
+                      <li>Brainstorming</li>
+                      <li>Automation of Repetitive Tasks</li>
+                      <li>Content Recommendations</li>
+                      <li>Scalability</li>
+                      <li>Monitoring</li>
+                  </ul>
+              </div>
+          </div>
+      </article>
+      
+      <article class="cell blog secondary-border">
+          <div class="cell-inner secondary-bg"> 
+              <h2>Blog</h2>
+              <svg width="126" height="77" viewBox="0 0 126 77" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 0H16V16H0V0Z"/><path d="M0 31H16V47H0V31Z"/><path d="M16 0H31V16H16V0Z"/> <path d="M16 31H31V47H16V31Z"/><path d="M31 0H47V16H31V0Z"/><path d="M31 16H47V31H31V16Z"/><path d="M31 47H47V62H31V47Z"/><path d="M0 47H16V62H0V47Z"/><path d="M0 62H16V77H0V62Z"/><path d="M47 16H62V31H47V16Z"/><path d="M47 31H62V47H47V31Z"/><path d="M62 0H78V16H62V0Z"/><path d="M78 0H94V16H78V0Z"/><path d="M62 16H78V31H62V16Z"/><path d="M78 31H94V47H78V31Z"/><path d="M94 16H110V31H94V16Z"/><path d="M94 0H110V16H94V0Z"/><path d="M110 0H126V16H110V0Z"/>
+              </svg>
+          </div>
+      </article>
 
+  </div>
+</section>
 <!-- The toolbox place -->
 
 <div class="full-width-home-section">

@@ -4,7 +4,7 @@ date: 2018-12-10
 icon: myicons/vectorlists/pecas-icon
 ---
 
-![Pecas portada](../../img/pecas/outside-jonisand.webp){ .filterGray }
+![Pecas portada](../../img/pecas/outside-jonisand.webp){ .filterGray .postCover }
 
 
 ## Project Summary

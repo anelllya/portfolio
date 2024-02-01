@@ -1,6 +1,7 @@
 ---
 template: about.html
 title: About
+hide: navigation
 ---
 
 # About me

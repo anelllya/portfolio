@@ -31,7 +31,10 @@ theme:
     - navigation.footer           # Add 'previous' and 'next' buttons in the footer
     - navigation.instant          # Keep navigation from reloading
     - navigation.instant.progress # Display page loading progress-bar ( > 400ms)
+    - navigation.instant.preview
+    - navigation.tracking
     - navigation.top
+    - toc.follow
     - navigation.sections
     - search.highlight            # Highlight all occurrences of queried string
     - search.share                # Search Query can be copied to Clipboard
@@ -58,7 +61,6 @@ nav:
   - Work:
     - work/index.md 
     - Digital:
-    #      - work/digital/index.md
       - KUNO: work/digital/kuno.md
     - Content: 
       - PECA'S Tenerife: work/content/pecas.md
@@ -167,11 +169,7 @@ extra:
 
 
   # Custom Homepage Elements
-  home_cover_image: img/a-glitch.svg # This path starts at your root mkdocs directory.
- # home_cover_image_light:  img/a-glitch-light.svg
-#  home_cover_image_dark:  img/a-glitch-dark.svg
-  
-  home_tagline: Creating Digital Experiences ✦
+  home_tagline: Creating Digital Experiences
   home_description: Let’s elevate your digital presence together using unique fusion of creativity, innovation, and tailored approach. <br /><br /> Ready to transform your digital landscape? 
   
   # Custom Homepage Button(s)

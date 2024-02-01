@@ -49,6 +49,9 @@
   --gray-50-004: #F9FAFB04;
   --gray-920-008: #12111208;
 
+  --black:        var(--grayscale-gray-99-black);
+  --white:        var(--grayscale-gray-00-white);
+
   --primary-light: var(--color-shades-purple-100);
   --primary-light-020: #D9CEFF20;
   --primary-light-008: #D9CEFF08;
@@ -64,20 +67,20 @@
 
   --tag-padding: .2rem 0.9rem .3rem 0.7rem;
 
+  --button-border-radius: 2rem;
+
 }
 
 [data-md-color-scheme="darkanelia"] {
   --primary:                            var(--color-shades-purple-200);
   --primary-050:                        #BBA6FF50;
-  --primary-dark:                       var(--color-shades-purple-700);
+  --primary-dark:                       var(--color-shades-purple-500);
   --secondary:                          var(--color-shades-yellow-200);
   --secondary-050:                      #EFC87F50;
   --tertiary:                           var(--color-shades-blue-300);
   --tertiary-050:                       #5DC8E550;
   --disabled:                           var(--color-shades-gray-500);
   --disabled-008:                       #6B728008;
-  --black:                              var(--grayscale-gray-99-black);
-  --white:                              var(--grayscale-gray-00-white);
   --black-white:                        var(--grayscale-gray-00-white);
   --white-black:                        var(--grayscale-gray-99-black);
   --graphic-background:                 var(--grayscale-gray-99-black);
@@ -104,6 +107,7 @@
   --md-typeset-color-inverted:         var(--grayscale-gray-920);
 
   --md-typeset-a-color:                var(--md-primary-fg-color);
+  --md-typeset-a-background:           var(--color-shades-blue-700);
 
   --md-code-bg-color:                  var(--grayscale-gray-800);
 
@@ -133,8 +137,6 @@
   --tertiary-050:                       #008AAB50;
   --disabled:                           var(--color-shades-gray-400);
   --disabled-008:                       #9CA3AF08;
-  --black:                              var(--grayscale-gray-99-black);
-  --white:                              var(--grayscale-gray-00-white);
   --black-white:                        var(--grayscale-gray-99-black);
   --white-black:                        var(--grayscale-gray-00-white);
   --graphic-background:                 var(--grayscale-gray-200);
@@ -161,6 +163,7 @@
   --md-typeset-color:                 var(--md-default-fg-color);
   --md-typeset-color-inverted:        var(--grayscale-gray-200);
   --md-typeset-a-color:               var(--md-primary-fg-color);
+  --md-typeset-a-background:          var(--color-shades-blue-200);
 
   --md-code-bg-color:                 var(--grayscale-gray-200);
 
@@ -176,8 +179,9 @@
   --error: #CF3C59;
 }
 
+
 #anelialogo path {
-  fill:var(--md-default-fg-color);
+  fill:var(--md-typeset-color);
 }
 
 ::selection {
@@ -190,8 +194,6 @@
   src: url("../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 
-
-
 :root {
   --md-text-font: 'Mulish', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
   --md-typeset-heading: 'Mulish', system-ui, sans-serif;
@@ -201,31 +203,62 @@
   font-family: var(--md-text-font);
 }
 
+  .content-link {
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--md-typeset-a-background);
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;
+    
+    text-underline-offset: .3em;
+  }
+
+   .content-link:hover {
+    text-decoration-thickness: 16px;
+    text-underline-offset: -.5em;
+    color: var(--md-typeset-a-color);
+} 
+
+
 .md-typeset h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--md-typeset-color);
   font-family: var(--md-typeset-heading);
-  font-weight: 800;
+  font-weight: 900;
+  margin: 0 0 .75em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
 }
 
 .newLine {
-  display: block;
-  width: 100%;
-  overflow: hidden;
+  display: flow-root;
 }
 
 /*Buttons*/
 
-.md-button{
-  border: none;
-  border-image-slice: 1;
+.md-top {
+  background-color: var(--primary-dark);
+  color: var(--white);
+}
+
+.md-typeset .md-button {
+  border-radius: var(--button-border-radius);
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--primary);
+  color: var(--md-typeset-color-inverted);
+  border: 0.1rem solid var(--primary);
 }
 
 .md-typeset .md-button--primary {
-  border-radius: 24px;
-  border: 0.1rem solid var(--md-typeset-color);
+  border-radius: var(--button-border-radius);
+  border: 0.1rem solid transparent;
   background-color: var(--md-typeset-color);
-  color: var(--md-default-bg-color); 
+  color: var(--md-typeset-color-inverted); 
   padding: 0.625em 2em;
   margin-top: .5rem;
   margin-right: .5rem;
@@ -235,15 +268,14 @@
 .md-typeset .md-button--primary:hover {
     background-color: var(--md-primary-fg-color);
     background-image: linear-gradient(to right, var(--color-shades-purple-400),var(--color-shades-blue-500));
-    color: var(--md-default-bg-color);
-    border: 0.1rem solid var(--color-shades-blue-500);
-    
+    color: var(--md-typeset-color);
+    border: 0.1rem solid transparent;    
 }
 
 
 .md-typeset .md-button--secondary {
   color: var(--md-typeset-color);
-  border-radius: 24px;
+  border-radius: var(--button-border-radius);
   border: 0.1rem solid var(--md-typeset-color);
   padding: 0.625em 2em;
   margin-top: .5rem;
@@ -467,4 +499,14 @@
 
 .mermaid {
   text-align: center;
+}
+
+
+/*Created with https://css-generators.com/wavy-shapes/*/
+.postCover {
+  --mask:
+    radial-gradient(54.08px at 50% 75.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(54.08px at 50% -45px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
 }

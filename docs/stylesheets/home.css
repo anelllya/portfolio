@@ -7,6 +7,19 @@
   
   .tx-container {
     padding-top: .0rem;
+    position: relative;
+   /* background-image: url("../assets/img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;*/
+  }
+
+  .stars {
+    bottom: -4rem;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
   }
   
   .tx-hero__content {
@@ -22,7 +35,6 @@
     .tx-hero__content p{
         font-weight: 200;
         color: var(--md-typeset-color);
-        font-size: .9rem;
         max-width: 30rem;
     }
   
@@ -46,14 +58,20 @@
   
   
   @media screen and (max-width:30em) {
+    .tx-hero__content {
+      text-align: center;
+    }
+    
     .tx-hero__content h1 {
         font-size: 1.4rem !important;
         margin: 1rem 2rem;
     }
+
     .tx-hero p {
       margin: .5rem 2rem;
       font-size: .8rem; 
     }
+
     .tx-hero__image{
       width:60%;
       order: 1;
@@ -70,7 +88,7 @@
   
     .tx-hero__content {
         color: var(--md-default-fg-color);
-        margin: 3.5rem 0;
+        margin: 2rem 0;
         align-items: center;
         padding-left: 0.6rem;
     }
@@ -80,7 +98,7 @@
     }
   }
 
-@media screen and (min-width: 31em) and (max-width: 59em) {
+@media screen and (min-width: 31em) and (max-width: 60em) {
   .tx-hero__image{
     width:40%;
     order: 1;
@@ -121,7 +139,7 @@
 
 
 
-@media  screen and (max-width: 30rem) {
+@media screen and (max-width: 30rem) {
   .companysList > * {
     flex-direction: row;
     align-items: center;
@@ -158,7 +176,6 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: rem;
     }
   
     .toolsList > * {
@@ -167,7 +184,7 @@
       gap: .8rem;
       list-style-type: none;
       margin: .8rem 0;
-      padding: 0;
+      padding-inline: 1rem;
     }
   
        .itemLogo {
@@ -260,3 +277,184 @@
       margin: 1rem 0;
     }
   }
+
+  /*Bentobox styling*/
+
+.bento {
+  margin-inline: auto;
+  padding-inline: 1rem;
+  padding-block: 5rem;
+  font-size: .7rem;
+}
+
+.bentobox {
+  display: grid;
+  gap: 20px;
+  grid-auto-columns: 1fr;
+  grid-template-areas: 
+  'hello' 
+  'digital-design'  
+  'ai'
+  'blog'
+  'work-ethic'
+  ;
+}
+
+@media (min-width: 35rem) and (max-width: 59.99rem) {
+  .bentobox {
+    grid-template-areas: 
+    'hello blog' 
+    'digital-design digital-design'  
+    'ai ai'
+    'work-ethic work-ethic'
+    ;
+  }
+}
+
+@media (min-width: 60rem) {
+
+  .bentobox {
+    grid-template-areas: 
+    'hello digital-design digital-design work-ethic'
+    'ai ai blog work-ethic'
+    ;
+  }
+}
+
+.cell {
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 12px;
+  border: 2px solid var(--graphic-lines);
+}
+
+.cell:nth-child(1){
+  grid-area: hello;
+}
+.cell:nth-child(2){
+  grid-area: digital-design;
+}
+.cell:nth-child(3){
+  grid-area: work-ethic;
+}
+.cell:nth-child(4){
+  grid-area: ai;
+}
+.cell:nth-child(5){
+  grid-area: blog;
+}
+
+
+.cell-inner {
+  background-color: var(--graphic-lines);
+  border-radius: 12px;
+  height: 100%;
+  padding: 8px 12px;
+}
+
+.salut .cell-inner {
+  overflow: hidden;
+  padding-bottom: 0;
+  padding-left: 0;
+  position: relative;
+}
+
+.salut h2 {
+  text-align: right;
+}
+
+#img-box {
+  width: 156px;
+  height: 200px;
+  mix-blend-mode: hard-light;
+  overflow: hidden;
+}
+
+.salut img {
+  width: 150px;
+  object-fit: cover;
+}
+
+.speach-bubble {
+  text-align: center ;
+  background-color: var(--tertiary);
+  color: black;
+  border: 3px solid black;
+  border-radius: 6px;
+  position: absolute;
+  top: 12px;
+  left: 110px;
+  padding-inline: 18px;
+  padding-block: 8px;
+  z-index: 2;
+}
+
+
+.ai .cell-inner {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:35rem) {
+  .ai .cell-inner {
+    display: block !important;
+  }
+
+  .ai-brain {
+    max-width: 40px;
+  }
+} 
+
+.ai-brain{
+  min-width: 80px;
+  margin-inline: 12px;
+}
+
+.ai .cell-inner div img {
+  width: 100%;
+}
+
+.blog .cell-inner {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.blog h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--md-typeset-color-inverted);
+}
+
+.blog svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: var(--graphic-background);
+}
+
+
+
+.tertiary-border {
+  border-color: var(--tertiary);
+}
+
+.tertiary-bg {
+  background-color: var(--tertiary);
+}
+
+.secondary-border {
+  border-color: var(--primary);
+}
+
+.secondary-bg {
+  background-color: var(--primary);
+}
+
+.primary-color h2 {
+  color: var(--primary);
+}
