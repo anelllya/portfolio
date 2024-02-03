@@ -364,15 +364,25 @@
 }
 
 #img-box {
-  width: 156px;
-  height: 200px;
   mix-blend-mode: hard-light;
   overflow: hidden;
+  vertical-align: bottom;
 }
 
 .salut img {
   width: 150px;
   object-fit: cover;
+  vertical-align: bottom;
+}
+
+.dig-des-grid {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 12px;
+}
+
+.dig-des-grid img {
+  align-self: end;
 }
 
 .speach-bubble {
@@ -383,7 +393,7 @@
   border-radius: 6px;
   position: absolute;
   top: 12px;
-  left: 110px;
+  left: 120px;
   padding-inline: 18px;
   padding-block: 8px;
   z-index: 2;

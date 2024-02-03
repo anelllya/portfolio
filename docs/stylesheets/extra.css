@@ -268,7 +268,7 @@
 .md-typeset .md-button--primary:hover {
     background-color: var(--md-primary-fg-color);
     background-image: linear-gradient(to right, var(--color-shades-purple-400),var(--color-shades-blue-500));
-    color: var(--md-typeset-color);
+    color: var(--white);
     border: 0.1rem solid transparent;    
 }
 
