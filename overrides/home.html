@@ -11,7 +11,11 @@
 body {
     background-image: url(img/BW-lines.png);
     background-repeat: no-repeat;
-    background-position:top center;
+    background-position: top center;
+}
+
+.md-main{
+  display: none;
 }
 
 .md-social {
@@ -91,14 +95,14 @@ body {
           </div>
       </article>
       
-      <article class="cell digital-design">
-          <div class="cell-inner primary-color">  
+      <article class="cell digital-design graphic-background-border">
+          <div class="cell-inner primary-color graphic-background-bg">  
             <h2>Digital Design for Modern Software</h2>   
             <div class="dig-des-grid">  
               <div>
                 <p>Through the strategic use of graphic elements, typography, colours, and user experience principles, we will enhance the emotion for any person that visits your website/Saas application.</p>
-
-                <a href="work/">View Work</a>
+                <p><a href="work/" class="md-typeset md-button--secondary">View Work</a></p>
+                
               </div>
               <img src="assets/img/a-bento.svg" alt="logo-vcon">
             </div>
@@ -108,7 +112,7 @@ body {
       
       <article class="cell workethic">
           <div class="cell-inner primary-color">     
-              <h2>My principles</h2>
+              <h2>You can count on</h2>
               <ul>
                   <li>Integrity</li>
                   <li>Adaptability</li>
@@ -132,13 +136,12 @@ body {
               </div>
               <div>
                   <h2>Artificial Intelligence</h2>
-                  <p>One thing that AI may never capture is emotion and what people feel when they engage with your software to address  their issues. Otherwise, it helps a lot with.</p>
+                  <p>One thing that AI may never capture is emotion and what people feel when they engage with your software to address  their issues. Otherwise, it helps a lot with:</p>
                   <ul>
                       <li>Brainstorming</li>
                       <li>Automation of Repetitive Tasks</li>
                       <li>Content Recommendations</li>
-                      <li>Scalability</li>
-                      <li>Monitoring</li>
+                      <li>Scalability & Monitoring</li>
                   </ul>
               </div>
           </div>
@@ -146,7 +149,7 @@ body {
       
       <article class="cell blog secondary-border">
           <div class="cell-inner secondary-bg"> 
-              <h2>Blog</h2>
+              <h2><a href="/blog/">Blog</a></h2>
               <svg width="126" height="77" viewBox="0 0 126 77" xmlns="http://www.w3.org/2000/svg">
                   <path d="M0 0H16V16H0V0Z"/><path d="M0 31H16V47H0V31Z"/><path d="M16 0H31V16H16V0Z"/> <path d="M16 31H31V47H16V31Z"/><path d="M31 0H47V16H31V0Z"/><path d="M31 16H47V31H31V16Z"/><path d="M31 47H47V62H31V47Z"/><path d="M0 47H16V62H0V47Z"/><path d="M0 62H16V77H0V62Z"/><path d="M47 16H62V31H47V16Z"/><path d="M47 31H62V47H47V31Z"/><path d="M62 0H78V16H62V0Z"/><path d="M78 0H94V16H78V0Z"/><path d="M62 16H78V31H62V16Z"/><path d="M78 31H94V47H78V31Z"/><path d="M94 16H110V31H94V16Z"/><path d="M94 0H110V16H94V0Z"/><path d="M110 0H126V16H110V0Z"/>
               </svg>
@@ -172,7 +175,21 @@ body {
   </div>
 </div>
 
-{% endblock %}
+<section class="bottom-contact md-grid">
+  <div class="contact-grid">
+    <div class="message-contact-grid">
+      <h2>Let's talk</h2>
+      <p>Do not hesitate to write a message, I’ll get back to you as fast as possible. </p>
+      <p>You can use either <strong>English</strong>, <strong>Spanish</strong>, or <strong>Bulgarian</strong></p>
+    </div>
+    <div class="link-contact-grid">
+      <a href="mailto:anelia.em.stoyanova@gmail.com">anelia.em.stoyanova@gmail.com</a>
+    </div>
+
+  </div>
+</section>
+
+{% endblock %} 
 
 <!-- Toggleable JavaScript execution -->
 {%- if config.home_execute_js -%}

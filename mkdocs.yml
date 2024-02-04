@@ -9,6 +9,7 @@ copyright: "Copyright © 2012 - <span id='currentYear'></span> Anelia Stoyanova"
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/home.css
 extra_javascript:
   - javascripts/extra.js
 
@@ -82,9 +83,6 @@ plugins:
       archive: true
       archive_toc: true
       categories: true
-# - git-revision-date-localized:
-#      enable_creation_date: true
-#      type: timeago 
 
 markdown_extensions:
   - attr_list

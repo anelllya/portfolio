@@ -34,6 +34,7 @@ Beyond Interface Design, I am driven by a strong desire to solve problems. I am 
 
 My geeky nature and stubborness enhance my problem-solving skills, bringing a unique perspective and insatiable curiosity to each project. This drive to explore and invent enables me to address software and interface challenges and play with different solutions, until  I find the most suitable one for the situation.
 
+<br/>
 <p class="newLine"></p>
 
 ## Hobbies
