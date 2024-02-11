@@ -56,12 +56,14 @@
   
 
  
-  --secondary-016: rgba(248, 211, 77, 0.16);
+  --secondary-016: #EFBA4B16;
 
   
-  --tertiary-016: rgba(100, 195, 220, 0.16);
+  --tertiary-016: #00ABCF16;
+  --tertiary-012: #00ABCF12;
+  --tertiary-008: #00ABCF08;
   
-  --grayscale-filter: grayscale(40%);
+  --grayscale-filter: grayscale(50%);
 
   --tag-padding: .2rem 0.9rem .3rem 0.7rem;
 
@@ -416,6 +418,10 @@
   filter: grayscale(0%);
 }
 
+.width50 {
+  width: 50%;
+}
+
 .galGridItem {
   display: flex;
   gap: .05rem;
@@ -448,7 +454,7 @@
 .projects-grid {
   display: grid;
   grid-template-columns: 
-    repeat(auto-fit, minmax(270px, 1fr));
+    repeat(auto-fit, minmax(min(300px,100%), 1fr));
   gap: .1rem;
   margin: 0;
 }
@@ -460,21 +466,28 @@
   padding-top: 70%;
 }
 
-.project-image img {
+#project-img {
   filter: var(--grayscale-filter);
-  transition: transform 250ms ease-in-out 0s,-webkit-transform 250ms ease-in-out 0s;
+  transition: transform 200ms ease-in-out 0s,-webkit-transform 200ms ease-in-out 0s;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  background-size: cover; 
   position: absolute;
   top: 0;
   z-index: 0;
   aspect-ratio: 16/9;
 }
 
-.project-image:hover img {
+@media screen and (max-width: 76.25rem) {
+  #project-img {
+    filter: grayscale(.1);
+  }
+  
+}
+
+#project-img:hover {
   filter: grayscale(0%);
-  transform: scale(1.1) rotate(2deg);
+  transform: scale(0.98);
   position: absolute;
 }
 
