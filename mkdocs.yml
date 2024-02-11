@@ -41,7 +41,8 @@ theme:
     - search.share                # Search Query can be copied to Clipboard
     - search.suggest              # Display likeliest completion for the last queried word
     
-    
+  watch: 
+    - includes
   palette:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
@@ -85,7 +86,11 @@ plugins:
       categories: true
 
 markdown_extensions:
+  - abbr
   - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - md_in_html
   - footnotes
   - pymdownx.emoji:
