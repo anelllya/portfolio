@@ -126,7 +126,7 @@ Some of the shoe compositions from our images were reposted by the brands manufa
 
 <div class="galGrid">
 
-<div class="galGridItem">
+<div class="galGridItem filterGray">
     <div>
         <img src="../../../img/pecas/Dansi-shoes-repost-2.webp" alt=" Dansi repost 1" />
     </div>

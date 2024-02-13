@@ -9,20 +9,10 @@ categories:
 
 # Podcasts to listen
 
+![podcasts image](../../img/blog/podcasts.webp){ .blogcover }
+
 This year has definitely been discovering podcasts for me.
 <!-- more -->
-
-## In Spanish 
-
-### Entiende tu mente
-
-One of my favourite podcasts in the whole world is “[Entiende tu mente](https://entiendetumente.info/category/blog/)” (Understand your mind). It’s been a long time since the first episode I listened, and I have never stopped. In this podcast, there are three main figures, one coach – Monica Gonzales, one psychotherapist – Luis Muiño and a former radio spokesmam – Molo Cebrian. The trio talks about mental difficulties and how to deal with different situations. I love it, because no matter how I am feeling the day I listen to an episode, my mood changes in just 20 minutes.
-
-I discovered it one day when I was feeling particularly down and started searching for information in the internet. I stumbled upon a podcast stating “20 minutes to understand yourself better”. I gave it a try and I actually felt better, so I continued listening. The thing is, no matter what “hole” is in front of me, when they talk about serious problems and situations that people deal with, I get that feeling inside: “Thank god I am alive and actually fine!”
-
-### El arte de presentar
-
-Another podcast that worths listening to in Spanish is “[El arte de presentar](https://www.elartedepresentar.com/podcast/)“. Although, it’s been almost a year since the last episode, if you haven’t listened to this podcast you definitely should. They speak about presentations, how to sound confident and provide value to your audience at scale. I am sure there are a lot of people that are doing this kind of thing, but Gonzalo really walks the talk and it’s a pleasure to listen to him and his interviews.
 
 ## In English
 
@@ -43,5 +33,17 @@ Another topic that is very dear to me is working remotely, or in distance or in 
 ### Tracks to Relax
 
 I tend to have troubles with sleeping. Sometimes, I wake up in the middle of the night and going back to sleep is very difficult. Another search result brought me to [Tracks to relax](https://www.trackstorelax.com/). Since the first episode of sleeping meditation I listened, the meditations have worked like a charm every single night.
+
+## In Spanish 
+
+### Entiende tu mente
+
+One of my favourite podcasts in the whole world is “[Entiende tu mente](https://entiendetumente.info/category/blog/)” (Understand your mind). It’s been a long time since the first episode I listened, and I have never stopped. In this podcast, there are three main figures, one coach – Monica Gonzales, one psychotherapist – Luis Muiño and a former radio spokesmam – Molo Cebrian. The trio talks about mental difficulties and how to deal with different situations. I love it, because no matter how I am feeling the day I listen to an episode, my mood changes in just 20 minutes.
+
+I discovered it one day when I was feeling particularly down and started searching for information in the internet. I stumbled upon a podcast stating “20 minutes to understand yourself better”. I gave it a try and I actually felt better, so I continued listening. The thing is, no matter what “hole” is in front of me, when they talk about serious problems and situations that people deal with, I get that feeling inside: “Thank god I am alive and actually fine!”
+
+### El arte de presentar
+
+Another podcast that worths listening to in Spanish is “[El arte de presentar](https://www.elartedepresentar.com/podcast/)“. Although, it’s been almost a year since the last episode, if you haven’t listened to this podcast you definitely should. They speak about presentations, how to sound confident and provide value to your audience at scale. I am sure there are a lot of people that are doing this kind of thing, but Gonzalo really walks the talk and it’s a pleasure to listen to him and his interviews.
 
 This is my current list of podcasts and reasons I find them interesting. Let me know if you agree or not with it.

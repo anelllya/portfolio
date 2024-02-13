@@ -68,7 +68,7 @@ nav:
       - PECA'S Tenerife: work/content/pecas.md
     - Brands:
       - Hornets Hockey: work/brands/hornets-hockey.md
-      - Cosmo Bots: work/brands/cosmo-bots.md
+      - Cosmobots: work/brands/cosmo-bots.md
   - Blog: 
       - blog/index.md
   - About: about.md
@@ -152,21 +152,25 @@ extra:
   
   work:
     - image: '../img/featured-images/kuno.webp'
-      title: 'Kuno'
+      title: 'Online Video Platform'
       url: 'digital/kuno/'
-      category: 'digital'
+      category: 'Digital'
+      year: '2019-2022'
     - image: '../img/featured-images/pecas.webp'
       title: 'PECA’S Tenerife'
       url: 'content/pecas/'
-      category: 'content'
+      category: 'Content'
+      year: '2017-2018'
     - image: '../img/featured-images/cosmobots.webp'
       title: 'Cosmobots'
       url: 'brands/cosmo-bots/'
-      category: 'brands'
+      category: 'Brands'
+      year: '2018'
     - image: '../img/featured-images/hornets-cover.webp'
       title: 'Hornets Hockey'
       url: 'brands/hornets-hockey/'
-      category: 'brands'
+      category: 'Brands'
+      year: '2023'
 
     
 

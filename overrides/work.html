@@ -10,9 +10,17 @@
         {% for work in config.extra.work %}
         <div class="project-link">
           <a href="{{ work.url }}">
+            
             <div class="project-image">
                 <img src="{{ work.image }}" alt="{{ work.title }}" id="project-img">
             </div>
+
+            <h3 class="projectTitle">{{ work.title }}</h3>
+            <p>
+              <span class="tag {{ work.category }}">{{ work.category }}</span>
+              <span class="projectYear">{{ work.year }}</span>
+            </p>
+
           </a>
         </div>
         {% endfor %}

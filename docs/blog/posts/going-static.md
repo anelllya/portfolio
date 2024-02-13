@@ -7,6 +7,9 @@ categories:
     - Design decisions
 ---
 
+![static web image](../../img/blog/static-web.webp#only-dark){ .blogcover }
+![static web image](../../img/blog/static-web-L.webp#only-light){ .blogcover }
+
 WordPress has been my go-to platform for a portfolio since the beginning of time. However, I wanted to showcase my skills in HTML and CSS in a clear and straightforward manner. A couple of months ago, I made the decision to go static and build my own portfolio from the ground up, creating something I can be proud of. Here it is.
 <!-- more -->
 

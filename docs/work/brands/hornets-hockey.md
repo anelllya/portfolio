@@ -23,13 +23,13 @@ title: Hornets Hockey
     ---
 
     17 Jul 2023 <br>
-    1 day
+    (1 day)
 
 -   :material-face-woman-shimmer:{ .middle .iconSummary }  __Role__
 
     ---
 
-    - Branding Designer
+    Branding Designer
 
 -   :material-bullseye-arrow:{ .middle .iconSummary }  __Technology__
 
@@ -128,6 +128,12 @@ This step is crucial in every branding image creation. It ensures that the final
 One requirement for this particular case, since the beginning, was to make it possible to be embroidered on a patch.
 
 ![Hornets-vectorized Logo](../../img/hornets/vectorized-logos.webp)
+
+### Color Palette
+
+![Hornets-vectorized Logo](../../img/hornets/hornets-palette-light.webp#only-light)
+![Hornets-vectorized Logo](../../img/hornets/hornets-palette-dark.webp#only-dark)
+
 
 ## Final thoughts
 

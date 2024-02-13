@@ -161,7 +161,7 @@ This straightforward process effectively eliminated personal relationships from 
 
 Having introduced over 20 features, we observed a lack of user awareness regarding available functionalities and how to perform simple tasks with these features. To address this, we developed the Help Center – a comprehensive guide showcasing all platform features. While the Online Video Platform is no longer available, a substantial portion of the Help Center remains accessible.
 
-#### Internal documentation
+#### Internal Documentation
 
 Given the complexity of some features, we created internal documentation to facilitate the onboarding of new team members. This documentation aimed to provide in-depth knowledge about the platform, enabling new additions to the team to quickly grasp essential information.
 

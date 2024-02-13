@@ -8,6 +8,8 @@ categories:
 
 # My first 112 hours of Remote work
 
+![remote work image](../../img/remote-working-from-kitchen.webp){ .blogcover }
+
 I started a new job around seven months ago with everything that comes with it.
 
 New people, new habits, new executives and the most exciting part of all, my new title is User Experience Designer. I have been longing to get to it and I finally did.
