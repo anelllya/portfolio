@@ -5,7 +5,9 @@ docs_dir: docs
 repo_url: https://github.com/anelllya/portfolio
 repo_name: anelllya/portfolio
 
-copyright: "Copyright © 2012 - <span id='currentYear'></span> Anelia Stoyanova"
+copyright: >
+  Copyright © 2012 - <span id='currentYear'></span> Anelia Stoyanova - 
+   <a href="#__consent">Change cookie settings</a>
 
 extra_css:
   - stylesheets/extra.css
@@ -18,14 +20,12 @@ theme:
   font: false
   name: material
   custom_dir: overrides # Contains custom 'home.html' coverpage (and 'main.html')
-  
   icon:
     logo: myicons/anelia-logo
     repo: fontawesome/brands/github
-  
   favicon: img/favicon.png  
-
   features:
+    - toc.follow
     - navigation.indexes          # Implied section 'index.md' files
     - navigation.tabs             # Static upper section tabs (exist)
     - navigation.tabs.sticky      # Static upper section tabs (stay)
@@ -35,14 +35,10 @@ theme:
     - navigation.instant.preview
     - navigation.tracking
     - navigation.top
-    - toc.follow
     - navigation.sections
     - search.highlight            # Highlight all occurrences of queried string
     - search.share                # Search Query can be copied to Clipboard
-    - search.suggest              # Display likeliest completion for the last queried word
-    
-  watch: 
-    - includes
+    - search.suggest              # Display likeliest completion for the last queried word  
   palette:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
@@ -50,13 +46,14 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
-
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
       scheme: darkanelia
       toggle:
         icon: material/weather-sunny
-        name: Switch to Light Mode    
+        name: Switch to Light Mode
+  watch: 
+    - includes   
 
 nav:
   - Home: index.md
@@ -107,12 +104,17 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
 
 
 extra:
   analytics:
       provider: hotjar
       property: 3796880
+  consent:
+    cookies:
+      analytics: Hotjar
+      checked: true
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/anelia-stoyanova/

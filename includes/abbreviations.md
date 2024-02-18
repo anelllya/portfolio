@@ -1,5 +1,6 @@
 *[AI]: Artificial Intelligence
 *[CSS]: Cascading Style Sheets
+*[HCI]: Human Computer Interaction
 *[HTML]: Hyper Text Markup Language
 *[IA]: Information Architecture
 *[MJ]: Midjourney v4.0

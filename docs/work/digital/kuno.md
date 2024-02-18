@@ -32,7 +32,7 @@ icon: myicons/vectorlists/kuno-icon
 
     ---
 
-    - Product Designer
+    Product Designer
 
 
 -   :material-bullseye-arrow:{ .middle .iconSummary }  __Achievements__
@@ -172,3 +172,4 @@ After completing the aforementioned steps, we reached the Final Deploy stage, wh
 ### Maintainence 
 
 This is the actual conclusion of the journey. It occurs when we are confident that the feature functions as intended, users are no longer perplexed by it, and minimal effort is required to keep it operational.
+
