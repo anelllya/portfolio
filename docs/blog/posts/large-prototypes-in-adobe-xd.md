@@ -2,7 +2,6 @@
 title: How to keep up with large prototypes in Adobe Xd
 slug: large-prototypes-adobe-xd
 date: 2019-11-28
-description: November 2019 - Adobe Xd updates after Adobe MAX annual conference.
 categories: 
     - UI Prototypes
 ---

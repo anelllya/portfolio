@@ -39,6 +39,7 @@ theme:
     - search.highlight            # Highlight all occurrences of queried string
     - search.share                # Search Query can be copied to Clipboard
     - search.suggest              # Display likeliest completion for the last queried word  
+    - content.code.copy
   palette:
     # Light Mode
     - media: "(prefers-color-scheme: light)"
@@ -98,13 +99,19 @@ markdown_extensions:
           - overrides/.icons
   - admonition
   - pymdownx.details
+  - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite 
 
 
 extra:

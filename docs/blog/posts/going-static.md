@@ -2,7 +2,6 @@
 title: Why I decided to go static with my portfolio
 slug: going-static-design-portfolio
 date: 2023-12-22
-description: November 2019 - Adobe Xd updates after Adobe MAX annual conference.
 categories: 
     - Design decisions
 ---
