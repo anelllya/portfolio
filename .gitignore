@@ -11,6 +11,7 @@
 .cache/plugin/social/Roboto-Thin.ttf
 .cache/plugin/social/Roboto-ThinItalic.ttf
 .env
+.venv
 /site
 .DS_Store
 note.txt

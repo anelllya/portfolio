@@ -651,3 +651,10 @@ input {
 .md-post__action a::after {
   content: '\2192';
 }
+
+.handnotes {
+  background-color: var(--primary-light-020);
+  font-family: monospace;
+  margin-left: var(--spacing-2);
+  padding-inline: var(--spacing-2);
+}
