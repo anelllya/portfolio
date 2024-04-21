@@ -53,7 +53,7 @@ What we need to have in mind when designing:
 1. `#!html <input type="text">`
 2. Attributes: `pattern, placeholder, readonly, required, size`
 
-The question is how can we link these properties to the Figma panel? 
+The question is how can we link these properties to the Figma panel? Let's figure it out...
 
 
 
