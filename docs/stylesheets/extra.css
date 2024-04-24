@@ -633,7 +633,6 @@ input {
 
 .md-post__content img {
   width: 100%;
-  aspect-ratio: 16/9;
   object-fit: cover;
 }
 
@@ -657,4 +656,8 @@ input {
   font-family: monospace;
   margin-left: var(--spacing-2);
   padding-inline: var(--spacing-2);
+}
+
+.md-sidebar__scrollwrap {
+  overflow-y: visible;
 }

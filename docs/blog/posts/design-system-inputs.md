@@ -16,6 +16,8 @@ In software development, when we want to collect information from users, we ofte
 
 <!-- more -->
 
+[View Figma Community File](https://www.figma.com/community/file/1365035881732469486/inputs){ target="blank"}
+
 ## Design and Development
 
 Designers and developers often face challenges in communication, leading to the creation of similar outputs. However, there's typically a lack of coordination between them. Designers design with humans in mind, naming their components' properties accordingly, which is great for keeping the focus on the user experience. On the other hand, developers operate in a more machine-centric environment. While this approach is beneficial in maintaining a human-centric design and a machine-centric development process, I believe that aligning certain aspects with similar names could greatly benefit both sides.
@@ -43,14 +45,14 @@ If you still need to check if there are even more types, you can go and explore 
 
 ### Desired Anatomy
 
-1. **Label** - a small introduction of the type of information that the user needs to fill in.
-2. **Required field** - a small symbol invoking the required attribute, which will make the text field required on submit.
-2. **The text field / input** - it is the actual field where users add the information.
-3. **Supportive text / Caption** - only when necessary, and this little help does not exist as an html tag, we will be doing some hacks to include it.
+1. **Label**: Provides a brief introduction to the information required.
+2. **Required indicator**: A symbol indicating a mandatory field for submission.
+3. **Text field/input**: The area where users input information.
+4. **Supportive text/Caption**: Included only when necessary, as it's not an HTML tag; we'll use workarounds to include it.
 
 ## Input Text
 
-Starting with the simplest of them all. Let's take a look and figure out what we need and how to define it.
+It's often the most basic form element used for accepting single-line text input from users. By starting here, we can establish foundational design principles that can be applied to more complex input types.
 
 #### HTML structure
 
@@ -62,6 +64,8 @@ Starting with the simplest of them all. Let's take a look and figure out what we
 <span class="inputCaption">Additional instructions</span>
 
 ``` 
+
+When we talk about the structure of HTML elements, it's crucial to understand the relationship between labels and input fields. The "for" attribute in a label should always match the "id" attribute of the corresponding input field. Why? Because this association is what makes forms accessible and user-friendly. When they're correctly linked, users can click on the label itself to activate or focus on the input field, making navigation smoother and more intuitive. It's a small detail, but it significantly enhances the overall usability of web forms.
 
 And here is the result with no styling applied. We have only added some classes, so it is prepared for further retouches:
 
@@ -82,13 +86,15 @@ And here is the result with no styling applied. We have only added some classes,
 What we need to have in mind when designing: 
 
 1. The input type, which will be the name of the Figma component: `#!html <input type="text">`
-2. Attributes to consider inlcuding in a boolean property: `disabled, pattern, placeholder, readonly, required, size`
+2. Attributes to consider including in a boolean property: `disabled, pattern, placeholder, readonly, required, size`
 
 #### CSS pseudo classes
 
 `:hover`, `:focus`, and `:active` 
 
-The order of these pseudo classes is very important and we should always define them as follows[^1]: 
+These classes play a significant role in enhancing the user experience by providing visual feedback for different states of interaction. By defining them consistently across components, we ensure a cohesive and intuitive interface.
+
+The order of these pseudo classes is very important and we should always define them as follows [^1]: 
 
 1. Hover
 2. Focus
@@ -97,14 +103,16 @@ The order of these pseudo classes is very important and we should always define 
 [^1]: Bits of code - 
 Articles on frontend engineering and more [When do the :hover, :focus, and :active pseudo-classes apply?](https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/){ target="blank" }
 
-The question is how can we link these properties to the Figma panel? Let's figure it out...
+The question is where and how can we link these properties to the Figma panel? Some of the component properties will refer to HTML attributes and others will be referring to CSS pseudo classes that will determine the final look of the components. Let's figure it out together...
 
 #### Figma component properties
+
+Connecting component properties in the Figma panel to those corresponding to HTML attributes (such as "Disabled," "Required") and associated with CSS pseudo-classes (like "Hover," "Focus") might not seem essential at first glance. However, when you're designing something meant to be both human-readable and developer-friendly, it's crucial. Avoiding the need for extensive explanations by ensuring clarity in design components fosters smoother communication between designers and developers. This connection enables them to effortlessly discuss and understand component behavior directly within the design tool, facilitating collaboration and streamlining the design and development process.
 
 1. Component name: **Input text**
 2. Show Placeholder: True / False
 3. States <span class="handnotes">CSS pseudo classes</span>: 
-    - Valid
+    - Default (it becomes *valid*, after validation)
     - Hover 
     - Focus 
     - Invalid 
