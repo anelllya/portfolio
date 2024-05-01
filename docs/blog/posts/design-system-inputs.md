@@ -16,7 +16,8 @@ In software development, when we want to collect information from users, we ofte
 
 <!-- more -->
 
-[View Figma Community File](https://www.figma.com/community/file/1365035881732469486/inputs){ target="blank"}
+[:material-open-in-new:{.middle} View Figma Community File](https://www.figma.com/community/file/1365035881732469486/inputs){ target="blank" .content-link}
+
 
 ## Design and Development
 
@@ -41,7 +42,7 @@ Here are 12 different input types that are most likely to be used in any website
 11. Text
 12. URL 
 
-If you still need to check if there are even more types, you can go and explore the complete list on [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button){ target="_blank"}. Almost all inputs have some common attributes that we are going to be addressing and we will see how we can set our Figma components for success. 
+If you still need to check if there are even more types, you can go and explore the complete list on [:material-open-in-new:{.middle} MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button){ target="_blank" .content-link}. Almost all inputs have some common attributes that we are going to be addressing and we will see how we can set our Figma components for success. 
 
 ### Desired Anatomy
 
@@ -67,19 +68,186 @@ It's often the most basic form element used for accepting single-line text input
 
 When we talk about the structure of HTML elements, it's crucial to understand the relationship between labels and input fields. The "for" attribute in a label should always match the "id" attribute of the corresponding input field. Why? Because this association is what makes forms accessible and user-friendly. When they're correctly linked, users can click on the label itself to activate or focus on the input field, making navigation smoother and more intuitive. It's a small detail, but it significantly enhances the overall usability of web forms.
 
-And here is the result with no styling applied. We have only added some classes, so it is prepared for further retouches:
+#### CSS styling
 
+<style>
+.exampleForm {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 0.75rem; /*12px*/
+    display: inline-flex;
+}
+.textInput{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 0.125rem; /*2px*/
+    display: inline-flex;
+}
+    .inputLabel {
+        font-size: 0.75rem; /*12px*/
+    }
+    .required:after{
+        content: " *";
+    }
+    .inputTypeText {
+        font-size: 1rem;
+        height: 2rem;
+        border: 1px solid var(--tags);
+        border-radius: 0.25rem; /*4px*/
+        padding-inline: 0.75rem; /*12px*/
+    }
+    .inputCaption{
+        font-size: 0.75rem; /*12px*/
+        color: var(--input-caption);
+    }
+.textInput .inputTypeText:focus{
+    outline: 1px solid var(--primary);
+    outline-offset: 0.125rem;
+}
+.textInput .inputTypeText:enabled:hover {
+    border-color: var(--input-caption);
+    background: var(--primary-light-008);
+}
+.textInput .inputTypeText:enabled.error{
+    border-color: var(--error);
+    color: var(--md-typeset-color);
+}
+*:disabled, .disabled {
+  color: var(--disabled);
+  opacity: 1;
+  cursor: not-allowed;
+}
+*.error {
+  color: var(--error);
+  opacity: 1;
+}
+.inputSubmit {
+    border-radius: var(--spacing-1);
+    border: 0.1rem solid transparent;
+    background-color: var(--md-typeset-color);
+    color: var(--md-typeset-color-inverted); 
+    padding: var(--spacing-1) var(--spacing-4);
+    margin-top: var(--spacing-2);
+    margin-right: var(--spacing-2); 
+    font-size: 1rem;
+}
+.inputSubmit:hover {
+    background-color: var(--primary);
+    color: var(--md-typeset-color-inverted);
+    border: 0.1rem solid var(--primary);
+}
+</style>
+
+``` CSS
+.exampleForm {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 0.75rem; /*12px*/
+    display: inline-flex;
+}
+.textInput{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 0.125rem; /*2px*/
+    display: inline-flex;
+}
+    .inputLabel {
+        font-size: 0.75rem; /*12px*/
+    }
+    .required:after{
+        content: " *";
+    }
+    .inputTypeText {
+        font-size: 1rem;
+        height: 2rem;
+        border: 1px solid var(--tags);
+        border-radius: 0.25rem; /*4px*/
+        padding-inline: 0.75rem; /*12px*/
+    }
+    .inputCaption{
+        font-size: 0.75rem; /*12px*/
+        color: var(--input-caption);
+    }
+.textInput .inputTypeText:focus{
+    outline: 1px solid var(--primary);
+    outline-offset: 0.125rem;
+}
+.textInput .inputTypeText:enabled:hover {
+    border-color: var(--input-caption);
+    background: var(--primary-light-008);
+}
+.textInput .inputTypeText:enabled.error{
+    border-color: var(--error);
+    color: var(--md-typeset-color);
+}
+*:disabled, .disabled {
+  color: var(--disabled);
+  opacity: 1;
+  cursor: not-allowed;
+}
+*.error {
+  color: var(--error);
+  opacity: 1;
+}
+.inputSubmit {
+    border-radius: var(--spacing-1);
+    border: 0.1rem solid transparent;
+    background-color: var(--md-typeset-color);
+    color: var(--md-typeset-color-inverted); 
+    padding: var(--spacing-1) var(--spacing-4);
+    margin-top: var(--spacing-2);
+    margin-right: var(--spacing-2); 
+    font-size: 1rem;
+}
+.inputSubmit:hover {
+    background-color: var(--primary);
+    color: var(--md-typeset-color-inverted);
+    border: 0.1rem solid var(--primary);
+}
+```
 <hr>
 
-<div class="defaultForm">
+And here is the result of the HTML and CSS combined, following the Figma design:
 
-<label for="name">Label</label> <br />
+<form class="exampleForm">
 
-<input type="text" id="name" name="name" required/> <br />
+<div class="textInput">
 
-<span>Additional instructions</span>
+<label for="name" class="inputLabel required">Label</label> 
+
+<input type="text" id="name" name="name" class="inputTypeText" placeholder="Full name" required/>
+
+<span class="inputCaption">Additional instructions</span>
 
 </div>
+
+<div class="textInput disabled">
+
+<label for="name" class="inputLabel required disabled">Label</label> 
+
+<input type="text" id="name" name="name" class="inputTypeText" placeholder="Disabled" disabled/>
+
+<span class="inputCaption disabled">Additional instructions</span>
+
+</div>
+
+<div class="textInput error">
+
+<label for="name" class="inputLabel error">Label</label> 
+
+<input type="text" id="name" name="name" class="inputTypeText error" placeholder="Error" invalid/>
+
+<span class="inputCaption error">Additional instructions</span>
+
+</div>
+
+<input type="submit" value="Send" class="inputSubmit" />
+
+</form>
 
 <hr>
 

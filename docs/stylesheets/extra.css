@@ -134,6 +134,7 @@
 
   --outline:                           var(--md-default-fg-color--lightest); 
   --tags:                              var(--grayscale-gray-500);
+  --input-caption:                    var(--grayscale-gray-400);  
 
   --md-mermaid-label-fg-color:        var(--grayscale-gray-400);
 
@@ -193,6 +194,7 @@
     
   --outline:                          var(--md-default-fg-color--lightest);
   --tags:                             var(--grayscale-gray-500); 
+  --input-caption:                    var(--grayscale-gray-700);
 
   --success: #7BAB00;
   --information: #3190A9;
@@ -210,8 +212,12 @@
   display: none; /* Hide dark images in light mode */
 }
 
-.highlight .na, .highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .o, .highlight .ow, .highlight .p {
+.highlight .na, .highlight .nv, .highlight .vc, .highlight .kc, .highlight .vg, .highlight .vi, .highlight .o, .highlight .ow, .highlight .p {
   color: var(--md-default-fg-color--light);
+}
+
+.highlight .c {
+  color:var(--success);
 }
 
 code {
