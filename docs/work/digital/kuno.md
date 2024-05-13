@@ -61,6 +61,12 @@ Additionally, we seek to establish a well-defined workflow for the various stage
 5. Establish a User's Help Center.
 6. Assist with internal documentation.
 
+## Design System
+
+### Colors
+
+![KunoDesign System Colors](../../img/kuno/kuno-design-system-colors-light-dark.webp)
+
 ## Feature Definition Flow
 
 In a single designer team, surrounded by developers, the role of design often lacks clarity. The individual tasked with this responsibility may encounter challenges in dealing with team members who may not fully comprehend the purpose of design.
@@ -107,9 +113,7 @@ Prototypes are essential for problem-solving, showcasing new features, and commu
 
 Here, you can see a single-screen prototype in Figma. :material-arrow-down:
 
-[:material-open-in-new:{.middle}View Figma Reduced Prototype](https://www.figma.com/file/alDXlktB2GDEDV66ajWORQ/System73?type=design&node-id=50%3A10206&mode=design&t=t5F1wc1RMnn5v2kh-1){ target="_blank" .content-link}
-
-![Kuno Prototype Image](../../img/kuno/kuno-prototype.webp)
+[![Kuno Prototype Image](../../img/kuno/kuno-prototype.webp)](https://www.figma.com/file/alDXlktB2GDEDV66ajWORQ/System73?type=design&node-id=50%3A10206&mode=design&t=t5F1wc1RMnn5v2kh-1){ target="_blank"}
 
 ### Test
 
