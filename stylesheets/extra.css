@@ -117,9 +117,9 @@
   --md-default-fg-color--lighter:      var(--grayscale-gray-450);
   --md-default-fg-color--lightest:     var(--grayscale-gray-500); 
   --md-default-bg-color:               var(--grayscale-gray-920);
-  --md-default-bg-color--light:        rgba(0, 0, 0, 0.54);
-  --md-default-bg-color--lighter:      rgba(0, 0, 0, 0.32);
-  --md-default-bg-color--lightest:     rgba(0, 0, 0, 0.07);
+  --md-default-bg-color--light:        var(--grayscale-gray-900);
+  --md-default-bg-color--lighter:      var(--grayscale-gray-800);
+  --md-default-bg-color--lightest:     var(--grayscale-gray-700);
 
   --md-typeset-color:                  var(--md-default-fg-color);
   --md-typeset-color-inverted:         var(--grayscale-gray-920);
@@ -173,14 +173,14 @@
 
   --md-accent-fg-color:                var(--tertiary);
   
-  --md-default-fg-color:               var(--grayscale-gray-900);
-  --md-default-fg-color--light:       rgba(0, 0, 0, 0.54);
-  --md-default-fg-color--lighter:     rgba(0, 0, 0, 0.32);
-  --md-default-fg-color--lightest:    rgba(0, 0, 0, 0.07);
+  --md-default-fg-color:               var(--grayscale-gray-920);
+  --md-default-fg-color--light:       var(--grayscale-gray-900);
+  --md-default-fg-color--lighter:     var(--grayscale-gray-800);
+  --md-default-fg-color--lightest:    var(--grayscale-gray-700);
   --md-default-bg-color:               var(--grayscale-gray-100);
-  --md-default-bg-color--light:       rgba(255, 255, 255, 0.7);
-  --md-default-bg-color--lighter:     rgba(255, 255, 255, 0.3);
-  --md-default-bg-color--lightest:    rgba(39, 27, 27, 0.12);
+  --md-default-bg-color--light:        var(--grayscale-gray-200);
+  --md-default-bg-color--lighter:      var(--grayscale-gray-300);
+  --md-default-bg-color--lightest:     var(--grayscale-gray-400);
 
   --md-typeset-color:                 var(--md-default-fg-color);
   --md-typeset-color-inverted:        var(--grayscale-gray-200);
@@ -442,9 +442,7 @@ input {
 }
 
 
-.iconSummary {
-  color: var(--md-secondary);
-}
+
 
 /* gallery */
 .galleryFlex {
@@ -658,12 +656,28 @@ input {
 }
 
 .handnotes {
-  background-color: var(--primary-light-020);
-  font-family: monospace;
-  margin-left: var(--spacing-2);
-  padding-inline: var(--spacing-2);
+  text-decoration-thickness: 16px;
+  text-underline-offset: -.5em;
+  text-decoration-color: var(--secondary-050);
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: none;
 }
 
 .md-sidebar__scrollwrap {
   overflow-y: visible;
+}
+
+.iconSummary {
+  color: var(--md-secondary);
+  margin-right: var(--spacing-2);
+}
+
+.md-typeset .grid.cards>ul>li {
+  border-radius: var(--spacing-3);
+}
+
+.grid.cards>ul>li>p:first-child {
+  display: flex;
+  align-items: center;
 }
