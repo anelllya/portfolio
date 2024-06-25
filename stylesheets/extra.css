@@ -275,7 +275,7 @@ input {
 
 
 .md-typeset h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--md-typeset-color);
   font-family: var(--md-typeset-heading);
   font-weight: 900;
