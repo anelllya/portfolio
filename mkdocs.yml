@@ -185,10 +185,9 @@ extra:
 
 
   # Custom Homepage Elements
-  home_tagline: Creating Digital Experiences
-  home_description: Let’s elevate your digital presence together using unique fusion of creativity, innovation, and tailored approach. <br /><br /> Ready to transform your digital landscape? 
+  home_tagline: Digital tools get the job done, <br /> I make them fun.
+  home_description: Ready to transform your digital landscape? 
   
   # Custom Homepage Button(s)
-  home_button1_name: Let's talk                     # Comment this parameter out to remove the button.
-  home_button1_url: mailto:anelia.em.stoyanova@gmail.com                      # This path starts at your root mkdocs directory.
+  home_button1_name: Connect                     # Comment this parameter out to remove the button.
   home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
