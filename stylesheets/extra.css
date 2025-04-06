@@ -231,6 +231,7 @@ input {
 
 .md-typeset h3 {
   font-weight: 500;
+  margin: 1rem 0 .64em;
 }
 
 #anelialogo path {
@@ -284,6 +285,7 @@ input {
 
 .md-typeset h2 {
   font-weight: 600;
+  margin: 1rem 0 .64em;
 }
 
 .newLine {
