@@ -62,6 +62,7 @@ nav:
     - work/index.md 
     - Digital:
       - KUNO: work/digital/kuno.md
+      - Pantry Special: work/digital/pantry-special.md
     - Content: 
       - PECA'S Tenerife: work/content/pecas.md
     - Brands:
@@ -160,6 +161,11 @@ extra:
         make this portfolio better.
   
   work:
+    - image: '../img/featured-images/pantry-special.webp'
+      title: 'Pantry Special'
+      url: 'digital/pantry-special/'
+      category: 'Digital'
+      year: '2024'
     - image: '../img/featured-images/kuno.webp'
       title: 'Online Video Platform'
       url: 'digital/kuno/'
