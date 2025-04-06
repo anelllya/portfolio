@@ -5,7 +5,7 @@ icon: myicons/vectorlists/kuno-icon
 ---
 # KUNO
 
-<h3> Product Design | UX/UI | System Architecture | Media Tech </h3>
+**Product Design | UX/UI | System Architecture | Media Tech**
 
 <figure markdown>
   ![Kuno Light Dark](../../img/kuno/kuno-light-dark.webp)
