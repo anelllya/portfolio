@@ -6,7 +6,7 @@ hide: navigation
 
 # About me
 
-## Welcome, I am **Anelia** (She/Her)
+## Welcome, I am **Anelia**
 
 ![Hello, Nice to meet you](img/hello-anelia.webp){ align=left . width="200"}
 
