@@ -4,6 +4,8 @@ date: 2018-12-10
 icon: myicons/vectorlists/pecas-icon
 ---
 
+**Digital Strategy & Brand Presence for a Local Fashion Retail Chain**
+
 ![Pecas portada](../../img/pecas/outside-jonisand.webp){ .filterGray .postCover }
 
 

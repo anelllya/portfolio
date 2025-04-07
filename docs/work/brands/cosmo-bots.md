@@ -3,8 +3,6 @@ icon: myicons/vectorlists/cosmobots-icon
 title: Cosmobots
 ---
 
-# Cosmobots
-
 **Visual Identity for a Volunteer-Driven Tech Collective**
 
 ![cosmobots portada](../../img/cosmobots/cosmobot-header.webp){ .postCover }
@@ -18,7 +16,7 @@ title: Cosmobots
     ---
 
     **Cosmobots** <br>
-    Non profit tech organization
+    Volunteer-Driven Tech Collective
 
 -   :material-calendar-expand-horizontal:{ .middle .iconSummary }  __Timeline__
 
@@ -36,7 +34,7 @@ title: Cosmobots
 
     ---
 
-    - Affinity Designer v2.0 on iPad
+    Affinity Designer
 
 
 </div>

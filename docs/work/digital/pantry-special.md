@@ -3,10 +3,7 @@ icon: myicons/vectorlists/pantry-special-logo
 title: Pantry Special
 ---
 
-# Pantry Special
-
 **Loyalty Mobile App Concept for a UK Grocery Network | Product Design**
-
 
 ![Pantry Special App Cover](../../img/pantry-special/app-cover.webp)
 

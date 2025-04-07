@@ -3,7 +3,7 @@ icon: myicons/vectorlists/hornets-icon
 title: Hornets Hockey
 ---
 
-# Hornets Hockey
+**Branding a Youth Roller Hockey Club**
 
 ![hornets portada](../../img/hornets/cover-hornets.webp){ .postCover }
 
@@ -16,14 +16,13 @@ title: Hornets Hockey
     ---
 
     **Hornets Hockey** <br>
-    Roller Hockey Kids Club
+   Youth Roller Hockey Club
 
 -   :material-calendar-expand-horizontal:{ .middle .iconSummary }  __Timeline__
 
     ---
 
-    17 Jul 2023 <br>
-    (1 day)
+    Jul 2023 <br>
 
 -   :material-face-woman-shimmer:{ .middle .iconSummary }  __Role__
 
@@ -35,15 +34,21 @@ title: Hornets Hockey
 
     ---
 
-    - Midjourney v4 
-    - Affinity Designer v2.0 on iPad
+    - Midjourney
+    - Affinity Designer on iPad
 
 
 </div>
 
-## Crafting the Hornets Hockey Logo with AI
+## The Challenge
 
-A friend of mine decided to create a Roller Hockey kids club. She needed a logo and asked for help. Since I had the Midjourney (MJ) subscription, I decided to give it a try. It was a completely new concept for me, leveraging all the efforts to AI and trying to come up with something good enough so it can become the club's brand.
+Hornets Hockey is a local roller hockey club for young children, offering a fun and inclusive way to get kids involved in team sports. They needed a new visual identity that could:
+
+- Feel professional but playful
+- Appeal to both kids and parents
+- Look great across uniforms, flyers, and social media
+
+The existing visuals were minimal or inconsistent, and the club wanted something distinctive that could help rally the community, boost recruitment, and give players something to feel proud of.
 
 ### Brainstroming and concept
 
@@ -121,7 +126,7 @@ Making sure that every aspect of the logo was at the same level of detail, I sel
 
 Once I got the "OK!", I could proceed to vectorizing the final shape and defining the branding elements in more detail.
 
-### Vectorization and simplification
+### Final form
 
 This step is crucial in every branding image creation. It ensures that the final shape is refined and detailed, and most of all, scalable.
 
@@ -135,7 +140,7 @@ One requirement for this particular case, since the beginning, was to make it po
 ![Hornets-vectorized Logo](../../img/hornets/hornets-palette-dark.webp#only-dark)
 
 
-## Final thoughts
+## Reflections
 
 While it might not be the ultimate, flawless logo in the entire universe, the real takeaway here is the process. Thanks to MJ, I was able to speed up the creation process significantly. I was able to define a final image, create a completely unique character from nothing, choose different elements that looked nice to me, and offer a final proposal in just one day. Yes, 24 hours!
 
