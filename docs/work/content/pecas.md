@@ -4,47 +4,35 @@ date: 2018-12-10
 icon: myicons/vectorlists/pecas-icon
 ---
 
-**Digital Strategy & Brand Presence for a Local Fashion Retail Chain**
+# PECA'S Tenerife
+
+**Brand presence & content strategy · Local fashion retail · Tenerife, Spain**
 
 ![Pecas portada](../../img/pecas/outside-jonisand.webp){ .filterGray .postCover }
 
+---
 
-## Project Summary
+## The brief
 
-<div class="grid cards" markdown>
+A well-known local shoe chain in Tenerife decided to enter the online market. The infrastructure was already in place: warehouse management, database connections, seasonal collection schedules. What didn't exist was anything to actually post.
 
--   :material-badge-account:{ .middle .iconSummary }  __Client__
+The brands supplied their own manufacturer photography. Using it would have made PECA'S invisible, just another reseller showing the same images as every other shop. We needed original material.
 
-    ---
+**Timeline:** Jul 2017 – Dec 2018
 
-    **Calzados PECA’S** <br>
-    (local shoe stores chain)
+**Role:** Content designer, product photographer, social media
 
--   :material-calendar-expand-horizontal:{ .middle .iconSummary }  __Timeline__
+---
 
-    ---
+## Humble beginning
 
-    Jul-2017 <--> Dec 2018 <br>
-    (1 yr 6 mos)
+We had no model at the start. So I improvised.
 
--   :material-face-woman-shimmer:{ .middle .iconSummary }  __Role__
+I started building compositions: grouping shoes by type, colour, and size, arranging them until they looked like something worth stopping for. No feet, no person, just the product and the light. 
 
-    ---
+It worked better than expected. The following started growing.
 
-    - Content Designer 
-    - Online Sales
-    - Product Photographer
-
--   :material-bullseye-arrow:{ .middle .iconSummary }  __Achievements__
-
-    ---
-
-    Create and grow the social media following for the brand: <br>
-
-    - Facebook – from **0** to **7000** 
-    - Instagram – from **0** to **2300** 
-
-</div>
+Once we got a model, the quality of the shoots improved significantly. But the composition-first instinct stayed.
 
 ### Studio Photoshoots
 
@@ -65,24 +53,19 @@ icon: myicons/vectorlists/pecas-icon
     </div>
     <div>
         <img src="../../../img/pecas/studio-lodi-marino.webp" alt="lodi blue velvet" />
-    </div>    
+    </div>
     <div>
         <img src="../../../img/pecas/studio-angari.webp" alt="angari nude and black pumps" />
-    </div>    
+    </div>
 </div>
 
 </div>
 
+---
 
-## Work at Hand
+## Outside the studio
 
-A well-known local brand of shoe stores decided to enter into the online market. Initially, there was a well-established warehouse management system with a connection through the database. The dates for new collection releases were set, and the latest models were chosen in line with seasonal trends.
-
-However, what was lacking was material for creating publications and social media posts. There was no product photography beyond what the brands produced for their social media. Utilizing these materials wouldn't make the shoe store brand recognizable or remarkable. Early on, we decided to create unique material to promote the trendiest products independently from the manufacturers.
-
-Lacking a model for the shoes, I had to get creative and started creating different compositions by type, size, and color to make them appealing and interesting. Surprisingly, it worked out well, and our following began to grow steadily.
-
-After that period, we were able to secure a model for the shoes, and naturally, the quality of our photo shoots improved a lot.
+As the project grew we took shoots outside: streets, natural light, real context. The shoes needed to live somewhere, not just sit on a surface.
 
 ### Outside Photoshoots
 
@@ -103,28 +86,25 @@ After that period, we were able to secure a model for the shoes, and naturally, 
     </div>
     <div>
         <img src="../../../img/pecas/outside-Sandalias.webp" alt="Summer sandal big platform" />
-    </div>    
+    </div>
     <div>
         <img src="../../../img/pecas/outside-lodi.webp" alt="white boots" />
     </div>
     <div>
         <img src="../../../img/pecas/outside-Sandalia-plana.webp" alt="flat silver sandals" />
-    </div>  
+    </div>
     <div>
         <img src="../../../img/pecas/outside-Sandalia de tira.webp" alt="flat sandals on the beach" />
-    </div>   
+    </div>
 </div>
 
 </div>
 
-### My Unique Contribution to the Project
+---
 
-- Creation of the Content Calendar
-- Inventing a post style for each social media channel
-- Programming for the release of each posts
-- Building and maintaining relashionships with our clients
+## When the manufacturers start reposting your work
 
-Some of the shoe compositions from our images were reposted by the brands manufacturers and gained significant interest on their social media profiles.
+The compositions caught attention beyond the local market. Several shoe manufacturers (Dansi, Lodi, Wonders) reposted our images on their own social media profiles. For a small local retailer, that's not a small thing.
 
 <div class="galGrid">
 
@@ -137,10 +117,16 @@ Some of the shoe compositions from our images were reposted by the brands manufa
     </div>
     <div>
         <img src="../../../img/pecas/Dansi-shoes-repost.webp" alt="Dansi repost 2" />
-    </div>    
+    </div>
 </div>
 
 </div>
+
+---
+
+## In-store
+
+Not everything happened in a studio. Seasonal campaigns, store openings, Christmas: the brand needed to show up in the physical space too.
 
 ### In-Store Photoshoots
 
@@ -159,19 +145,21 @@ Some of the shoe compositions from our images were reposted by the brands manufa
     <div>
         <img src="../../../img/pecas/instore-christmas.webp" alt="instore christmas stand" />
     </div>
- 
 </div>
 
 </div>
 
-## The takeaways
+---
 
-I worked at the company's head office, which maintained constant communication with the warehouse and the development team responsible for connecting the physical warehouse platform to the online sales platform. We were all in constant communication, planning, and managing every task meticulously to ensure everything was done at the right moment.
+## The numbers
 
-## Did this work experience improve my career?
+Facebook: 0 → 7,000 followers
+Instagram: 0 → 2,300 followers
 
-Absolutely! I learned how to manage a relatively large database of physical products, create a content calendar, and post engaging content on social media. I witnessed continuous growth in our social following and had direct contact with clients, which was very important to me.
+Built from nothing, over 18 months, with original content created in-house from scratch.
 
-These images represent only a small part of what I accomplished during my time there.
+---
 
-> Disclaimer: All the Pictures are property of [Calzados PECA’S](https://pecas.com){ target="_blank"} Tenerife. 
+*Photography, content strategy, and social media management · Calzados PECA'S Tenerife*
+
+All images are property of [Calzados PECA'S](https://pecas.com){ target="_blank" } Tenerife.

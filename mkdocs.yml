@@ -1,5 +1,5 @@
 # Site Settings
-site_name: Anelia - Digital Designer
+site_name: Anelia Stoyanova
 site_author: Anelia Stoyanova
 docs_dir: docs 
 repo_url: https://github.com/anelllya/portfolio
@@ -14,6 +14,7 @@ extra_css:
   - stylesheets/home.css
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/terminal.js
 
 # Material Configuration
 theme:
@@ -140,7 +141,7 @@ extra:
     - ['visual-studio-code-logo.svg', 'git-icon.svg', 'html5-logo.svg', 'css3-logo.svg', 'markdown-icon.svg']
     - ['google-workspace-logo.svg','jira-logo.svg', 'confluence-logo.svg', 'basecamp-logo.svg']
   companies: 
-    - ['iter.svg', 'pecas.svg', 'ull.svg', 'system73.svg', 'IMT.svg']
+    - ['iter.svg', 'pecas.svg', 'tanknet-logo.svg', 'ull.svg', 'system73.svg', 'IMT.svg']
 
   cards:
     - image: 'img/digital-products.svg'
@@ -191,9 +192,9 @@ extra:
 
 
   # Custom Homepage Elements
-  home_tagline: Digital tools get the job done, <br /> I make them fun.
-  home_description: Ready to transform your digital landscape? 
-  
+  home_tagline: Designing Technical Products That Look Like They <em>Shipped on Purpose.</em>
+  home_description: I work with B2B and industrial software companies - the ones built by engineers who never thought about brand. I make them look intentional.
+
   # Custom Homepage Button(s)
-  home_button1_name: Connect                     # Comment this parameter out to remove the button.
-  home_button1_theme: md-button md-button--primary # Options: "md-button", "md-button md-button--primary"
+  home_button1_name: View work                   # Comment this parameter out to remove the button.
+  home_button1_theme: md-button md-button--primary

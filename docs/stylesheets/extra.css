@@ -129,8 +129,8 @@
 
   --md-code-bg-color:                  var(--grayscale-gray-800);
 
-  --header-background:                 var(--md-default-bg-color);
-  --section-bg-color:                  var(--gray-50-004); 
+  --header-background:                 rgba(18, 17, 18, 0.75);
+  --section-bg-color:                  var(--gray-50-004);
 
   --outline:                           var(--md-default-fg-color--lightest); 
   --tags:                              var(--grayscale-gray-500);
@@ -189,8 +189,8 @@
 
   --md-code-bg-color:                 var(--grayscale-gray-200);
 
-  --header-background:                var(--md-default-bg-color);
-  --section-bg-color:                 var(--gray-920-008); 
+  --header-background:                rgba(243, 244, 246, 0.75);
+  --section-bg-color:                 var(--gray-920-008);
     
   --outline:                          var(--md-default-fg-color--lightest);
   --tags:                             var(--grayscale-gray-500); 
@@ -200,6 +200,36 @@
   --information: #3190A9;
   --warning: #F77243;
   --error: #CF3C59;
+}
+
+[data-md-color-scheme="lightanelia"] {
+  .tx-hero-new {
+    border-color: var(--grayscale-gray-300);
+  }
+  .tx-hero-left {
+    border-right-color: var(--grayscale-gray-300);
+  }
+  .tx-hero-right {
+    background: var(--grayscale-gray-00-white);
+  }
+  .tx-term-bar {
+    border-bottom-color: var(--grayscale-gray-300);
+    background: var(--grayscale-gray-200);
+  }
+  .tx-term-body {
+    background: var(--grayscale-gray-00-white);
+  }
+  .tx-term-footer {
+    border-top-color: var(--grayscale-gray-300);
+    background: var(--grayscale-gray-100);
+  }
+  .tx-stats {
+    border-top-color: var(--grayscale-gray-300);
+  }
+  .tx-tcmd { color: var(--grayscale-gray-920); }
+  .tx-tdim { color: var(--grayscale-gray-500); }
+  .tx-terr { color: var(--error); }
+  .tx-tok  { color: var(--success); }
 }
 
 [data-md-color-scheme="darkanelia"] img[src$="#only-light"],
@@ -248,9 +278,16 @@ input {
   src: url("../assets/fonts/Mulish/Mulish-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("../assets/fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
 :root {
-  --md-text-font: 'Mulish', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+  --md-text-font: 'Mulish', system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --md-typeset-heading: 'Mulish', system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
 }
 
 .md-typeset{
@@ -313,8 +350,8 @@ input {
 .md-typeset .md-button--primary {
   border-radius: var(--button-border-radius);
   border: 0.1rem solid transparent;
-  background-color: var(--md-typeset-color);
-  color: var(--md-typeset-color-inverted); 
+  background-image: linear-gradient(to right, var(--color-shades-purple-400), var(--color-shades-blue-500));
+  color: var(--white);
   padding: var(--spacing-2_5) var(--spacing-4);
   margin-top: var(--spacing-2);
   margin-right: var(--spacing-2);
@@ -322,10 +359,9 @@ input {
 
 .md-typeset .md-button--primary:focus,
 .md-typeset .md-button--primary:hover {
-  background-color: var(--md-primary-fg-color);
-  background-image: linear-gradient(to right, var(--color-shades-purple-400),var(--color-shades-blue-500));
+  background-image: linear-gradient(to right, var(--color-shades-purple-500), var(--color-shades-blue-600));
   color: var(--white);
-  border: 0.1rem solid transparent;    
+  border: 0.1rem solid transparent;
 }
 
 
@@ -347,8 +383,9 @@ input {
 
 .md-typeset .md-button--tertiary {
   color: var(--md-typeset-color);
-  border-radius: 0;
-  border: none;
+  background: none;
+  border-radius: 2rem;
+  border: 0.1rem solid transparent;
   padding: var(--spacing-2_5) var(--spacing-4);
   margin-top: var(--spacing-2);
   margin-right: var(--spacing-2);
@@ -356,9 +393,9 @@ input {
 
 .md-typeset .md-button--tertiary:focus,
 .md-typeset .md-button--tertiary:hover {
-    background-color: var(--md-default-bg-color);
-    color: var(--md-accent-fg-color);
-    border-bottom: 0.1rem solid var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  background: none;
 }
 
 .md-typeset ul li {
@@ -391,8 +428,15 @@ input {
   box-shadow: none;
 }
 
-.md-header, .md-tabs {
+.md-header {
   background-color: var(--header-background);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--md-default-fg-color);
+}
+
+.md-tabs {
+  background-color: transparent;
   color: var(--md-default-fg-color);
 }
 
@@ -400,9 +444,19 @@ input {
   color: var(--md-default-fg-color);
 }
 
-.md-search__form{
-  background-color: var(--md-default-bg-color);
+.md-search__form {
+  background-color: transparent;
+}
 
+.md-search__output,
+.md-search__scrollwrap,
+.md-search-result {
+  background-color: var(--md-default-bg-color);
+}
+
+.md-search-result__meta {
+  background-color: var(--md-default-bg-color--lighter);
+  color: var(--md-default-fg-color);
 }
 .md-search__input {
   border: 1px solid var(--md-default-fg-color);
