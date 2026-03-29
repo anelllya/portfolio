@@ -3,84 +3,45 @@ icon: myicons/vectorlists/cosmobots-icon
 title: Cosmobots
 ---
 
-**Visual Identity for a Volunteer-Driven Tech Collective**
+# Cosmobots
+
+**Visual identity · Volunteer tech collective · Tenerife**
 
 ![cosmobots portada](../../img/cosmobots/cosmobot-header.webp){ .postCover }
 
-## Project Summary
+---
 
-<div class="grid cards" markdown>
+## The brief
 
--   :material-badge-account:{ .middle .iconSummary }  __Client__
+Cosmobots is a group of local tech enthusiasts who build things in their spare time. My husband is one of them. They wire up LEDs, run experiments, collaborate on projects that benefit local institutions and communities — not for profit, just because building things is what they do.
 
-    ---
+They set up a Redmine instance to manage their projects and needed a logo to go with it. They asked me. I said yes.
 
-    **Cosmobots** <br>
-    Volunteer-Driven Tech Collective
+**Timeline:** September 2018
+**Tools:** Affinity Designer
 
--   :material-calendar-expand-horizontal:{ .middle .iconSummary }  __Timeline__
+---
 
-    ---
+## The concept
 
-    Sep 2018 <br>
+A comet fused with a bolt. Motion and engineering in one mark. Simple enough to work on a Redmine header, versatile enough for everything else.
 
--   :material-face-woman-shimmer:{ .middle .iconSummary }  __Role__
+![Cosmobots logo](../../img/cosmobots/cosmobots-logo.webp)
 
-    ---
-
-    Branding Designer
-
--   :material-bullseye-arrow:{ .middle .iconSummary }  __Technology__
-
-    ---
-
-    Affinity Designer
-
-
-</div>
-
-## The Challenge
-
-COSMOBOTS is a non-governmental, non-profit organization made up of local tech enthusiasts who build projects in their spare time, just for the joy of experimenting, collaborating, and making cool stuff.
-
-They needed a visual identity that captured their DIY spirit and love of all things sci-fi and tech—without making them look like a corporate startup or an actual space agency (because… they’re not, no matter how many LEDs they wire up). The brand had to reflect fun, inclusivity, and a little bit of that "we just built this at 2AM in someone’s garage" energy.
-
-## The Concept 
-
-The identity for COSMOBOTS centered on three core themes:
-
-1. **Tech as Play** – because this isn’t about profit, it’s about passion.
-2. **Community** – it's a group of like-minded humans (not bots) with a shared love for invention.
-3. **Space Weirdness** – because space themes are just cooler, obviously.
-
-The brand needed to look like it was created by people who solder for fun and could casually build a Mars rover out of scrap parts if they had a weekend and a lot of coffee.
-
-## Design Process
-
-![Cosmobots System Colors](../../img/cosmobots/cosmobots-logo.webp)
-
-### Voice & Vibe
-The tone of the COSMOBOTS identity reflects the group’s purpose: dedicated, collaborative, and quietly ambitious. This isn’t about commercial flash, it’s about the passion for building tech projects that benefit local institutions and communities. The voice is practical and respectful, with a subtle nod to innovation through its symbolism.
-
-### Logo & Typography
-The visual identity was built around a single, strong symbol: a **comet** fused with a **bolt**. This combination captures both motion (progress, momentum) and engineering (building, fixing, creating). The mark is simple and versatile, easy to apply across different contexts—from app splash screens to documentation headers.
-
-### Color System
+The color system stayed deliberately minimal — light blue and dark gray. Calm, functional, not trying to look like a startup.
 
 ![Cosmobots System Colors](../../img/cosmobots/cosmobots-colors.webp)
 
-The COSMOBOTS logo deliberately avoids a full color palette. It stays clean and utilitarian with a light blue and dark gray combination:
+---
 
-- Light Blue for clarity, openness, and calm innovation
-- Dark Gray for structure, balance, and technical focus
+## What happened to it
 
-This minimalist use of color reinforces the collective’s values, function and community.
+The collective slowed down as life took over. People got busy with their own work. But they still meet from time to time, the Redmine is still running, and real companies use it every day — which means the logo gets seen by people who have no idea where it came from.
 
-### Adoption
-Once finalized, the branding was embraced by all members of the collective. The mark began appearing across code repositories, local project UIs, documentation, and team communications. Its simplicity made it easy to implement, and its symbolism created a shared visual language for contributors, regardless of project type or technical background.
+We had patches embroidered. Dad hats too.
 
-## Reflections 
+Years later, this project is till tracking in ways I did not expect at the time. Small work has long chains.
 
-COSMOBOTS reminded me why I love branding, not to sell something, but to celebrate it. It was a chance to design for people who are driven not by profit, but by curiosity. And it turns out, a group of semi-chaotic tech volunteers can have stronger brand vibes than most actual tech companies. Who would've thought?!
+---
 
-
+*Affinity Designer · Brand identity · 2018*
