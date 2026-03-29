@@ -7,7 +7,7 @@ title: Hornets Hockey
 
 **Brand identity · Youth Roller Hockey Club · Tenerife**
 
-![hornets portada](../../img/hornets/cover-hornets.webp){ .postCover }
+![Hornets jersey in use](../../img/hornets/hornets-jersey.webp){ .postCover }
 
 ---
 
@@ -109,7 +109,7 @@ I collaged the best parts together in Affinity Designer on iPad, sent it for app
 
 The club is active and the logo is out there. Uniforms, patches, social media. You can follow them at [@hornetshockeytenerife](https://www.instagram.com/hornetshockeytenerife/).
 
-![Hornets jersey in use](../../img/hornets/hornets-jersey.webp)
+![hornets portada](../../img/hornets/cover-hornets.webp)
 
 The whole thing took one day.
 

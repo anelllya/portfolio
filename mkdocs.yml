@@ -62,6 +62,7 @@ nav:
   - Work:
     - work/index.md 
     - Digital:
+      - Tanausú Luis: work/digital/tanausu.md
       - KUNO: work/digital/kuno.md
       - Pantry Special: work/digital/pantry-special.md
     - Content: 
@@ -162,6 +163,11 @@ extra:
         make this portfolio better.
   
   work:
+    - image: '../img/featured-images/tana-featured.webp'
+      title: 'Tanausú Luis'
+      url: 'digital/tanausu/'
+      category: 'Digital'
+      year: '2025'
     - image: '../img/featured-images/pantry-special.webp'
       title: 'Pantry Special'
       url: 'digital/pantry-special/'
@@ -187,6 +193,7 @@ extra:
       url: 'brands/hornets-hockey/'
       category: 'Brands'
       year: '2023'
+
 
     
 
