@@ -59,13 +59,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Work:
-    - work/index.md 
+  - Work: 
+    - work/index.md
+    - Featured:
+      - TankNET: work/digital/tanknet.md
     - Digital:
       - Tanausú Luis: work/digital/tanausu.md
       - KUNO: work/digital/kuno.md
       - Pantry Special: work/digital/pantry-special.md
-    - Content: 
+    - Content:
       - PECA'S Tenerife: work/content/pecas.md
     - Brands:
       - Hornets Hockey: work/brands/hornets-hockey.md
@@ -163,6 +165,11 @@ extra:
         make this portfolio better.
   
   work:
+    - image: '../img/featured-images/tanknet-featured.webp'
+      title: 'TankNET'
+      url: 'digital/tanknet/'
+      category: 'Featured'
+      year: '2026'
     - image: '../img/featured-images/tana-featured.webp'
       title: 'Tanausú Luis'
       url: 'digital/tanausu/'
@@ -179,7 +186,7 @@ extra:
       category: 'Digital'
       year: '2019-2022'
     - image: '../img/featured-images/pecas.webp'
-      title: 'PECA’S Tenerife'
+      title: "PECA'S Tenerife"
       url: 'content/pecas/'
       category: 'Content'
       year: '2017-2018'
@@ -193,10 +200,6 @@ extra:
       url: 'brands/hornets-hockey/'
       category: 'Brands'
       year: '2023'
-
-
-    
-
 
   # Custom Homepage Elements
   home_tagline: Designing Technical Products That Look Like They <em>Shipped on Purpose.</em>

@@ -4,75 +4,54 @@ title: About
 hide: navigation
 ---
 
-# About me
+# About
 
-## Welcome, I am **Anelia**
+![Anelia Stoyanova](../img/hello-anelia.webp){ align=right . width="270"}
 
-![Hello, Nice to meet you](img/hello-anelia.webp){ align=left . width="200"}
+## TL;DR
 
-I’m a designer who started with industrial design and then transitioned to digital product design. 
+I am a Bulgarian designer who went to study in Sweden, met a Canarian, came to Tenerife for a while, and never left.
 
-I have a passion for creating products that are functional, simple, and powerful, and that can be improved by investigation and testing. I have worked on a lot of interesting projects, and I love to accuire new skills and tools to enhance my design work.
+15+ years later I specialise in B2B and technical products, the kind built by engineers who never thought about brand. I make them look like someone cared.
 
-<p class="newLine"></p>
+I am a contractor. I work async, independently, and across time zones without anyone needing to check in on me.
 
-## My Background
+---
 
-Ever since I was a kid, I was fascinated by architecture and design. I wanted to be an architect and create beautiful and functional buildings. However, I ended up studying industrial design instead. I was very lucky to find a captivating career that was interesting and creative, two things that have always been very important to me.
+## The longer version
 
-After finishing my design career, I joined a scholarship at a local institution that opened a world of opportunities for design for me. I got to work on different types of projects, from paper flyers to complicated web design projects. I was able to try on a lot of different challenges and some of them are still used to this very day.
+I started with industrial design. I wanted to be an architect. I ended up somewhere more interesting.
 
-Later on, in my Master's Degree, I discovered responsive web design, UX, UI, and HCI design fields, and I fell in love with the ability to make products that are never actually finished, nor done, but can be only improved by investigation and testing. I love that part of digital product design, and I decided to pursue it as my main focus.
+My first job was at a research institute in Tenerife where I did a bit of everything: branding, web, print, photography, conference materials. Some of those projects are still live. That taught me that design is not a discipline, it is a habit of thinking.
 
-> I truly believe that nothing is impossible.
+A Master's degree introduced me to UX, responsive web design, and the idea that digital products are never finished, only improved. That clicked. I have been chasing that ever since.
 
-![remote work](img/remote-working-from-kitchen.webp){ align=right . width="400"}
+I was the first designer hired at System73, a pure engineering company. They ignored me for a while. Eventually we figured out how to work together. Three years, 20+ features, one designer. The product got pivoted out of existence but the foundations survived.
 
-### Design Philosophy and Style
+After that, IMT. Then Acrolon Technologies, where I currently hold full design ownership of TankNET: brand, website, platform redesign, tradeshow assets, LinkedIn. The whole thing.
 
-My design philosophy is based on the idea that design should be fun, functional, and user-centric. I believe that design should solve problems, enhance experiences, and create value for both the users and the clients. I also believe that design should be simple, but not simplistic, and that every element should have a purpose and a meaning.
+---
 
-My design style is influenced by my industrial design background, where I learned to appreciate the beauty and elegance of minimalism, geometry, and contrast. I also like to experiment with vivid and saturated colors, and to add some originality and personality to my work. I admire designers who can combine functionality, simplicity, and power in their work, such as Dieter Rams, Jony Ive, and Paula Scher.
+## Outside work
 
-<p class="newLine"></p>
+Making things is just how I think. Not a hobby, more of a default mode.
 
-![christmas decoration printed circuit board](img/christmas-pcb.webp){ align=left . width="250"}
+A few years back I designed and sewed my own wedding dress. Then I designed a full kitchen reform from scratch. Five years later it still looks exactly how I intended. Currently exploring 3D printed jewellery, which keeps getting pushed to the back of the queue but will happen.
 
-### Fun stuff
+I work out, I care about what I eat, and I am a mother. I use whatever tool makes sense: MacBook, Windows desktop, iPad, Android. Not out of brand loyalty, just function.
 
-My geeky nature and stubborness enhance my problem-solving skills, bringing a unique perspective and insatiable curiosity to each project. This drive to explore and invent enables me to address software and interface challenges and play with different solutions, until  I find the most suitable one for the situation.
+---
 
-<br/>
-<p class="newLine"></p>
+## How I work
 
-## Hobbies and Interests
+Async by default. Direct in communication. Thick-skinned about feedback.
 
-![profiteroles](img/profiteroles.webp){ align=right . width="300"}
+I work best when the brief is hard, the timeline is real, and nobody needs to schedule a meeting to tell me how I am doing.
 
-- **Cooking**: <br/>
-    I love to cook delicious and nutritious food for myself and my loved ones. I like to follow the latest and greatest food trends, and I also like to experiment with different cuisines, ingredients, and techniques. I have a special interest in nutrition, and I try to balance my diet and avoid unnecessary fats and sugars. One of my recent achievements was mastering the ability to make Neapolitan pizzas at home for parties, and they were a huge success.
-- **Reading**: <br/>
-     I love to read books that enrich my design knowledge and help me understand better human actions. I love everything related to psychology, neuroscience, and behavioural psychology. I enjoy reading and listening to audiobooks on those themes.
-- **Travelling**: <br/>
-    Since I don’t live in the same country as my parents and relatives, I travel to visit and keep in touch with them. I also love to travel and to discover new places, cultures, and people. Traveling also helps me to broaden my horizons, to appreciate diversity, and to challenge myself. Some of the places that I have visited are Sweden, Denmark, Mexico, USA, Canada, and of course Spain.
+---
 
-## Goals and Dreams
-As a designer, I have some goals and dreams that I want to achieve and pursue. Some of them are:
+*Bulgarian. Based in Tenerife. Working everywhere.*
 
-- Work on a big and complex project: I would like to work on a project that is so big and complex that it takes a long time to understand it and to design for it. I enjoy doing the hard work of researching, analyzing, and synthesizing information, and I find it very rewarding when I can create a solution that is simple, elegant, and effective. I also like to work with like-minded people who share my passion and vision, and who can challenge and support me.
-- Create a positive impact: I would like to work on a project that can create a positive impact and value for the users, the clients, and the society. I want to use my design skills and knowledge to solve real problems, to enhance lives, and to make a difference. I also want to use my design work to express my values and beliefs, and to inspire and influence others.
-- Keep learning and growing: I would like to keep learning and growing as a designer and as a person. I want to stay on top of the latest trends and innovations in the design field, and to always learn new skills and tools that can help me improve my work. I also want to keep exploring new domains and disciplines that can enrich my design work and my life.
-
---- 
-
-Feel free to reach out and discuss your design needs or simply to talk about the latest tech trends.
-
-I’m always up for an exciting conversation and the opportunity to explore new frontiers of problem-solving.
-
-Let’s make magic happen! 
-
-[Contact](mailto:anelia.em.stoyanova@gmail.com){ .md-button }
-
---- 
+[Get in touch](mailto:anelia.em.stoyanova@gmail.com)
 
 ## Career timeline

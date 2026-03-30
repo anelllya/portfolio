@@ -46,6 +46,7 @@
 
   --gray-50-004: #F9FAFB04;
   --gray-920-008: #12111208;
+  --gray-400-025: #9CA3AF25;
 
   --black:        var(--grayscale-gray-99-black);
   --white:        var(--grayscale-gray-00-white);
@@ -616,6 +617,17 @@ input {
 
 .Digital::before {
   content:'\2756';
+  padding-right: var(--spacing-1);
+}
+
+.Featured {
+  background: var(--gray-400-025);
+  color: var(--grayscale-gray-400);
+  border-color: var(--grayscale-gray-400);
+}
+
+.Featured::before {
+  content:'\2605';
   padding-right: var(--spacing-1);
 }
 
