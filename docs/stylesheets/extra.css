@@ -47,6 +47,7 @@
   --gray-50-004: #F9FAFB04;
   --gray-920-008: #12111208;
   --gray-400-025: #9CA3AF25;
+  --gray-400-008: #9CA3AF08;
 
   --black:        var(--grayscale-gray-99-black);
   --white:        var(--grayscale-gray-00-white);
@@ -588,7 +589,7 @@ input {
 
 .project-link {
   border: var(--border-project);
-  border-radius: var(--spacing-5);
+  border-radius: var(--spacing-2);
   overflow: clip;
   position: relative;
 }
@@ -622,7 +623,7 @@ input {
 
 .Featured {
   background: var(--gray-400-025);
-  color: var(--grayscale-gray-400);
+  color: var(--grayscale-gray-500);
   border-color: var(--grayscale-gray-400);
 }
 
