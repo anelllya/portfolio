@@ -9,8 +9,6 @@ title: Cosmobots
 
 ![cosmobots portada](../../img/cosmobots/cosmobot-header.webp){ .postCover }
 
----
-
 ## The brief
 
 Cosmobots is a group of local tech enthusiasts who build things in their spare time. My husband is one of them. They wire up LEDs, run experiments, collaborate on projects that benefit local institutions and communities — not for profit, just because building things is what they do.
@@ -19,8 +17,6 @@ They set up a Redmine instance to manage their projects and needed a logo to go 
 
 **Timeline:** September 2018
 **Tools:** Affinity Designer
-
----
 
 ## The concept
 
@@ -31,8 +27,6 @@ A comet fused with a bolt. Motion and engineering in one mark. Simple enough to 
 The color system stayed deliberately minimal — light blue and dark gray. Calm, functional, not trying to look like a startup.
 
 ![Cosmobots System Colors](../../img/cosmobots/cosmobots-colors.webp)
-
----
 
 ## What happened to it
 

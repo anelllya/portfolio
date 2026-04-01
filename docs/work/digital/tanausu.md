@@ -10,8 +10,6 @@ icon: myicons/vectorlists/tanausu-logo
 
 ![Tanausú Luis website](../../img/tanausu/cover.webp){.postCover }
 
----
-
 ## The brief
 
 Tana needed a website. He had some musical events coming up and needed a landing page, somewhere to send people.
@@ -24,8 +22,6 @@ What followed was a couple of weeks of open conversation, proposals accepted and
 **Built with:** HTML, CSS, JS
 **Bilingual:** Spanish and English
 
----
-
 ## The concept
 
 Tana bridges two worlds. Classical conservatory training and urban contemporary performance. The website needed to hold both without choosing between them.
@@ -33,8 +29,6 @@ Tana bridges two worlds. Classical conservatory training and urban contemporary 
 The visual direction came from that tension. Urban feel, classical bones. Not a music website that looks like a music website. No staff lines, no eighth notes, nothing literal. Instead, soundwave graphics woven throughout the layout. The shape of sound without the cliche of it. Something that makes the site feel like a musician without announcing it.
 
 The yellow came from his guitar case. That specific warm accent color tied everything together in a way no palette picker would have landed on. It was already there. It just needed to be used.
-
----
 
 ## The 48 hours
 
@@ -44,8 +38,6 @@ Then something clicked. One tweak led to another. Suddenly it all made sense.
 
 That is the cool part of design. Nothing works, until it does.
 
----
-
 ## What I built
 
 A single-page bilingual site covering everything that matters about Tana's work: hero with testimonial, discography linked to Spotify, podcast, projects, contact. Clean navigation, no clutter, nothing that competes with the music.
@@ -53,8 +45,6 @@ A single-page bilingual site covering everything that matters about Tana's work:
 Every element works like a well-composed piece. Or at least that was the goal.
 
 ![Tanausú Luis website](../../img/tanausu/tana-web.webp)
-
----
 
 ## In use
 

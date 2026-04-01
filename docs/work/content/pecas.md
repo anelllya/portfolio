@@ -10,8 +10,6 @@ icon: myicons/vectorlists/pecas-icon
 
 ![Pecas portada](../../img/pecas/outside-jonisand.webp){ .filterGray .postCover }
 
----
-
 ## The brief
 
 A well-known local shoe chain in Tenerife decided to enter the online market. The infrastructure was already in place: warehouse management, database connections, seasonal collection schedules. What didn't exist was anything to actually post.
@@ -21,8 +19,6 @@ The brands supplied their own manufacturer photography. Using it would have made
 **Timeline:** Jul 2017 – Dec 2018
 
 **Role:** Content designer, product photographer, social media
-
----
 
 ## Humble beginning
 
@@ -61,8 +57,6 @@ Once we got a model, the quality of the shoots improved significantly. But the c
 
 </div>
 
----
-
 ## Outside the studio
 
 As the project grew we took shoots outside: streets, natural light, real context. The shoes needed to live somewhere, not just sit on a surface.
@@ -100,8 +94,6 @@ As the project grew we took shoots outside: streets, natural light, real context
 
 </div>
 
----
-
 ## When the manufacturers start reposting your work
 
 The compositions caught attention beyond the local market. Several shoe manufacturers (Dansi, Lodi, Wonders) reposted our images on their own social media profiles. For a small local retailer, that's not a small thing.
@@ -121,8 +113,6 @@ The compositions caught attention beyond the local market. Several shoe manufact
 </div>
 
 </div>
-
----
 
 ## In-store
 
@@ -148,8 +138,6 @@ Not everything happened in a studio. Seasonal campaigns, store openings, Christm
 </div>
 
 </div>
-
----
 
 ## The numbers
 

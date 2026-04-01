@@ -1005,6 +1005,19 @@ body {
   padding-inline: 1rem;
 }
 
+.personal-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+}
+
 .personal-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -1049,7 +1062,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   background: var(--md-default-bg-color--light);
   border: 1px solid var(--md-default-bg-color--lighter);
   border-radius: 8px;

@@ -9,8 +9,6 @@ title: Pantry Special
 
 ![Pantry Special](../../img/pantry-special/inspiration.webp){ .postCover }
 
----
-
 ## The brief
 
 A design task for a job application - but the kind that deserved real thinking.
@@ -21,8 +19,6 @@ The prototype was intended as a visual pitch to a major UK grocery retail client
 
 ![Pantry Special Key Screens](../../img/pantry-special/home-screens.webp)
 
----
-
 ## The hard part
 
 Multi-brand apps have a specific failure mode: they either flatten every brand into a generic experience, or they fragment into four separate apps with shared navigation. Neither works.
@@ -30,8 +26,6 @@ Multi-brand apps have a specific failure mode: they either flatten every brand i
 The question I kept coming back to was: what does the user actually care about? Not the brand but the store. The specific Londis on their commute. The Premier where they do the weekly shop. Loyalty is local, not corporate.
 
 That reframe changed the whole architecture. Instead of organising around brands, the app organises around the user's stores - which happen to belong to different brands. Brand identity surfaces at the store level, not the app level.
-
----
 
 ## The creative direction
 
@@ -74,8 +68,6 @@ Opening hours, address, distance, contact, and a loyalty code generator. Everyth
 ### Design system
 
 Component library covering brand colours, inputs, icons, and interaction patterns. Built to scale across all four brands without visual fragmentation.
-
----
 
 ## What I learned
 

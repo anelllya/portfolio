@@ -10,8 +10,6 @@ icon: myicons/vectorlists/kuno-icon
 
 ![KUNO light and dark](../../img/kuno/kuno-light-dark.webp)
 
----
-
 ## The context
 
 System73 was running two live TV channels, streaming products in real time. At some point the team decided to build their own video platform rather than rely on a third-party solution.
@@ -20,8 +18,6 @@ I was hired as the first designer. The company was pure engineering. No design c
 
 That is where this started.
 
----
-
 ## The first year
 
 They ignored me. Not maliciously. Engineers who have never worked with a designer simply do not know what to do with one. The frontend team built things their own way. My specifications sat in files nobody opened. We had arguments about pixels and components and what "done" actually means.
@@ -29,8 +25,6 @@ They ignored me. Not maliciously. Engineers who have never worked with a designe
 Eventually we started speaking the same language. Not because I won any argument, but because we built enough shared experience that the friction became useful instead of just frustrating.
 
 That process of building shared language became the whole job.
-
----
 
 ## What we built
 
@@ -85,8 +79,6 @@ We tested, found things that did not work, documented them, fixed them. The surp
 Every feature started here. Not pixel-perfect, not beautiful. Legible enough that a developer could tell you what they thought it was trying to do.
 
 ![Wireframes](../../img/kuno/wireframes.webp)
-
----
 
 ## What happened to it
 
