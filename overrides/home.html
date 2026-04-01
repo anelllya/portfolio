@@ -21,7 +21,7 @@ body {
 <!-- Hero -->
 <section class="tx-hero-new md-grid">
   <div class="tx-hero-left">
-    <p class="tx-eyebrow">Senior Product Designer · 15+ years</p>
+    <p class="tx-eyebrow">Senior Product Designer · <span class="tx-years-xp"></span> years</p>
     <h1 class="tx-headline">{{ config.extra.home_tagline }}</h1>
     <p class="tx-sub">{{ config.extra.home_description }}</p>
     <div class="tx-ctas md-typeset">
@@ -29,7 +29,7 @@ body {
       <a href="https://www.linkedin.com/in/anelia-stoyanova/" class="md-button md-button--tertiary" target="_blank">Connect</a>
     </div>
     <div class="tx-stats">
-      <div><div class="tx-stat-n">15+</div><div class="tx-stat-l">years product &amp; brand design</div></div>
+      <div><div class="tx-stat-n tx-years-xp"></div><div class="tx-stat-l">years product &amp; brand design</div></div>
       <div><div class="tx-stat-n">B2B</div><div class="tx-stat-l">SaaS &amp; industrial focus</div></div>
       <div><div class="tx-stat-n">End&#8209;to&#8209;end</div><div class="tx-stat-l">identity to frontend build</div></div>
     </div>
@@ -46,6 +46,7 @@ body {
     <div class="tx-term-footer">
       <button class="tx-replay-btn" onclick="txRunAudit()">↺ run again</button>
     </div>
+    <img src="/img/my-vector-self.webp" alt="My Vector Self" class="tx-hero-myself">
   </div>
 </section>
 
@@ -70,48 +71,45 @@ body {
 </div>
 
 <!-- Work section -->
+{%- set works = config.extra.work %}
 <section class="work-section md-grid">
 
-  <a href="https://acrolon.com" target="_blank" class="work-card work-card--featured">
-    <div class="work-card-inner">
-      <div class="work-card-meta">
-        <span class="work-card-label">Brand · Product · Frontend</span>
-        <span class="work-card-year">2025</span>
+  <a href="work/{{ works[0].url }}" class="work-card work-card--featured">
+    <div class="work-card-featured-layout">
+      <div class="work-card-img-banner work-card-img-banner--featured">
+        <img src="{{ works[0].image | replace('../', '/') }}" alt="{{ works[0].title }}">
       </div>
-      <div class="work-card-content">
-        <h2 class="work-card-title">TankNET</h2>
-        <p class="work-card-hook">The energy was already there. The brand just needed to catch up.</p>
+      <div class="work-card-inner">
+        <div class="work-card-meta">
+          <span class="work-card-label">{{ works[0].category }}</span>
+          <span class="work-card-year">{{ works[0].year }}</span>
+        </div>
+        <div class="work-card-content">
+          <h2 class="work-card-title">{{ works[0].title }}</h2>
+          {% if works[0].hook %}<p class="work-card-hook">{{ works[0].hook }}</p>{% endif %}
+        </div>
+        <span class="work-card-link">View project ↗</span>
       </div>
-      <div class="work-card-chips">
-        <span class="work-chip">Brand identity</span>
-        <span class="work-chip">Product redesign</span>
-        <span class="work-chip">HTML/CSS</span>
-        <span class="work-chip">Tradeshow assets</span>
-        <span class="work-chip">AI workflow</span>
-      </div>
-      <span class="work-card-link">acrolon.com ↗</span>
     </div>
   </a>
 
-  <a href="https://tanausuluis.com" target="_blank" class="work-card work-card--secondary">
-    <div class="work-card-inner">
-      <div class="work-card-meta">
-        <span class="work-card-label">Web design · Frontend</span>
-        <span class="work-card-year">2024</span>
+  <div class="work-grid-secondary">
+    {% for work in works[1:4] %}
+    <a href="work/{{ work.url }}" class="work-card work-card--secondary">
+      <div class="work-card-img-banner">
+        <img src="{{ work.image | replace('../', '/') }}" alt="{{ work.title }}">
       </div>
-      <div class="work-card-content">
-        <h2 class="work-card-title">Tanausú Luis</h2>
-        <p class="work-card-hook">A guitarist who lives and breathes music. The website follows.</p>
+      <div class="work-card-inner">
+        <div class="work-card-meta">
+          <span class="work-card-label">{{ work.category }}</span>
+          <span class="work-card-year">{{ work.year }}</span>
+        </div>
+        <h2 class="work-card-title">{{ work.title }}</h2>
+        <span class="work-card-link">View project ↗</span>
       </div>
-      <div class="work-card-chips">
-        <span class="work-chip">Web design</span>
-        <span class="work-chip">HTML/CSS</span>
-        <span class="work-chip">Bilingual</span>
-        <span class="work-chip">Personal site</span>
-      </div>
-      <span class="work-card-link">tanausuluis.com ↗</span>
-    </div>
-  </a>
+    </a>
+    {% endfor %}
+  </div>
 
 </section>
 
@@ -130,74 +128,45 @@ body {
   </div>
 </div>
 
-<!-- Bento section -->
-
-<section class="bento md-grid">
-  <div class="bentobox">
-
-      <article class="cell salut tertiary-border">
-          <div class="cell-inner tertiary-bg">
-              <h2 class="speach-bubble">Hello</h2>
-              <div id="img-box">
-                  <img src="assets/img/myphoto.webp" alt="anelia-photo">
-              </div>
-          </div>
-      </article>
-
-      <article class="cell digital-design">
-          <div class="cell-inner primary-color graphic-background-bg">
-            <span class="cell-tag">01 / what I do</span>
-            <h2>What I do</h2>
-            <p>I take products that work but look like no one cared, and make them look like someone did.</p>
-            <p>Brand, UX, website, print — whatever it takes to make the whole thing feel intentional.</p>
-            <div class="md-typeset"><a href="work/" class="md-button md-button--primary">View Work</a></div>
-          </div>
-      </article>
-
-      <article class="cell workethic">
-          <div class="cell-inner primary-color">
-            <span class="cell-tag">02 / tools</span>
-            <h2>AI</h2>
-            <p>I use AI the way a good contractor uses power tools — faster output, same quality bar.</p>
-            <p>ASCII wireframes, layout iteration, documentation. Never instead of thinking.</p>
-          </div>
-      </article>
-
-      <article class="cell ai">
-           <div class="cell-inner primary-color">
-              <span class="cell-tag">03 / who I am</span>
-              <blockquote class="cell-pullquote">
-                <p>Async by choice.<br>Thick-skinned by experience.</p>
-              </blockquote>
-              <p>I work best when the brief is hard, the timeline is real, and nobody needs to schedule a meeting to tell me how I'm doing.</p>
-          </div>
-      </article>
-
-      <article class="cell blog secondary-border">
-          <div class="cell-inner secondary-bg">
-              <span class="cell-tag cell-tag--inverted">04 / writing</span>
-              <h2><a href="blog/">Blog</a></h2>
-              <svg width="126" height="77" viewBox="0 0 126 77" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 0H16V16H0V0Z"/><path d="M0 31H16V47H0V31Z"/><path d="M16 0H31V16H16V0Z"/> <path d="M16 31H31V47H16V31Z"/><path d="M31 0H47V16H31V0Z"/><path d="M31 16H47V31H31V16Z"/><path d="M31 47H47V62H31V47Z"/><path d="M0 47H16V62H0V47Z"/><path d="M0 62H16V77H0V62Z"/><path d="M47 16H62V31H47V16Z"/><path d="M47 31H62V47H47V31Z"/><path d="M62 0H78V16H62V0Z"/><path d="M78 0H94V16H78V0Z"/><path d="M62 16H78V31H62V16Z"/><path d="M78 31H94V47H78V31Z"/><path d="M94 16H110V31H94V16Z"/><path d="M94 0H110V16H94V0Z"/><path d="M110 0H126V16H110V0Z"/>
-              </svg>
-          </div>
-      </article>
-
-  </div>
+<!-- Personal section -->
+<section class="personal-section">
+  <a href="https://www.instagram.com/anelllya" target="_blank" class="personal-grid">
+    <div class="personal-img" style="background-image: url('assets/img/anelia.webp')"></div>
+    <div class="personal-img" style="background-image: url('assets/img/sunset.webp')"></div>
+    <div class="personal-img" style="background-image: url('assets/img/cake.webp')"></div>
+    <div class="personal-img" style="background-image: url('assets/img/palms.webp')"></div>
+    <div class="personal-img" style="background-image: url('assets/img/kitchen.webp')"></div>
+    <div class="personal-img" style="background-image: url('assets/img/pcbs.webp')"></div>
+  </a>
 </section>
 
+<!-- Contact -->
 <section class="bottom-contact md-grid">
   <div class="contact-grid">
-    <div class="message-contact-grid">
-      <h2>Let's talk</h2>
-      <p>Do not hesitate to write a message, I'll get back to you as fast as possible. </p>
-      <p>You can use either <strong>English</strong>, <strong>Spanish</strong>, or <strong>Bulgarian</strong></p>
-    </div>
     <div class="link-contact-grid">
-      <a href="mailto:anelia.em.stoyanova@gmail.com" target="_blank">anelia.em.stoyanova@gmail.com</a>
+      <div class="contact-terminal">
+        <span class="contact-status"><span class="contact-dot"></span>Available for projects</span>
+        <a href="mailto:anelia.em.stoyanova@gmail.com" class="contact-command">
+          <span class="contact-prompt">$</span>
+          <span class="contact-email">anelia.em.stoyanova@gmail.com</span>
+          <span class="contact-cursor"></span>
+        </a>
+      </div>
+    </div>
+    <div class="message-contact-grid">
+      <h2>Let's work together</h2>
+      <p>Available for brand design, product design, and frontend build projects.</p>
+      <p>You can write in <strong>English</strong>, <strong>Spanish</strong>, or <strong>Bulgarian</strong>.</p>
     </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    var yrs = new Date().getFullYear() - 2009 + "+";
+    document.querySelectorAll(".tx-years-xp").forEach(function (el) { el.textContent = yrs; });
+  })();
+</script>
 
 {% endblock %}
 

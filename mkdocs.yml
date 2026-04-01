@@ -170,6 +170,7 @@ extra:
       url: 'digital/tanknet/'
       category: 'Featured'
       year: '2026'
+      hook: 'The energy was already there. The brand just needed to catch up.'
     - image: '../img/featured-images/tana-featured.webp'
       title: 'Tanausú Luis'
       url: 'digital/tanausu/'
