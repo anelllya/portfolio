@@ -6,7 +6,7 @@ hide: navigation
 
 # About
 
-![Anelia Stoyanova](../img/hello-anelia.webp){ align=right . width="270"}
+![Anelia Stoyanova](img/hello-anelia.webp){ align=right . width="270"}
 
 ## TL;DR
 
