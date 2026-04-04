@@ -11,10 +11,8 @@ copyright: >
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/home.css
 extra_javascript:
   - javascripts/extra.js
-  - javascripts/terminal.js
 
 # Material Configuration
 theme:

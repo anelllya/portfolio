@@ -6,6 +6,8 @@
 {% block tabs %}
 {{ super() }}
 
+<link rel="stylesheet" href="{{ 'stylesheets/home.css' | url }}">
+
 <style>
 body {
   background-image: url(img/BW-lines.png);
@@ -171,6 +173,7 @@ body {
     document.querySelectorAll(".tx-years-xp").forEach(function (el) { el.textContent = yrs; });
   })();
 </script>
+<script src="{{ 'javascripts/terminal.js' | url }}"></script>
 
 {% endblock %}
 
