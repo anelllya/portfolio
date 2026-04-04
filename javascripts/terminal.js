@@ -43,9 +43,17 @@
     });
   };
 
-  document$.subscribe(function () {
-    if (document.getElementById('tx-terminal')) {
-      window.txRunAudit();
-    }
-  });
+  if (typeof document$ !== 'undefined') {
+    document$.subscribe(function () {
+      if (document.getElementById('tx-terminal')) {
+        window.txRunAudit();
+      }
+    });
+  } else {
+    document.addEventListener('DOMContentLoaded', function () {
+      if (document.getElementById('tx-terminal')) {
+        window.txRunAudit();
+      }
+    });
+  }
 })();
