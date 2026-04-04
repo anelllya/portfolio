@@ -46,7 +46,7 @@ body {
     <div class="tx-term-footer">
       <button class="tx-replay-btn" onclick="txRunAudit()">↺ run again</button>
     </div>
-    <img src="/img/my-vector-self.webp" alt="My Vector Self" class="tx-hero-myself">
+    <img src="img/my-vector-self.webp" alt="My Vector Self" class="tx-hero-myself">
   </div>
 </section>
 
@@ -77,7 +77,7 @@ body {
   <a href="work/{{ works[0].url }}" class="work-card work-card--featured">
     <div class="work-card-featured-layout">
       <div class="work-card-img-banner work-card-img-banner--featured">
-        <img src="{{ works[0].image | replace('../', '/') }}" alt="{{ works[0].title }}">
+        <img src="{{ works[0].image | replace('../', '') }}" alt="{{ works[0].title }}">
       </div>
       <div class="work-card-inner">
         <div class="work-card-meta">
@@ -97,7 +97,7 @@ body {
     {% for work in works[1:4] %}
     <a href="work/{{ work.url }}" class="work-card work-card--secondary">
       <div class="work-card-img-banner">
-        <img src="{{ work.image | replace('../', '/') }}" alt="{{ work.title }}">
+        <img src="{{ work.image | replace('../', '') }}" alt="{{ work.title }}">
       </div>
       <div class="work-card-inner">
         <div class="work-card-meta">
