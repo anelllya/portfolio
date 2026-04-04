@@ -503,6 +503,7 @@ body {
   display: flex;
   flex-direction: row;
   height: 100%;
+  max-height: 350px;
 }
 
 .work-card-img-banner {
@@ -516,7 +517,6 @@ body {
   flex: 1 1 50%;
   border-radius: 12px 0 0 12px;
   aspect-ratio: unset;
-  max-height: 350px;
 }
 
 .work-card--featured .work-card-inner {
