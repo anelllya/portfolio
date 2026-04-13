@@ -12,8 +12,20 @@ window.addEventListener('DOMContentLoaded', updateYear);
 var observer = new MutationObserver(updateYear);
 observer.observe(document.body, {childList: true});
 
-// Re-populate years-of-experience on every instant navigation (MkDocs Material SPA)
-document$.subscribe(function () {
+// Populate years-of-experience, overriding the HTML placeholder
+function setYearsXp() {
     var yrs = new Date().getFullYear() - 2009 + "+";
     document.querySelectorAll(".tx-years-xp").forEach(function (el) { el.textContent = yrs; });
-});
+}
+
+// If the script is deferred, DOMContentLoaded may have already fired — call directly
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setYearsXp);
+} else {
+    setYearsXp();
+}
+
+// MkDocs Material instant navigation re-visits
+if (typeof document$ !== "undefined") {
+    document$.subscribe(setYearsXp);
+}
