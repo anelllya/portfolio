@@ -23,7 +23,7 @@ body {
 <!-- Hero -->
 <section class="tx-hero-new md-grid">
   <div class="tx-hero-left">
-    <p class="tx-eyebrow">Senior Product Designer · <span class="tx-years-xp"></span> years</p>
+    <p class="tx-eyebrow">Senior Product Designer · <span class="tx-years-xp">15+</span> years</p>
     <h1 class="tx-headline">{{ config.extra.home_tagline }}</h1>
     <p class="tx-sub">{{ config.extra.home_description }}</p>
     <div class="tx-ctas md-typeset">
@@ -31,7 +31,7 @@ body {
       <a href="https://www.linkedin.com/in/anelia-stoyanova/" class="md-button md-button--tertiary" target="_blank">Connect</a>
     </div>
     <div class="tx-stats">
-      <div><div class="tx-stat-n tx-years-xp"></div><div class="tx-stat-l">years product &amp; brand design</div></div>
+      <div><div class="tx-stat-n tx-years-xp">15+</div><div class="tx-stat-l">years product &amp; brand design</div></div>
       <div><div class="tx-stat-n">B2B</div><div class="tx-stat-l">SaaS &amp; industrial focus</div></div>
       <div><div class="tx-stat-n">End&#8209;to&#8209;end</div><div class="tx-stat-l">identity to frontend build</div></div>
     </div>
@@ -48,7 +48,6 @@ body {
     <div class="tx-term-footer">
       <button class="tx-replay-btn" onclick="txRunAudit()">↺ run again</button>
     </div>
-    <img src="img/my-vector-self.webp" alt="My Vector Self" class="tx-hero-myself">
   </div>
 </section>
 
@@ -167,12 +166,6 @@ body {
   </div>
 </section>
 
-<script>
-  (function () {
-    var yrs = new Date().getFullYear() - 2009 + "+";
-    document.querySelectorAll(".tx-years-xp").forEach(function (el) { el.textContent = yrs; });
-  })();
-</script>
 <script defer src="{{ 'javascripts/terminal.js' | url }}"></script>
 
 {% endblock %}
