@@ -1,5 +1,6 @@
 # Site Settings
 site_name: Anelia Stoyanova
+site_description: Technical products that look like they shipped on purpose.
 site_author: Anelia Stoyanova
 docs_dir: docs 
 repo_url: https://github.com/anelllya/portfolio
