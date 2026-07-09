@@ -9,164 +9,143 @@
 <link rel="stylesheet" href="{{ 'stylesheets/home.css' | url }}">
 
 <style>
-body {
-  background-image: url(img/BW-lines.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.md-main { height: 1px; }
-.md-social { margin: 0; font-size: 0.7rem; }
-.md-social a { color: var(--primary-dark); }
-.md-footer__inner { display: none !important; }
+  .md-main { height: 1px; }
+  .md-footer__inner { display: none !important; }
+  .md-social { margin: 0; font-size: 0.7rem; }
 </style>
-
-<!-- Hero -->
-<section class="tx-hero-new md-grid">
-  <div class="tx-hero-left">
-    <p class="tx-eyebrow">Senior Product Designer · <span class="tx-years-xp">15+</span> years</p>
-    <h1 class="tx-headline">{{ config.extra.home_tagline }}</h1>
-    <p class="tx-sub">{{ config.extra.home_description }}</p>
-    <div class="tx-ctas md-typeset">
-      <a href="work/" class="{{ config.extra.home_button1_theme }}">{{ config.extra.home_button1_name }}</a>
-      <a href="https://www.linkedin.com/in/anelia-stoyanova/" class="md-button md-button--tertiary" target="_blank">Connect</a>
-    </div>
-    <div class="tx-stats">
-      <div><div class="tx-stat-n tx-years-xp">15+</div><div class="tx-stat-l">years product &amp; brand design</div></div>
-      <div><div class="tx-stat-n">B2B</div><div class="tx-stat-l">SaaS &amp; industrial focus</div></div>
-      <div><div class="tx-stat-n">End&#8209;to&#8209;end</div><div class="tx-stat-l">identity to frontend build</div></div>
-    </div>
-  </div>
-
-  <div class="tx-hero-right">
-    <div class="tx-term-bar">
-      <span class="tx-dot" style="background:#FF5F57"></span>
-      <span class="tx-dot" style="background:#FEBC2E"></span>
-      <span class="tx-dot" style="background:#28C840"></span>
-      <span class="tx-term-title">design-audit.sh</span>
-    </div>
-    <div class="tx-term-body" id="tx-terminal"></div>
-    <div class="tx-term-footer">
-      <button class="tx-replay-btn" onclick="txRunAudit()">↺ run again</button>
-    </div>
-  </div>
-</section>
-
 
 {% import 'macros.html' as macros %}
 
-<div class="full-width-home-section">
-  <h2 class="home-section-title">Clients & Employers</h2>
-  <div class="marquee">
-    <div class="marquee-track">
-      {% for _ in range(4) %}
-      <div class="marquee-set">
-        {% for list in config.extra.companies %}
-        {% for item in list %}
-        <span class="itemLogo">{{ macros.svg_icon( item ) }}</span>
-        {% endfor %}
-        {% endfor %}
+<div class="sw-home md-grid">
+
+  <!-- Hero -->
+  <header class="sw-hero">
+    <div class="sw-hero-top">
+      <span class="sw-kicker">Anelia Stoyanova</span>
+      <span class="sw-kicker">Product &amp; Brand Designer</span>
+    </div>
+    <h1 class="sw-headline">Brand and product design for B2B and industrial&nbsp;software.</h1>
+    <p class="sw-sub">I work with engineering-led companies whose products have outgrown their design.</p>
+    <dl class="sw-spec">
+      <div class="sw-spec-cell">
+        <dt>Location</dt>
+        <dd>Tenerife, ES</dd>
       </div>
+      <div class="sw-spec-cell">
+        <dt>Practice</dt>
+        <dd>Brand / Product / Frontend</dd>
+      </div>
+      <div class="sw-spec-cell">
+        <dt>Focus</dt>
+        <dd>B2B SaaS &amp; industrial</dd>
+      </div>
+      <div class="sw-spec-cell">
+        <dt>Experience</dt>
+        <dd>15+ years</dd>
+      </div>
+      <div class="sw-spec-cell">
+        <dt>Status</dt>
+        <dd><span class="sw-status-dot" aria-hidden="true"></span>Available for projects</dd>
+      </div>
+    </dl>
+  </header>
+
+  <!-- 01 Selected work -->
+  <section class="sw-section">
+    <div class="sw-section-head">
+      <span class="sw-num">01</span>
+      <h2>Selected work</h2>
+      <a class="sw-head-link" href="work/">All work</a>
+    </div>
+    <div class="sw-work-grid">
+      {% for work in config.extra.work %}
+      <a class="sw-work-card{% if loop.first %} sw-work-card--featured{% endif %}" href="work/{{ work.url }}">
+        <span class="sw-work-img">
+          <img src="{{ work.image | replace('../', '') }}" alt="{{ work.title }}" loading="lazy">
+        </span>
+        <span class="sw-work-meta">
+          <span class="sw-work-n">{{ '%02d' % loop.index }}</span>
+          <span class="sw-work-title">{{ work.title }}</span>
+          <span class="sw-work-cat">{{ work.category }}</span>
+          <span class="sw-work-year">{{ work.year }}</span>
+        </span>
+      </a>
       {% endfor %}
     </div>
-  </div>
-</div>
+  </section>
 
-<!-- Work section -->
-{%- set works = config.extra.work %}
-<section class="work-section md-grid">
+  <!-- 02 Clients & employers -->
+  <section class="sw-section">
+    <div class="sw-section-head">
+      <span class="sw-num">02</span>
+      <h2>Clients &amp; employers</h2>
+    </div>
+    <div class="sw-logo-grid">
+      {% for list in config.extra.companies %}
+      {% for item in list %}
+      <div class="sw-logo-cell">{{ macros.svg_icon( item ) }}</div>
+      {% endfor %}
+      {% endfor %}
+    </div>
+  </section>
 
-  <a href="work/{{ works[0].url }}" class="work-card work-card--featured">
-    <div class="work-card-featured-layout">
-      <div class="work-card-img-banner work-card-img-banner--featured">
-        <img src="{{ works[0].image | replace('../', '') }}" alt="{{ works[0].title }}">
+  <!-- 03 Capabilities -->
+  <section class="sw-section">
+    <div class="sw-section-head">
+      <span class="sw-num">03</span>
+      <h2>Capabilities</h2>
+    </div>
+    <div class="sw-cap-grid">
+      <div class="sw-cap">
+        <h3>Brand</h3>
+        <p>Identity systems, logos and marks, brand guidelines, print and digital collateral.</p>
       </div>
-      <div class="work-card-inner">
-        <div class="work-card-meta">
-          <span class="work-card-label">{{ works[0].category }}</span>
-          <span class="work-card-year">{{ works[0].year }}</span>
-        </div>
-        <div class="work-card-content">
-          <h2 class="work-card-title">{{ works[0].title }}</h2>
-          {% if works[0].hook %}<p class="work-card-hook">{{ works[0].hook }}</p>{% endif %}
-        </div>
-        <span class="work-card-link">View project ↗</span>
+      <div class="sw-cap">
+        <h3>Product</h3>
+        <p>UX and UI for complex technical tools, design systems, prototyping, user research.</p>
+      </div>
+      <div class="sw-cap">
+        <h3>Frontend</h3>
+        <p>Design implementation in HTML and CSS, documentation sites, handoff that holds up in production.</p>
       </div>
     </div>
-  </a>
+    <p class="sw-tools">Figma / Affinity / Miro / Adobe XD / VS Code / Git / HTML / CSS / Markdown / Jira / Confluence / Basecamp</p>
+  </section>
 
-  <div class="work-grid-secondary">
-    {% for work in works[1:4] %}
-    <a href="work/{{ work.url }}" class="work-card work-card--secondary">
-      <div class="work-card-img-banner">
-        <img src="{{ work.image | replace('../', '') }}" alt="{{ work.title }}">
+  <!-- 04 About -->
+  <section class="sw-section">
+    <div class="sw-section-head">
+      <span class="sw-num">04</span>
+      <h2>About</h2>
+    </div>
+    <div class="sw-about-grid">
+      <p class="sw-about">Bulgarian designer. Studied in Sweden, met a Canarian, came to Tenerife for a while, never left.</p>
+      <div class="sw-about-links">
+        <a href="about/">More about me &#8594;</a>
+        <a href="https://www.instagram.com/anelllya" target="_blank" rel="noopener">Instagram &#8599;</a>
       </div>
-      <div class="work-card-inner">
-        <div class="work-card-meta">
-          <span class="work-card-label">{{ work.category }}</span>
-          <span class="work-card-year">{{ work.year }}</span>
-        </div>
-        <h2 class="work-card-title">{{ work.title }}</h2>
-        <span class="work-card-link">View project ↗</span>
-      </div>
+    </div>
+    <a class="sw-photo-strip" href="https://www.instagram.com/anelllya" target="_blank" rel="noopener" aria-label="Anelia on Instagram">
+      <span class="sw-photo" style="background-image: url('assets/img/anelia.webp')"></span>
+      <span class="sw-photo" style="background-image: url('assets/img/sunset.webp')"></span>
+      <span class="sw-photo" style="background-image: url('assets/img/cake.webp')"></span>
+      <span class="sw-photo" style="background-image: url('assets/img/palms.webp')"></span>
+      <span class="sw-photo" style="background-image: url('assets/img/kitchen.webp')"></span>
+      <span class="sw-photo" style="background-image: url('assets/img/pcbs.webp')"></span>
     </a>
-    {% endfor %}
-  </div>
+  </section>
 
-</section>
+  <!-- 05 Contact -->
+  <section class="sw-section sw-contact">
+    <div class="sw-section-head">
+      <span class="sw-num">05</span>
+      <h2>Contact</h2>
+    </div>
+    <a class="sw-email" href="mailto:anelia.em.stoyanova@gmail.com">anelia.em.stoyanova@gmail.com</a>
+    <p class="sw-langs">Write in English, Spanish, or Bulgarian.</p>
+  </section>
 
-<div class="full-width-home-section">
-  <h2 class="home-section-title">My toolbox</h2>
-  <div class="toolsList md-grid">
-      {% for list in config.extra.toolbox %}
-      <ul class="toolsListUl">
-          {% for item in list %}
-          <li class="itemLogo">
-              {{ macros.svg_icon( item ) }}
-          </li>
-          {% endfor %}
-      </ul>
-      {% endfor %}
-  </div>
 </div>
-
-<!-- Personal section -->
-<section class="personal-section md-grid">
-  <div class="personal-intro">
-    <h2>About me</h2>
-    <p>I am a Bulgarian designer who went to study in Sweden, met a Canarian, came to Tenerife for a while, and never left.</p>
-  </div>
-  <a href="https://www.instagram.com/anelllya" target="_blank" class="personal-grid">
-    <div class="personal-img" style="background-image: url('assets/img/anelia.webp')"></div>
-    <div class="personal-img" style="background-image: url('assets/img/sunset.webp')"></div>
-    <div class="personal-img" style="background-image: url('assets/img/cake.webp')"></div>
-    <div class="personal-img" style="background-image: url('assets/img/palms.webp')"></div>
-    <div class="personal-img" style="background-image: url('assets/img/kitchen.webp')"></div>
-    <div class="personal-img" style="background-image: url('assets/img/pcbs.webp')"></div>
-  </a>
-</section>
-
-<!-- Contact -->
-<section class="bottom-contact md-grid">
-  <div class="contact-grid">
-    <div class="link-contact-grid">
-      <div class="contact-terminal">
-        <span class="contact-status"><span class="contact-dot"></span>Available for projects</span>
-        <a href="mailto:anelia.em.stoyanova@gmail.com" class="contact-command">
-          <span class="contact-prompt">$</span>
-          <span class="contact-email">anelia.em.stoyanova@gmail.com</span>
-          <span class="contact-cursor"></span>
-        </a>
-      </div>
-    </div>
-    <div class="message-contact-grid">
-      <h2>Let's work together</h2>
-      <p class="my-0">Available for brand design, product design, and frontend build projects.</p>
-      <p class="mt-1">You can write in <strong>English</strong>, <strong>Spanish</strong>, or <strong>Bulgarian</strong>.</p>
-    </div>
-  </div>
-</section>
-
-<script defer src="{{ 'javascripts/terminal.js' | url }}"></script>
 
 {% endblock %}
 
