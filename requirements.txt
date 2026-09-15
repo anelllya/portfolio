@@ -1,5 +1,8 @@
 # Obsidian Style Attachment Support (Example Site)
+# mkdocs pinned <2: MkDocs 2.0 removes the plugin system and rewrites theming,
+# which would break all four plugins below and the templates in overrides/.
+mkdocs>=1.6,<2
 mkdocs-roamlinks-plugin==0.3.2
 mkdocs-glightbox==0.3.5
 mkdocs-material==9.7.7
-mkdocs-git-revision-date-localized-plugin
+mkdocs-git-revision-date-localized-plugin==1.2.4
