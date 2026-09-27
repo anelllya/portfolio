@@ -52,6 +52,6 @@ I work best when the brief is hard, the timeline is real, and nobody needs to sc
 
 *Bulgarian. Based in Tenerife. Working everywhere.*
 
-[Get in touch](mailto:anelia.em.stoyanova@gmail.com)
+[Get in touch](mailto:hola@anelia.es)
 
 ## Career timeline
