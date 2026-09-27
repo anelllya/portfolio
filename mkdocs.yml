@@ -5,6 +5,7 @@ site_author: Anelia Stoyanova
 docs_dir: docs 
 repo_url: https://github.com/anelllya/portfolio
 repo_name: anelllya/portfolio
+site_url: https://anelia.es/
 
 copyright: >
   Copyright © 2012 - <span id='currentYear'></span> Anelia Stoyanova - 
